@@ -1,7 +1,7 @@
 {
   "name": "@redallen-patternfly/react-docs",
   "description": "PatternFly React Docs",
-  "version": "3.23.1",
+  "version": "3.23.2",
   "author": "Red Hat",
   "license": "Apache-2.0",
   "publishConfig": {

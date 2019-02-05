@@ -1,11 +1,12 @@
 {
   "name": "patternfly4-react-lerna-root",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "private": true,
   "config": {
     "access": "private"
   },
   "devDependencies": {
+    "@redallen-patternfly/eslint-plugin-patternfly-react": "^0.4.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-eslint": "^9.0.0",
@@ -19,7 +20,6 @@
     "babel-preset-react": "^6.24.1",
     "eslint": "5.6.0",
     "eslint-import-resolver-webpack": "^0.9.0",
-    "@redallen-patternfly/eslint-plugin-patternfly-react": "^0.4.0",
     "stylelint": "^8.4.0",
     "stylelint-config-standard": "^18.2.0"
   },

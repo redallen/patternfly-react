@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.12.1](https://github.com/redallen/patternfly-react/compare/@redallen-patternfly/react-console@1.12.0...@redallen-patternfly/react-console@1.12.1) (2019-02-05)
+
+
+### Bug Fixes
+
+* **test dependencies:** hooray ([b64faae](https://github.com/redallen/patternfly-react/commit/b64faae))
+
+
+
+
+
 # 1.12.0 (2019-02-05)
 
 
