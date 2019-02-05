@@ -1,5 +1,5 @@
 {
-  "name": "@redallen-patternfly/patternfly3-react-lerna-root",
+  "name": "patternfly3-react-lerna-root",
   "version": "7.21.1",
   "private": true,
   "config": {
