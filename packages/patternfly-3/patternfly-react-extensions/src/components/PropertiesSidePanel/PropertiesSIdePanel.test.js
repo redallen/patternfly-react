@@ -1,6 +1,6 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import { Icon } from 'patternfly-react';
+import { Icon } from '@redallen-patternfly/patternfly-react';
 import { PropertiesSidePanel, PropertyItem } from './index';
 
 test('PropertyItem renders properly', () => {

@@ -68,7 +68,7 @@ stories.add(
     text: `Example with simple masthead and navigation items expressed as simple JSX children.\n
 Tips:\n
 * You can save some typing in your JSX by importing the child components like this:
-\`\`\`\nimport { VerticalNav } from 'patternfly-react';
+\`\`\`\nimport { VerticalNav } from '@redallen-patternfly/patternfly-react';
 const { Masthead, Brand, IconBar, Item, SecondaryItem, TertiaryItem } = VerticalNav;
 \`\`\`\n
 * To control what happens on item selection, you can either pass an **href** or an **onClick**

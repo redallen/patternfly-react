@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Breadcrumb, EmptyState, Icon } from 'patternfly-react';
+import { Breadcrumb, EmptyState, Icon } from '@redallen-patternfly/patternfly-react';
 import { mockCategories } from './mockItems';
 
 import { CatalogTile } from '../../CatalogTile';
@@ -116,7 +116,7 @@ export { MockCatalogTileViewExample };
 export const MockCatalogTileViewExampleSource = `
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Breadcrumb, EmptyState, Icon } from 'patternfly-react';
+import { Breadcrumb, EmptyState, Icon } from '@redallen-patternfly/patternfly-react';
 import { mockCategories } from './mockCategories';
 
 import { CatalogTile } from '../../CatalogTile';

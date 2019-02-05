@@ -4,7 +4,7 @@ import { withInfo } from '@storybook/addon-info/dist/index';
 import { defaultTemplate } from 'storybook/decorators/storyTemplates';
 import { storybookPackageName, STORYBOOK_CATEGORY } from 'storybook/constants/siteConstants';
 import { name } from '../../../package.json';
-import { Icon } from 'patternfly-react';
+import { Icon } from '@redallen-patternfly/patternfly-react';
 
 import { PropertiesSidePanel, PropertyItem } from './index';
 

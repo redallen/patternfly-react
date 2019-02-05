@@ -1,7 +1,7 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import { FilterSidePanel } from './index';
-import { FormControl } from 'patternfly-react';
+import { FormControl } from '@redallen-patternfly/patternfly-react';
 
 test('Filter input renders properly', () => {
   const component = mount(

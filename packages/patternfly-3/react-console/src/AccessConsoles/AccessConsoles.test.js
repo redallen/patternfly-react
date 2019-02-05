@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow, mount, render } from 'enzyme';
-import { noop } from 'patternfly-react';
+import { noop } from '@redallen-patternfly/patternfly-react';
 
 import { AccessConsoles } from './index';
 import { SerialConsole } from '../SerialConsole';

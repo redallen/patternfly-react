@@ -5,7 +5,7 @@ import { defaultTemplate } from 'storybook/decorators/storyTemplates';
 import { storybookPackageName } from 'storybook/constants/siteConstants';
 import pfBrand from 'patternfly/dist/img/logo-alt.svg';
 import ngnix from './__images__/nginx.png';
-import { Icon } from 'patternfly-react';
+import { Icon } from '@redallen-patternfly/patternfly-react';
 import { name } from '../../../package.json';
 
 import { CatalogTile, CatalogTileBadge } from './index';

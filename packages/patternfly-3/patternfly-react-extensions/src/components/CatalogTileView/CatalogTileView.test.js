@@ -1,6 +1,6 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import { EmptyState } from 'patternfly-react';
+import { EmptyState } from '@redallen-patternfly/patternfly-react';
 
 import { CatalogTileView, CatalogTileViewCategory } from './index';
 import { CatalogTile, CatalogTileBadge } from '../CatalogTile/index';

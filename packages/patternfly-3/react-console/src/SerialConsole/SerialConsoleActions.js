@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
-import { helpers } from 'patternfly-react';
+import { helpers } from '@redallen-patternfly/patternfly-react';
 
 const { noop } = helpers;
 

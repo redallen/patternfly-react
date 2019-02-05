@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import FilterSidePanel from '../FilterSidePanel';
-import { Icon, FormControl } from 'patternfly-react';
+import { Icon, FormControl } from '@redallen-patternfly/patternfly-react';
 
 class MockFilterSidePanelExample extends React.Component {
   state = {
@@ -360,7 +360,7 @@ export const MockFilterSidePanelExampleSource = `
 import React from 'react';
 import PropTypes from 'prop-types';
 import FilterSidePanel from '../FilterSidePanel';
-import { Icon, FormControl } from 'patternfly-react';
+import { Icon, FormControl } from '@redallen-patternfly/patternfly-react';
 
 class MockFilterSidePanelExample extends React.Component {
   state = {

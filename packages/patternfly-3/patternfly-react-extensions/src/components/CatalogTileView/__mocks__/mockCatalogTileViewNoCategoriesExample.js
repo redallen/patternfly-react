@@ -1,5 +1,5 @@
 import React from 'react';
-import { Icon } from 'patternfly-react';
+import { Icon } from '@redallen-patternfly/patternfly-react';
 import { mockItems } from './mockItems';
 
 import { CatalogTile } from '../../CatalogTile';
@@ -50,7 +50,7 @@ export { MockCatalogTileViewNoCategoriesExample };
 
 export const MockCatalogTileViewNoCategoriesExampleSource = `
 import React from 'react';
-import { Icon } from 'patternfly-react';
+import { Icon } from '@redallen-patternfly/patternfly-react';
 import { mockItems } from './mockItems';
 
 import { CatalogTile } from '../../CatalogTile';

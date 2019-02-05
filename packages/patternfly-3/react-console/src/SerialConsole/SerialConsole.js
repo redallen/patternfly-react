@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
-import { EmptyState, Button, helpers, Toolbar } from 'patternfly-react';
+import { EmptyState, Button, helpers, Toolbar } from '@redallen-patternfly/patternfly-react';
 import constants from '../common/constants';
 
 const { CONNECTED, DISCONNECTED, LOADING } = constants;

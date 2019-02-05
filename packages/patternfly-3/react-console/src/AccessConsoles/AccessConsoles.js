@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Grid, Form, Dropdown, MenuItem, helpers } from 'patternfly-react';
+import { Grid, Form, Dropdown, MenuItem, helpers } from '@redallen-patternfly/patternfly-react';
 
 import constants from '../common/constants';
 

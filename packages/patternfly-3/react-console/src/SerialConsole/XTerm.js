@@ -6,7 +6,7 @@ import { proposeGeometry } from 'xterm/lib/addons/fit/fit';
 
 import { debounce } from '../common/helpers';
 
-import { helpers } from 'patternfly-react';
+import { helpers } from '@redallen-patternfly/patternfly-react';
 
 const { noop } = helpers;
 

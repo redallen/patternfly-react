@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { Grid } from 'patternfly-react';
+import { Grid } from '@redallen-patternfly/patternfly-react';
 
 /**
  * TableGridCol Component for PatternFly

@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import 'patternfly/dist/js/patternfly-settings';
-import { OverlayTrigger, Tooltip } from 'patternfly-react';
+import { OverlayTrigger, Tooltip } from '@redallen-patternfly/patternfly-react';
 import { resourceTypes, kindAbbrs, kindStrings } from './ResourceTypes';
 
 const { patternfly } = window;

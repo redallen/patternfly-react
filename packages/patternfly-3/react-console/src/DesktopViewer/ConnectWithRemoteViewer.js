@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Button, ExpandCollapse } from 'patternfly-react';
+import { Button, ExpandCollapse } from '@redallen-patternfly/patternfly-react';
 
 import { child } from '../common/helpers';
 import constants from '../common/constants';

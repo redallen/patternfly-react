@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { MenuItem, Button, helpers } from 'patternfly-react';
+import { MenuItem, Button, helpers } from '@redallen-patternfly/patternfly-react';
 
 const { Dropdown } = Button;
 const { noop } = helpers;

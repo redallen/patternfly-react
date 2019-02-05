@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import VirtualTableGrid from '../VirtualTableGrid';
-import { OverlayTrigger, Tooltip } from 'patternfly-react';
+import { OverlayTrigger, Tooltip } from '@redallen-patternfly/patternfly-react';
 import { mockVirtualItems } from './mockVirtualItems';
 
 const titleColSizes = {
@@ -220,7 +220,7 @@ export const MockVirtualTableGridExampleSource = `
 import React from 'react';
 import PropTypes from 'prop-types';
 import VirtualTableGrid from '../VirtualTableGrid';
-import { OverlayTrigger, Tooltip } from 'patternfly-react';
+import { OverlayTrigger, Tooltip } from '@redallen-patternfly/patternfly-react';
 import { mockVirtualItems } from './mockVirtualItems';
 
 const titleColSizes = {

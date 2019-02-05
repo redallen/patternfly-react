@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { OverlayTrigger, Tooltip } from 'patternfly-react';
+import { OverlayTrigger, Tooltip } from '@redallen-patternfly/patternfly-react';
 
 const CatalogTileBadge = ({ children, className, id, title, ...props }) => {
   const classes = classNames('catalog-tile-pf-badge', className);
