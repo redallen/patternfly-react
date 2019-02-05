@@ -5,7 +5,7 @@ env:
   global:
   - COMMIT_AUTHOR_EMAIL: "patternfly-build@redhat.com"
   - COMMIT_AUTHOR_USERNAME: "patternfly-build"
-  - TRIGGER_REPO_SLUG: "patternfly/patternfly-react"
+  - TRIGGER_REPO_SLUG: "redallen/patternfly-react"
   - TRIGGER_REPO_BRANCH: "master"
 notifications:
   email: false
