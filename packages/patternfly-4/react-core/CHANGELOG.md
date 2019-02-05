@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.1](https://github.com/redallen/patternfly-react/compare/@redallen-patternfly/react-core@3.0.0...@redallen-patternfly/react-core@3.0.1) (2019-02-05)
+
+
+### Bug Fixes
+
+* **things:** Test publish react-core ([e7b811b](https://github.com/redallen/patternfly-react/commit/e7b811b))
+
+
+
+
+
 # 3.0.0 (2019-02-05)
 
 
