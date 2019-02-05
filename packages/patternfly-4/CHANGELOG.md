@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/redallen/patternfly-react/compare/patternfly4-react-lerna-root@1.42.7...patternfly4-react-lerna-root@2.0.0) (2019-02-05)
+
+
+### Bug Fixes
+
+* **PF4:** tooltip/popover - include tippy css ([#1244](https://github.com/redallen/patternfly-react/issues/1244)) ([469477a](https://github.com/redallen/patternfly-react/commit/469477a))
+* **Table:** Use direct imports for styles ([#1314](https://github.com/redallen/patternfly-react/issues/1314)) ([42b20e6](https://github.com/redallen/patternfly-react/commit/42b20e6))
+
+
+### Code Refactoring
+
+* **AboutModal:** Upgrade core to 1.0.175 and Refactor AboutModal ([#1307](https://github.com/redallen/patternfly-react/issues/1307)) ([1f85756](https://github.com/redallen/patternfly-react/commit/1f85756)), closes [#1267](https://github.com/redallen/patternfly-react/issues/1267)
+
+
+### BREAKING CHANGES
+
+* **AboutModal:** removed heroImg and heroImageSrc and heroImageAlt props
+
+
+
+
+
 ## [1.42.7](https://github.com/patternfly/patternfly-react/compare/patternfly4-react-lerna-root@1.42.6...patternfly4-react-lerna-root@1.42.7) (2019-02-01)
 
 **Note:** Version bump only for package patternfly4-react-lerna-root

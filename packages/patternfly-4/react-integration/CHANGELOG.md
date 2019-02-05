@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.0.15 (2019-02-05)
+
+
+### Bug Fixes
+
+* **PF4:** tooltip/popover - include tippy css ([#1244](https://github.com/redallen/patternfly-react/issues/1244)) ([469477a](https://github.com/redallen/patternfly-react/commit/469477a))
+* **ts:** nav ts props ([#1242](https://github.com/redallen/patternfly-react/issues/1242)) ([67207d8](https://github.com/redallen/patternfly-react/commit/67207d8))
+
+
+
+
+
 ## [1.0.14](https://github.com/patternfly/patternfly-react/compare/@patternfly/react-integration@1.0.13...@patternfly/react-integration@1.0.14) (2019-02-01)
 
 **Note:** Version bump only for package @patternfly/react-integration

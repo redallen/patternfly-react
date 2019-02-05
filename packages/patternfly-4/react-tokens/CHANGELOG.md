@@ -3,6 +3,40 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0 (2019-02-05)
+
+
+### Bug Fixes
+
+* **backgroundImage:** example to override css image paths ([3890d59](https://github.com/redallen/patternfly-react/commit/3890d59))
+
+
+### Code Refactoring
+
+* **AboutModal:** Upgrade core to 1.0.175 and Refactor AboutModal ([#1307](https://github.com/redallen/patternfly-react/issues/1307)) ([1f85756](https://github.com/redallen/patternfly-react/commit/1f85756)), closes [#1267](https://github.com/redallen/patternfly-react/issues/1267)
+
+
+### Features
+
+* **Alert:** Add optional Close button to Alert via onClose prop ([#1200](https://github.com/redallen/patternfly-react/issues/1200)) ([9d59dcb](https://github.com/redallen/patternfly-react/commit/9d59dcb)), closes [#1036](https://github.com/redallen/patternfly-react/issues/1036)
+* **backgroundImage:** introduce background image component ([#683](https://github.com/redallen/patternfly-react/issues/683)) ([ec5ec1f](https://github.com/redallen/patternfly-react/commit/ec5ec1f))
+* **condensed horizontal nav:** updates condensed nav to match Core horizontal & vertical nav ([#876](https://github.com/redallen/patternfly-react/issues/876)) ([760cc7b](https://github.com/redallen/patternfly-react/commit/760cc7b))
+* **page layout:** adds the condensed header feature to the page header ([#843](https://github.com/redallen/patternfly-react/issues/843)) ([0a3591a](https://github.com/redallen/patternfly-react/commit/0a3591a))
+* **pf-next update:** Update location of styles for patternfly next ([#697](https://github.com/redallen/patternfly-react/issues/697)) ([f1ebc54](https://github.com/redallen/patternfly-react/commit/f1ebc54))
+* **PF4 Page:** Allow passing of custom ref for condensed header ([#941](https://github.com/redallen/patternfly-react/issues/941)) ([889ec1a](https://github.com/redallen/patternfly-react/commit/889ec1a))
+* **pf4-avatar:** introduce avatar component ([#615](https://github.com/redallen/patternfly-react/issues/615)) ([4b213fb](https://github.com/redallen/patternfly-react/commit/4b213fb))
+* **pf4-brand:** introduce brand component ([#633](https://github.com/redallen/patternfly-react/issues/633)) ([53ed4d1](https://github.com/redallen/patternfly-react/commit/53ed4d1))
+* **Popover:** Add PF4 Popover ([#754](https://github.com/redallen/patternfly-react/issues/754)) ([17cf0c0](https://github.com/redallen/patternfly-react/commit/17cf0c0))
+
+
+### BREAKING CHANGES
+
+* **AboutModal:** removed heroImg and heroImageSrc and heroImageAlt props
+
+
+
+
+
 ## [1.10.2](https://github.com/patternfly/patternfly-react/compare/@patternfly/react-tokens@1.10.1...@patternfly/react-tokens@1.10.2) (2019-02-01)
 
 **Note:** Version bump only for package @patternfly/react-tokens

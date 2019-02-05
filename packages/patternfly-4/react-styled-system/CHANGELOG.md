@@ -3,6 +3,35 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0 (2019-02-05)
+
+
+### Bug Fixes
+
+* **styled-system:** check if global variables are defined before use ([#918](https://github.com/redallen/patternfly-react/issues/918)) ([e8d1eb0](https://github.com/redallen/patternfly-react/commit/e8d1eb0))
+
+
+### Code Refactoring
+
+* **AboutModal:** Upgrade core to 1.0.175 and Refactor AboutModal ([#1307](https://github.com/redallen/patternfly-react/issues/1307)) ([1f85756](https://github.com/redallen/patternfly-react/commit/1f85756)), closes [#1267](https://github.com/redallen/patternfly-react/issues/1267)
+
+
+### Features
+
+* **Alert:** Add optional Close button to Alert via onClose prop ([#1200](https://github.com/redallen/patternfly-react/issues/1200)) ([9d59dcb](https://github.com/redallen/patternfly-react/commit/9d59dcb)), closes [#1036](https://github.com/redallen/patternfly-react/issues/1036)
+* **PF4 Page:** Allow passing of custom ref for condensed header ([#941](https://github.com/redallen/patternfly-react/issues/941)) ([889ec1a](https://github.com/redallen/patternfly-react/commit/889ec1a))
+* **Popover:** Add PF4 Popover ([#754](https://github.com/redallen/patternfly-react/issues/754)) ([17cf0c0](https://github.com/redallen/patternfly-react/commit/17cf0c0))
+* **styled-system:** adds styled system to pf4 as its own package ([#891](https://github.com/redallen/patternfly-react/issues/891)) ([2888855](https://github.com/redallen/patternfly-react/commit/2888855))
+
+
+### BREAKING CHANGES
+
+* **AboutModal:** removed heroImg and heroImageSrc and heroImageAlt props
+
+
+
+
+
 ## [1.4.2](https://github.com/patternfly/patternfly-react/compare/@patternfly/react-styled-system@1.4.1...@patternfly/react-styled-system@1.4.2) (2019-02-01)
 
 **Note:** Version bump only for package @patternfly/react-styled-system
