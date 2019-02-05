@@ -1,11 +1,11 @@
 {
-  "name": "@patternfly/react-lerna-root",
+  "name": "@redallen/react-lerna-root",
   "version": "0.0.0",
   "private": true,
   "description": "This library provides a set of common React components for use with the PatternFly reference implementation.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/patternfly/patternfly-react.git"
+    "url": "https://github.com/redallen/patternfly-react.git"
   },
   "engines": {
     "node": ">=8.9.0",
@@ -19,9 +19,9 @@
   "author": "Red Hat",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/patternfly/patternfly-react/issues"
+    "url": "https://github.com/redallen/patternfly-react/issues"
   },
-  "homepage": "https://github.com/patternfly/patternfly-react#readme",
+  "homepage": "https://github.com/redallen/patternfly-react#readme",
   "devDependencies": {
     "@commitlint/cli": "^7.1.2",
     "@types/enzyme": "^3.1.15",

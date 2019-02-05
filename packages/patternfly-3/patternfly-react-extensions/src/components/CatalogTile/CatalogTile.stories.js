@@ -29,7 +29,7 @@ stories.add(
       <CatalogTile
         id="long-description-test"
         featured
-        href="https://github.com/patternfly/patternfly-react"
+        href="https://github.com/redallen/patternfly-react"
         iconImg={pfBrand}
         badges={[
           <CatalogTileBadge title="Certified" id="certified">
@@ -47,7 +47,7 @@ stories.add(
       <CatalogTile
         id="tile-footer-test"
         featured
-        href="https://github.com/patternfly/patternfly-react"
+        href="https://github.com/redallen/patternfly-react"
         iconImg={pfBrand}
         badges={[
           <CatalogTileBadge title="Certified" id="certified">

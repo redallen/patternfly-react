@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/patternfly/patternfly-react.git"
+    "url": "https://github.com/redallen/patternfly-react.git"
   },
   "keywords": [
     "react",
@@ -23,9 +23,9 @@
   "author": "Red Hat",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/patternfly/patternfly-react/issues"
+    "url": "https://github.com/redallen/patternfly-react/issues"
   },
-  "homepage": "https://github.com/patternfly/patternfly-react#readme",
+  "homepage": "https://github.com/redallen/patternfly-react#readme",
   "dependencies": {
     "@patternfly/react-icons": "^2.10.5",
     "@patternfly/react-styles": "^2.3.0",

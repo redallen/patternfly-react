@@ -89,7 +89,7 @@ class LiveDemo extends React.Component {
     const { className, raw, images, live, liveScope, path } = this.props;
     const { codeOpen, showCopyMessage, isDarkTheme } = this.state;
 
-    const GITHUB_BASE = 'https://github.com/patternfly/patternfly-react/blob/master/packages/patternfly-4';
+    const GITHUB_BASE = 'https://github.com/redallen/patternfly-react/blob/master/packages/patternfly-4';
     const examplePath = `${GITHUB_BASE}${path.substr(5)}`;
 
     const scope = {

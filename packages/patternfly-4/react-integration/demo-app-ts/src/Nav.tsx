@@ -8,7 +8,7 @@ class myProps implements NavProps {
 class NavTest extends Component {
   render() {
     // Nav onToggle and onSelect should be optional
-    // https://github.com/patternfly/patternfly-react/issues/1234
+    // https://github.com/redallen/patternfly-react/issues/1234
     return (
       <Nav aria-label={new myProps()['aria-label']}>
         <NavList>

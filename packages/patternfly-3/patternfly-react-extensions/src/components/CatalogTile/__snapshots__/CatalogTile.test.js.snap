@@ -377,7 +377,7 @@ exports[`CatalogTile renders properly 1`] = `
   </div>
   <a
     class="catalog-tile-pf featured"
-    href="https://github.com/patternfly/patternfly-react"
+    href="https://github.com/redallen/patternfly-react"
     id="tile-footer-test"
   >
     <div

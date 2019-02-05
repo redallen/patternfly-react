@@ -74,7 +74,7 @@ exports[`Card Link is working properly 1`] = `
 <p>
   <a
     class="disabled"
-    href="https://github.com/patternfly/patternfly-react/pull/203"
+    href="https://github.com/redallen/patternfly-react/pull/203"
   >
     Card Content
   </a>

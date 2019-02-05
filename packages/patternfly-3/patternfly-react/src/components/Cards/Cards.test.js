@@ -45,7 +45,7 @@ test('Card Body is working properly', () => {
 
 test('Card Link is working properly', () => {
   const component = mount(
-    <CardLink disabled href="https://github.com/patternfly/patternfly-react/pull/203">
+    <CardLink disabled href="https://github.com/redallen/patternfly-react/pull/203">
       Card Content
     </CardLink>
   );

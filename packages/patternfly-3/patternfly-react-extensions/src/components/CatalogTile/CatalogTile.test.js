@@ -101,7 +101,7 @@ test('CatalogTile renders properly', () => {
       <CatalogTile
         id="tile-footer-test"
         featured
-        href="https://github.com/patternfly/patternfly-react"
+        href="https://github.com/redallen/patternfly-react"
         iconImg={pfBrand}
         badges={[
           <CatalogTile.Badge title="Certified" id="certified">
