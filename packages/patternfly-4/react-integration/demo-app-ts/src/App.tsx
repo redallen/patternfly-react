@@ -1,4 +1,4 @@
-import { Avatar, AvatarProps, Tabs, Tab, Tooltip, Popover } from '@patternfly/react-core';
+import { Avatar, AvatarProps, Tabs, Tab, Tooltip, Popover } from '@redallen-patternfly/react-core';
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';

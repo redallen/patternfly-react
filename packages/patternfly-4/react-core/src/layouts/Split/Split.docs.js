@@ -1,4 +1,4 @@
-import { Split, SplitItem, GutterSize } from '@patternfly/react-core';
+import { Split, SplitItem, GutterSize } from '@redallen-patternfly/react-core';
 import Simple from './examples/SimpleSplit';
 import WithGutter from './examples/SplitWithGutter';
 import getContainerProps from './examples/common/getContainerProps';

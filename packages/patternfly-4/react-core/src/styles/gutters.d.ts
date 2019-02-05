@@ -1,4 +1,4 @@
-import { StyleDeclarationStatic, getModifier } from '@patternfly/react-styles';
+import { StyleDeclarationStatic, getModifier } from '@redallen-patternfly/react-styles';
 import { OneOf } from '../typeUtils';
 
 export const GutterSize: {

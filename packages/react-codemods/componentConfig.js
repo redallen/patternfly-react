@@ -1,6 +1,6 @@
 module.exports = {
   Button: {
-    package: '@patternfly/react-core',
+    package: '@redallen-patternfly/react-core',
     props: {
       bsStyle: {
         name: 'variant',

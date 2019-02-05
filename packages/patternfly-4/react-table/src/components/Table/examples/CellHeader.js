@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table, TableHeader, TableBody, headerCol } from '@patternfly/react-table';
+import { Table, TableHeader, TableBody, headerCol } from '@redallen-patternfly/react-table';
 
 class CellHeader extends React.Component {
   constructor(props) {

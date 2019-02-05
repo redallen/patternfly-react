@@ -1,4 +1,4 @@
-import { Popover, PopoverPosition } from '@patternfly/react-core';
+import { Popover, PopoverPosition } from '@redallen-patternfly/react-core';
 import SimplePopover from './examples/SimplePopover';
 import AdvancedPopover from './examples/AdvancedPopover';
 import HeadlessPopover from './examples/HeadlessPopover';

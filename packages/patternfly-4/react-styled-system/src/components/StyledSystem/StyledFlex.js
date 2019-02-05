@@ -1,5 +1,5 @@
 import React from 'react';
-import { css } from '@patternfly/react-styles';
+import { css } from '@redallen-patternfly/react-styles';
 import PropTypes from 'prop-types';
 import styled from 'react-emotion';
 import { flexWrap, flexDirection, alignItems, alignContent, justifyContent } from 'styled-system';

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Dropdown, DropdownDirection, DropdownToggle, DropdownPosition } from '../Dropdown';
-import { ThIcon } from '@patternfly/react-icons';
+import { ThIcon } from '@redallen-patternfly/react-icons';
 
 const defaultAriaLabel = 'Application Launcher';
 

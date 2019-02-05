@@ -1,5 +1,5 @@
 import React from 'react';
-import { css } from '@patternfly/react-styles';
+import { css } from '@redallen-patternfly/react-styles';
 import PropTypes from 'prop-types';
 import styles from '@patternfly/patternfly/components/Alert/alert.css';
 
@@ -8,7 +8,7 @@ import {
   ExclamationCircleIcon,
   ExclamationTriangleIcon,
   InfoCircleIcon
-} from '@patternfly/react-icons';
+} from '@redallen-patternfly/react-icons';
 
 export const variantIcons = {
   success: CheckCircleIcon,

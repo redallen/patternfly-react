@@ -5,7 +5,7 @@ import {
   ChartLegend,
   ChartTheme,
   ChartVoronoiContainer
-} from '@patternfly/react-charts';
+} from '@redallen-patternfly/react-charts';
 
 class DarkGreenThemeChart extends React.Component {
   containerRef = React.createRef();

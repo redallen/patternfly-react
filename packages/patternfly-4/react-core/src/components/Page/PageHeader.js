@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from '@patternfly/patternfly/components/Page/page.css';
-import { css } from '@patternfly/react-styles';
+import { css } from '@redallen-patternfly/react-styles';
 import PropTypes from 'prop-types';
-import { BarsIcon } from '@patternfly/react-icons';
+import { BarsIcon } from '@redallen-patternfly/react-icons';
 import { Button, ButtonVariant } from '../../components/Button';
 
 const propTypes = {

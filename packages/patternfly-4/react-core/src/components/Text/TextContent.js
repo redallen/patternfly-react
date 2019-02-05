@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '@patternfly/patternfly/components/Content/content.css';
-import { StyleSheet, css } from '@patternfly/react-styles';
+import { StyleSheet, css } from '@redallen-patternfly/react-styles';
 import PropTypes from 'prop-types';
 
 const propTypes = {

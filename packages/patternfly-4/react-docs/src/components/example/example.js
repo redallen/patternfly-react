@@ -1,8 +1,8 @@
 import React from 'react';
-import { css } from '@patternfly/react-styles';
+import { css } from '@redallen-patternfly/react-styles';
 import styles from './example.styles';
 import PropTypes from 'prop-types';
-import { Title } from '@patternfly/react-core';
+import { Title } from '@redallen-patternfly/react-core';
 import LiveDemo from './liveDemo';
 import { withPrefix } from 'gatsby';
 import Section from '../section';

@@ -1,13 +1,13 @@
 import React from 'react';
 import {
   ChartTheme
-} from '@patternfly/react-charts';
+} from '@redallen-patternfly/react-charts';
 import {
   Grid,
   GridItem,
   Text,
   TextVariants
-} from '@patternfly/react-core';
+} from '@redallen-patternfly/react-core';
 import getContainerProps from './common/getContainerProps';
 
 class SimpleChart extends React.Component {

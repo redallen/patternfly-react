@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardHeader, CardBody, CardFooter } from '@patternfly/react-core';
+import { Card, CardHeader, CardBody, CardFooter } from '@redallen-patternfly/react-core';
 
 class ContentOnlyCard extends React.Component {
   render() {

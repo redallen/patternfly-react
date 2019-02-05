@@ -11,11 +11,11 @@ import {
   ToolbarGroup,
   ToolbarItem,
   ToolbarSection
-} from '@patternfly/react-core';
-import { css } from '@patternfly/react-styles';
+} from '@redallen-patternfly/react-core';
+import { css } from '@redallen-patternfly/react-styles';
 import flexStyles from '@patternfly/patternfly/utilities/Flex/flex.css';
 import spacingStyles from '@patternfly/patternfly/utilities/Spacing/spacing.css';
-import { ListUlIcon, SortAlphaDownIcon, TableIcon } from '@patternfly/react-icons';
+import { ListUlIcon, SortAlphaDownIcon, TableIcon } from '@redallen-patternfly/react-icons';
 
 class ComplexToolbarDemo extends React.Component {
   constructor(props) {

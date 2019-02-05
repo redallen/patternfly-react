@@ -101,7 +101,7 @@ import {
   global_ZIndex_lg,
   global_ZIndex_xl,
   global_ZIndex_2xl
-} from '@patternfly/react-tokens';
+} from '@redallen-patternfly/react-tokens';
 
 /**
  * Maps to keys or array positions in the StyledTheme

@@ -1,4 +1,4 @@
-import { ChartDonut, ChartLabel, ChartLegend } from '@patternfly/react-charts';
+import { ChartDonut, ChartLabel, ChartLegend } from '@redallen-patternfly/react-charts';
 import SimpleChart from './examples/SimpleChart';
 import getContainerProps from './examples/common/getContainerProps';
 

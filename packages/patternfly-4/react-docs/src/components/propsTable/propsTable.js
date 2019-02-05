@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './propsTable.styles';
-import { css } from '@patternfly/react-styles';
+import { css } from '@redallen-patternfly/react-styles';
 import { Table, Row, TD, TH, Body, Heading } from '../table';
 import Section from '../section';
-import { ExclamationCircleIcon } from '@patternfly/react-icons';
+import { ExclamationCircleIcon } from '@redallen-patternfly/react-icons';
 
 const docGenPropValueShape = PropTypes.shape({ value: PropTypes.string });
 const docGenPropShape = PropTypes.shape({

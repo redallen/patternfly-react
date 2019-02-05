@@ -1,5 +1,5 @@
 const fs = require('fs');
-const { createSerializer } = require('@patternfly/react-styles/snapshot-serializer');
+const { createSerializer } = require('@redallen-patternfly/react-styles/snapshot-serializer');
 
 const pf4CSS = fs.readFileSync(require.resolve('@patternfly/patternfly/patternfly-base.css'), 'utf8');
 

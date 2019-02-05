@@ -1,7 +1,7 @@
 import { SFC, HTMLProps, ReactType, ReactNode } from 'react';
 import { OneOf, Omit } from '../../../../react-core/src/typeUtils';
 import { SortByDirection } from './SortColumn';
-import { DropdownPosition, DropdownDirection } from '@patternfly/react-core';
+import { DropdownPosition, DropdownDirection } from '@redallen-patternfly/react-core';
 export interface ISortBy {
   index?: Number;
   direction?: OneOf<typeof SortByDirection, keyof typeof SortByDirection>;

@@ -2,11 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Tippy from '@tippy.js/react';
 import styles from '@patternfly/patternfly/components/Tooltip/tooltip.css';
-import { css, getModifier } from '@patternfly/react-styles';
+import { css, getModifier } from '@redallen-patternfly/react-styles';
 import TooltipArrow from './TooltipArrow';
 import TooltipContent from './TooltipContent';
 import { KEY_CODES } from '../../internal/constants';
-import { c_tooltip_MaxWidth as tooltipMaxWidth } from '@patternfly/react-tokens';
+import { c_tooltip_MaxWidth as tooltipMaxWidth } from '@redallen-patternfly/react-tokens';
 import { tippyStyles } from './styles';
 
 tippyStyles();

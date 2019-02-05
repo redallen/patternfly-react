@@ -1,4 +1,4 @@
-import { Table, TableHeader, TableBody } from '@patternfly/react-table';
+import { Table, TableHeader, TableBody } from '@redallen-patternfly/react-table';
 import Simple from './examples/SimpleTable';
 import Sortable from './examples/SortableTable';
 import Selectable from './examples/SelectableTable';

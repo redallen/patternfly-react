@@ -1,4 +1,4 @@
-import { Tabs, Tab } from '@patternfly/react-core';
+import { Tabs, Tab } from '@redallen-patternfly/react-core';
 import SimpleTabs from './examples/SimpleTabs';
 import ScrollButtonsTabs from './examples/ScrollButtonsTabs';
 import FilledTabs from './examples/FilledTabs';

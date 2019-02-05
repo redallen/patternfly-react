@@ -1,5 +1,5 @@
 import React from 'react';
-import { Popover, PopoverPosition, Checkbox, Button } from '@patternfly/react-core';
+import { Popover, PopoverPosition, Checkbox, Button } from '@redallen-patternfly/react-core';
 
 class AdvancedPopover extends React.Component {
   constructor(props) {

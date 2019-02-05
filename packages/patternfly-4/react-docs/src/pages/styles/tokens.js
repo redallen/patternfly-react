@@ -1,9 +1,9 @@
 import React from 'react';
 import Content from '../../components/content';
-import { Title } from '@patternfly/react-core';
+import { Title } from '@redallen-patternfly/react-core';
 import { Table, Heading, Body, TH, TD, Row } from '../../components/table';
-import * as tokensModule from '@patternfly/react-tokens';
-import { StyleSheet, css } from '@patternfly/react-styles';
+import * as tokensModule from '@redallen-patternfly/react-tokens';
+import { StyleSheet, css } from '@redallen-patternfly/react-styles';
 import DocsLayout from '../../components/layouts';
 
 const styles = StyleSheet.create({

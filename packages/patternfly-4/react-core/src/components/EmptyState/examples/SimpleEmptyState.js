@@ -6,8 +6,8 @@ import {
   EmptyStateIcon,
   EmptyStateBody,
   EmptyStateSecondaryActions
-} from '@patternfly/react-core';
-import { CubesIcon } from '@patternfly/react-icons';
+} from '@redallen-patternfly/react-core';
+import { CubesIcon } from '@redallen-patternfly/react-icons';
 
 class SimpleEmptyState extends React.Component {
   render() {

@@ -24,7 +24,7 @@ import { Button } from 'patternfly-react';
 const Btn = <Button />;
 `,
   pretty(`
-    import { Button } from '@patternfly/react-core';
+    import { Button } from '@redallen-patternfly/react-core';
     const Btn = <Button variant="secondary" />;
   `),
   'Supports passing * for all components'
@@ -38,7 +38,7 @@ import { Button } from 'patternfly-react';
 const Btn = <Button />;
 `,
   pretty(`
-    import { Button } from '@patternfly/react-core';
+    import { Button } from '@redallen-patternfly/react-core';
     const Btn = <Button variant="secondary" />;
   `),
   'Supports passing * for all components'
@@ -53,7 +53,7 @@ const Btn = <Button />;
 const alert = <Alert />;
 `,
   pretty(`
-    import { Button } from '@patternfly/react-core';
+    import { Button } from '@redallen-patternfly/react-core';
     import { Alert } from 'patternfly-react';
     const Btn = <Button variant="secondary" />;
     const alert = <Alert />;
@@ -69,7 +69,7 @@ import { Button, OtherComponent } from 'patternfly-react';
 const Btn = <Button />;
 `,
   pretty(`
-    import { Button } from '@patternfly/react-core';
+    import { Button } from '@redallen-patternfly/react-core';
     import { OtherComponent } from 'patternfly-react';
     const Btn = <Button variant="secondary" />;
   `),

@@ -4,13 +4,13 @@ import {
   ChartBar,
   ChartStack,
   ChartTheme,
-} from '@patternfly/react-charts';
+} from '@redallen-patternfly/react-charts';
 import {
   Grid,
   GridItem,
   Text,
   TextVariants
-} from '@patternfly/react-core';
+} from '@redallen-patternfly/react-core';
 
 class HorizontalChart extends React.Component {
   getChart = (theme) => (

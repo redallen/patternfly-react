@@ -1,4 +1,4 @@
-import { Alert, AlertVariant, AlertActionLink, AlertActionCloseButton } from '@patternfly/react-core';
+import { Alert, AlertVariant, AlertActionLink, AlertActionCloseButton } from '@redallen-patternfly/react-core';
 import SuccessExample from './examples/SuccessAlert';
 import DangerExample from './examples/DangerAlert';
 import InfoExample from './examples/InfoAlert';

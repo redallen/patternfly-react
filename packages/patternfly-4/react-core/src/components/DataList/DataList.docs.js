@@ -6,7 +6,7 @@ import {
   DataListAction,
   DataListContent,
   DataListToggle
-} from '@patternfly/react-core';
+} from '@redallen-patternfly/react-core';
 import Simple from './examples/SimpleDataList';
 import CheckboxAction from './examples/CheckboxActionDataList';
 import Expandable from './examples/ExpandableDataList';

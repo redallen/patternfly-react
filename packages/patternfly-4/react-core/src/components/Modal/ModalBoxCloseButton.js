@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Button } from '../Button';
-import { TimesIcon } from '@patternfly/react-icons';
+import { TimesIcon } from '@redallen-patternfly/react-icons';
 
 const propTypes = {
   /** additional classes added to the close button */

@@ -1,5 +1,5 @@
 import SimpleLabel from './examples/SimpleLabel';
-import { Label } from '@patternfly/react-core';
+import { Label } from '@redallen-patternfly/react-core';
 
 export default {
   title: 'Label',

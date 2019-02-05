@@ -1,4 +1,4 @@
-import { Card, CardBody, CardFooter, CardHeader } from '@patternfly/react-core';
+import { Card, CardBody, CardFooter, CardHeader } from '@redallen-patternfly/react-core';
 import Simple from './examples/SimpleCard';
 import NoFooter from './examples/NoFooterCard';
 import NoHeader from './examples/NoHeaderCard';

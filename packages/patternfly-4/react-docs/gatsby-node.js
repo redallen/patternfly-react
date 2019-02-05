@@ -13,7 +13,7 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions, plugins, getConfig }
       rules: [
         {
           test: pfStylesTest,
-          use: [{ loader: 'babel-loader' }, { loader: require.resolve('@patternfly/react-styles/loader') }]
+          use: [{ loader: 'babel-loader' }, { loader: require.resolve('@redallen-patternfly/react-styles/loader') }]
         },
         {
           test: /\.css$/,
@@ -24,11 +24,11 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions, plugins, getConfig }
     },
     resolve: {
       alias: {
-        '@patternfly/react-table': path.resolve(__dirname, '../react-table/src'),
-        '@patternfly/react-charts': path.resolve(__dirname, '../react-charts/src'),
-        '@patternfly/react-core': path.resolve(__dirname, '../react-core/src'),
-        '@patternfly/react-styles': path.resolve(__dirname, '../react-styles/src'),
-        '@patternfly/react-styled-system': path.resolve(__dirname, '../react-styled-system/src'),
+        '@redallen-patternfly/react-table': path.resolve(__dirname, '../react-table/src'),
+        '@redallen-patternfly/react-charts': path.resolve(__dirname, '../react-charts/src'),
+        '@redallen-patternfly/react-core': path.resolve(__dirname, '../react-core/src'),
+        '@redallen-patternfly/react-styles': path.resolve(__dirname, '../react-styles/src'),
+        '@redallen-patternfly/react-styled-system': path.resolve(__dirname, '../react-styled-system/src'),
         react: path.resolve(__dirname, 'node_modules/react'),
         'react-dom': path.resolve(__dirname, 'node_modules/react-dom')
       }

@@ -1,4 +1,4 @@
-import { BackgroundImage, BackgroundImageSrc } from '@patternfly/react-core';
+import { BackgroundImage, BackgroundImageSrc } from '@redallen-patternfly/react-core';
 import SimpleBackgroundImage from './examples/SimpleBackgroundImage';
 
 export default {

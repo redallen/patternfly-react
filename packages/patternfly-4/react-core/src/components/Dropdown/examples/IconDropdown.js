@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Dropdown, DropdownItem, DropdownToggle, DropdownSeparator } from '@patternfly/react-core';
-import { ThIcon } from '@patternfly/react-icons';
+import { Dropdown, DropdownItem, DropdownToggle, DropdownSeparator } from '@redallen-patternfly/react-core';
+import { ThIcon } from '@redallen-patternfly/react-icons';
 
 export default class IconDropdown extends Component {
   state = {

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { css } from '@patternfly/react-styles';
-import { AngleRightIcon } from '@patternfly/react-icons';
+import { css } from '@redallen-patternfly/react-styles';
+import { AngleRightIcon } from '@redallen-patternfly/react-icons';
 import styles from '@patternfly/patternfly/components/DataList/data-list.css';
 import { Button } from '../Button';
 

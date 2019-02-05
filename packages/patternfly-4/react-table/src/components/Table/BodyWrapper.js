@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styles from '@patternfly/patternfly/components/Table/table.css';
-import { css } from '@patternfly/react-styles';
+import { css } from '@redallen-patternfly/react-styles';
 
 const BodyWrapper = (rows) => {
   class TableBody extends Component {

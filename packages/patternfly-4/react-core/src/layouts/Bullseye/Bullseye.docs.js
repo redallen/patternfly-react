@@ -1,4 +1,4 @@
-import { Bullseye } from '@patternfly/react-core';
+import { Bullseye } from '@redallen-patternfly/react-core';
 import Simple from './examples/SimpleBullseye';
 import getContainerProps from './examples/common/getContainerProps';
 

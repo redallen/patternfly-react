@@ -1,5 +1,5 @@
 import React from 'react';
-import { FormSelect, FormSelectOption } from '@patternfly/react-core';
+import { FormSelect, FormSelectOption } from '@redallen-patternfly/react-core';
 
 class FormSelectInputInvalid extends React.Component {
   state = {

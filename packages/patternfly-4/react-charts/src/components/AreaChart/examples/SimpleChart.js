@@ -4,7 +4,7 @@ import {
   ChartGroup,
   ChartLegend,
   ChartVoronoiContainer
-} from '@patternfly/react-charts';
+} from '@redallen-patternfly/react-charts';
 
 class SimpleChart extends React.Component {
   containerRef = React.createRef();

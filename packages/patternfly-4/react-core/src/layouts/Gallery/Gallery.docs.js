@@ -1,4 +1,4 @@
-import { Gallery, GalleryItem } from '@patternfly/react-core';
+import { Gallery, GalleryItem } from '@redallen-patternfly/react-core';
 import SimpleGallery from './examples/SimpleGallery';
 import GalleryWithGutters from './examples/GalleryWithGutters';
 import getContainerProps from './examples/common/getContainerProps';

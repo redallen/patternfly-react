@@ -1,4 +1,4 @@
-import { Chip } from '@patternfly/react-core';
+import { Chip } from '@redallen-patternfly/react-core';
 import SimpleExample from './examples/SimpleChip';
 
 export default {

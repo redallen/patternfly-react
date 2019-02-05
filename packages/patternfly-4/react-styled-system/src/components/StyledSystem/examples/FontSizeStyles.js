@@ -1,5 +1,5 @@
 import React from 'react';
-import { PatternFlyThemeProvider, StyledConstants, StyledText } from '@patternfly/react-styled-system';
+import { PatternFlyThemeProvider, StyledConstants, StyledText } from '@redallen-patternfly/react-styled-system';
 
 class FontSizeStyles extends React.Component {
   render() {

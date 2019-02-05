@@ -1,6 +1,6 @@
 import React, { Children, cloneElement } from 'react';
 import styles from '@patternfly/patternfly/components/Dropdown/dropdown.css';
-import { css } from '@patternfly/react-styles';
+import { css } from '@redallen-patternfly/react-styles';
 import PropTypes from 'prop-types';
 import DropdownMenu from './DropdownMenu';
 import { DropdownPosition, DropdownDirection, DropdownContext } from './dropdownConstants';

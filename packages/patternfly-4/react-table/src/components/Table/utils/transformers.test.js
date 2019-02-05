@@ -11,7 +11,7 @@ import {
   mapProps,
   expandedRow
 } from './transformers';
-import { DropdownDirection, DropdownPosition } from '@patternfly/react-core';
+import { DropdownDirection, DropdownPosition } from '@redallen-patternfly/react-core';
 
 describe('Transformer functions', () => {
   describe('selectable', () => {

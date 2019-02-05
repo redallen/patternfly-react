@@ -1,9 +1,9 @@
 import React from 'react';
-import { css } from '@patternfly/react-styles';
+import { css } from '@redallen-patternfly/react-styles';
 import PropTypes from 'prop-types';
 import ChipButton from './ChipButton';
 import { Tooltip, TooltipPosition } from '../Tooltip';
-import { TimesCircleIcon } from '@patternfly/react-icons';
+import { TimesCircleIcon } from '@redallen-patternfly/react-icons';
 import styles from '@patternfly/patternfly/components/Chip/chip.css';
 import GenerateId from '../../internal/GenerateId/GenerateId';
 class Chip extends React.Component {

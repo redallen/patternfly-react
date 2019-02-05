@@ -1,4 +1,4 @@
-import { Nav, NavList, NavItem, NavProps } from '@patternfly/react-core';
+import { Nav, NavList, NavItem, NavProps } from '@redallen-patternfly/react-core';
 import React, { Component } from 'react';
 
 class myProps implements NavProps {

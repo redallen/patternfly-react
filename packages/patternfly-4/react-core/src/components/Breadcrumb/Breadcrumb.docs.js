@@ -1,7 +1,7 @@
 import Simple from './examples/SimpleBreadcrumbs';
 import WithoutLinkBreadcrumbs from './examples/WithoutLinkBreadcrumbs';
 import HeadingBreadcrumbs from './examples/HeadingBreadcrumbs';
-import { Breadcrumb, BreadcrumbItem, BreadcrumbHeading } from '@patternfly/react-core';
+import { Breadcrumb, BreadcrumbItem, BreadcrumbHeading } from '@redallen-patternfly/react-core';
 
 export default {
   title: 'Breadcrumb',

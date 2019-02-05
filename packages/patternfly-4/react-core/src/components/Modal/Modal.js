@@ -5,7 +5,7 @@ import ModalContent from './ModalContent';
 import safeHTMLElement from '../../internal/safeHTMLElement';
 import { canUseDOM } from 'exenv';
 import { KEY_CODES } from '../../internal/constants';
-import { css } from '@patternfly/react-styles';
+import { css } from '@redallen-patternfly/react-styles';
 import styles from '@patternfly/patternfly/components/Backdrop/backdrop.css';
 
 const propTypes = {

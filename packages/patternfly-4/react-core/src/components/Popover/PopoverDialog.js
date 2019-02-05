@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from '@patternfly/patternfly/components/Popover/popover.css';
-import { css, getModifier } from '@patternfly/react-styles';
+import { css, getModifier } from '@redallen-patternfly/react-styles';
 
 export const PopoverPosition = {
   top: 'top',

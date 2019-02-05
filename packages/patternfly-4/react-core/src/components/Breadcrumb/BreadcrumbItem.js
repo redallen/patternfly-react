@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from '@patternfly/patternfly/components/Breadcrumb/breadcrumb.css';
 import PropTypes from 'prop-types';
-import { AngleRightIcon } from '@patternfly/react-icons';
-import { css, getModifier } from '@patternfly/react-styles';
+import { AngleRightIcon } from '@redallen-patternfly/react-icons';
+import { css, getModifier } from '@redallen-patternfly/react-styles';
 import { componentShape } from '../../internal/componentShape';
 
 const propTypes = {

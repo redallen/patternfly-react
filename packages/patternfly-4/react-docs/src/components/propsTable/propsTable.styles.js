@@ -1,4 +1,4 @@
-import { StyleSheet } from '@patternfly/react-styles';
+import { StyleSheet } from '@redallen-patternfly/react-styles';
 
 export default StyleSheet.create({
   enumValues: {

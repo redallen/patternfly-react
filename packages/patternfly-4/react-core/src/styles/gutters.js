@@ -1,4 +1,4 @@
-import { getModifier } from '@patternfly/react-styles';
+import { getModifier } from '@redallen-patternfly/react-styles';
 
 export const GutterSize = {
   sm: 'sm',

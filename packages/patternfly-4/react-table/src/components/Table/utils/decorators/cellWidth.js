@@ -1,4 +1,4 @@
-import { css, getModifier } from '@patternfly/react-styles';
+import { css, getModifier } from '@redallen-patternfly/react-styles';
 import styles from '@patternfly/patternfly/components/Table/table.css';
 
 export default (width) => () => ({

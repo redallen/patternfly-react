@@ -70,9 +70,9 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "build": "yarn clean:build && lerna run prebuild --parallel && lerna run build --parallel && lerna run postbuild",
-    "build:docs": "yarn build && lerna run docbuild --scope=@patternfly/react-docs --stream",
-    "build:typecheck": "lerna run build:typecheck --scope=@patternfly/react-core --stream",
-    "build:prdocs": "lerna run pr-build --scope=@patternfly/react-docs --stream",
+    "build:docs": "yarn build && lerna run docbuild --scope=@redallen-patternfly/react-docs --stream",
+    "build:typecheck": "lerna run build:typecheck --scope=@redallen-patternfly/react-core --stream",
+    "build:prdocs": "lerna run pr-build --scope=@redallen-patternfly/react-docs --stream",
     "clean": "yarn clean:build",
     "clean:build": "shx rm -rf packages/*/dist && shx rm -rf packages/patternfly-?/*/dist",
     "commit": "git-cz",
@@ -86,7 +86,7 @@
     "prettier": "prettier --write 'storybook/**/*.js' 'packages/**/*.js' 'scripts/**/*.js'",
     "start": "yarn start:pf3",
     "start:pf3": "concurrently \"yarn storybook:run\" \"yarn storybook:openurl\"",
-    "start:pf4": "lerna run develop --scope=@patternfly/react-docs --stream",
+    "start:pf4": "lerna run develop --scope=@redallen-patternfly/react-docs --stream",
     "storybook:build": "build-storybook -c storybook -o .out",
     "storybook:deploy": "storybook-to-ghpages '--script=storybook:build'",
     "storybook:openurl": "node ./storybook/openBrowser.js",
@@ -153,7 +153,7 @@
       "packages/**"
     ],
     "nohoist": [
-      "@patternfly/react-docs/react*"
+      "@redallen-patternfly/react-docs/react*"
     ]
   },
   "resolutions": {

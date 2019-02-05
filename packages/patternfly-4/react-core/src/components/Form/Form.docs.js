@@ -1,7 +1,7 @@
 import Simple from './examples/SimpleForm';
 import Horizontal from './examples/HorizontalForm';
 import Invalid from './examples/InvalidForm';
-import { Form, FormGroup, ActionGroup } from '@patternfly/react-core';
+import { Form, FormGroup, ActionGroup } from '@redallen-patternfly/react-core';
 
 export default {
   title: 'Form',

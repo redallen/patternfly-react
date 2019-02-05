@@ -1,5 +1,5 @@
 import React from 'react';
-import { Radio } from '@patternfly/react-core';
+import { Radio } from '@redallen-patternfly/react-core';
 
 class ControlledRadio extends React.Component {
   state = {

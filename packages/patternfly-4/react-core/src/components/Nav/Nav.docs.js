@@ -1,4 +1,4 @@
-import { Nav, NavGroup, NavList, NavItem, NavExpandable, NavVariants } from '@patternfly/react-core';
+import { Nav, NavGroup, NavList, NavItem, NavExpandable, NavVariants } from '@redallen-patternfly/react-core';
 import SimpleList from './examples/NavSimpleList';
 import GroupedList from './examples/NavGroupedList';
 import ExpandableList from './examples/NavExpandableList';

@@ -1,4 +1,4 @@
-import { ChartArea, ChartGroup, ChartLegend, ChartVoronoiContainer } from '@patternfly/react-charts';
+import { ChartArea, ChartGroup, ChartLegend, ChartVoronoiContainer } from '@redallen-patternfly/react-charts';
 import CustomColorsChart from './examples/CustomColorsChart';
 import SimpleChart from './examples/SimpleChart';
 import DarkGreenThemeChart from './examples/DarkGreenThemeChart';

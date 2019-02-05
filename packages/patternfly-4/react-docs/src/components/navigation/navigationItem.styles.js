@@ -1,4 +1,4 @@
-import { StyleSheet } from '@patternfly/react-styles';
+import { StyleSheet } from '@redallen-patternfly/react-styles';
 import {
   global_spacer_xs as spacerXs,
   global_spacer_sm as spacerSm,
@@ -9,7 +9,7 @@ import {
   global_BackgroundColor_200,
   global_FontSize_xs,
   global_BorderRadius_lg as borderRadiusLg
-} from '@patternfly/react-tokens';
+} from '@redallen-patternfly/react-tokens';
 
 export default StyleSheet.create({
   navigationItem: {

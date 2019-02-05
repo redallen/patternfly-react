@@ -1,5 +1,5 @@
 import React from 'react';
-import { Breadcrumb, BreadcrumbItem } from '@patternfly/react-core';
+import { Breadcrumb, BreadcrumbItem } from '@redallen-patternfly/react-core';
 
 class WithoutLinkBreadcrumbs extends React.Component {
   render() {

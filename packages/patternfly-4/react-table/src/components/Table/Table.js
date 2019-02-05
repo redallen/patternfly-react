@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from '@patternfly/patternfly/components/Table/table.css';
 import { Provider } from 'reactabular-table';
-import { DropdownPosition, DropdownDirection } from '@patternfly/react-core';
-import { css, getModifier } from '@patternfly/react-styles';
+import { DropdownPosition, DropdownDirection } from '@redallen-patternfly/react-core';
+import { css, getModifier } from '@redallen-patternfly/react-styles';
 import PropTypes from 'prop-types';
 import { SortByDirection } from './SortColumn';
 import BodyCell from './BodyCell';

@@ -19,7 +19,7 @@ module.exports = {
         '@babel/proposal-class-properties',
         '@babel/proposal-object-rest-spread',
         [
-          '@patternfly/react-styles/babel',
+          '@redallen-patternfly/react-styles/babel',
           {
             srcDir: './src',
             outDir: './dist/esm',
@@ -35,7 +35,7 @@ module.exports = {
         '@babel/proposal-class-properties',
         '@babel/proposal-object-rest-spread',
         [
-          '@patternfly/react-styles/babel',
+          '@redallen-patternfly/react-styles/babel',
           {
             srcDir: './src',
             outDir: './dist/js',

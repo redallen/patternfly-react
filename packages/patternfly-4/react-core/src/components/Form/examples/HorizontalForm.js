@@ -13,7 +13,7 @@ import {
   Button,
   ActionGroup,
   Checkbox
-} from '@patternfly/react-core';
+} from '@redallen-patternfly/react-core';
 
 class HorizontalForm extends React.Component {
   state = {

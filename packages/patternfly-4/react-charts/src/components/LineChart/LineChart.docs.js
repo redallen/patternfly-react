@@ -1,4 +1,4 @@
-import { Chart, ChartGroup, ChartLine } from '@patternfly/react-charts';
+import { Chart, ChartGroup, ChartLine } from '@redallen-patternfly/react-charts';
 import SimpleChart from './examples/SimpleChart';
 import getContainerProps from './examples/common/getContainerProps';
 

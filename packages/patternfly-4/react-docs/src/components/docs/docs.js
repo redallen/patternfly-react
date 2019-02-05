@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './docs.styles';
-import { css } from '@patternfly/react-styles';
-import { Title } from '@patternfly/react-core';
+import { css } from '@redallen-patternfly/react-styles';
+import { Title } from '@redallen-patternfly/react-core';
 import Content from '../content';
 import PropTypes from 'prop-types';
 

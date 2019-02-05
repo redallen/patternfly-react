@@ -1,5 +1,5 @@
 import React from 'react';
-import { css, getModifier } from '@patternfly/react-styles';
+import { css, getModifier } from '@redallen-patternfly/react-styles';
 import PropTypes from 'prop-types';
 import styles from '@patternfly/patternfly/components/Alert/alert.css';
 import accessibleStyles from '@patternfly/patternfly/utilities/Accessibility/accessibility.css';

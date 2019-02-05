@@ -1,5 +1,5 @@
 import React from 'react';
-import { Popover, Button } from '@patternfly/react-core';
+import { Popover, Button } from '@redallen-patternfly/react-core';
 
 class SimplePopover extends React.Component {
   render() {

@@ -11,7 +11,7 @@ try {
 }
 
 const oldPackage = 'patternfly-react';
-const newPackage = '@patternfly/react-core';
+const newPackage = '@redallen-patternfly/react-core';
 
 function getFilteredComponentConfig(specifiedComponents = '*') {
   if (specifiedComponents === '*') {

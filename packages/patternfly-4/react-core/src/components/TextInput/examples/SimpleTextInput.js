@@ -1,5 +1,5 @@
 import React from 'react';
-import { TextInput } from '@patternfly/react-core';
+import { TextInput } from '@redallen-patternfly/react-core';
 
 class SimpleTextInput extends React.Component {
   state = {

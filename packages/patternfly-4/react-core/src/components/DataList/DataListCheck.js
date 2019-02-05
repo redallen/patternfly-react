@@ -1,5 +1,5 @@
 import React from 'react';
-import { css } from '@patternfly/react-styles';
+import { css } from '@redallen-patternfly/react-styles';
 import PropTypes from 'prop-types';
 import styles from '@patternfly/patternfly/components/DataList/data-list.css';
 import checkboxStyles from '@patternfly/patternfly/components/Check/check.css';

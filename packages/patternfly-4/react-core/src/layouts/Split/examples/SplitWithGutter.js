@@ -1,5 +1,5 @@
 import React from 'react';
-import { Split, SplitItem } from '@patternfly/react-core';
+import { Split, SplitItem } from '@redallen-patternfly/react-core';
 
 class SplitWithGutter extends React.Component {
   render() {

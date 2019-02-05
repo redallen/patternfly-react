@@ -1,9 +1,9 @@
-import { StyleSheet } from '@patternfly/react-styles';
+import { StyleSheet } from '@redallen-patternfly/react-styles';
 import {
   global_BorderColor as borderColor,
   global_BorderWidth_md as borderWidth,
   global_spacer_xs as padding
-} from '@patternfly/react-tokens';
+} from '@redallen-patternfly/react-tokens';
 
 export default StyleSheet.create({
   item: {

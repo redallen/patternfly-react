@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from '@patternfly/patternfly/components/Tabs/tabs.css';
-import { css } from '@patternfly/react-styles';
+import { css } from '@redallen-patternfly/react-styles';
 import PropTypes from 'prop-types';
-import { AngleLeftIcon, AngleRightIcon } from '@patternfly/react-icons';
+import { AngleLeftIcon, AngleRightIcon } from '@redallen-patternfly/react-icons';
 import { getUniqueId, isElementInView, sideElementIsOutOfView } from '../../internal/util';
 import { SIDE } from '../../internal/constants';
 

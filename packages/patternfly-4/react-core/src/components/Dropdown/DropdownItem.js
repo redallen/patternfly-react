@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import styles from '@patternfly/patternfly/components/Dropdown/dropdown.css';
-import { css } from '@patternfly/react-styles';
+import { css } from '@redallen-patternfly/react-styles';
 import PropTypes from 'prop-types';
 import { componentShape } from '../../internal/componentShape';
 import { DropdownContext } from './dropdownConstants';

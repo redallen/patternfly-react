@@ -1,4 +1,4 @@
-import { Dropdown, KebabToggle, DropdownItem, DropdownSeparator, DropdownToggle } from '@patternfly/react-core';
+import { Dropdown, KebabToggle, DropdownItem, DropdownSeparator, DropdownToggle } from '@redallen-patternfly/react-core';
 import Panel from './examples/DropdownPanel';
 import Simple from './examples/SimpleDropdown';
 import Kebab from './examples/KebabDropdown';

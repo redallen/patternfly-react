@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '@patternfly/patternfly/components/Breadcrumb/breadcrumb.css';
 import PropTypes from 'prop-types';
-import { css } from '@patternfly/react-styles';
+import { css } from '@redallen-patternfly/react-styles';
 
 const propTypes = {
   /** Children nodes be rendered to the BreadCrumb. Should be of type BreadCrumbItem. */

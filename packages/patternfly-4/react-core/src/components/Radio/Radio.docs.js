@@ -1,7 +1,7 @@
 import Controlled from './examples/ControlledRadio';
 import Uncontrolled from './examples/UncontrolledRadio';
 import Disabled from './examples/DisabledRadio';
-import { Radio } from '@patternfly/react-core';
+import { Radio } from '@redallen-patternfly/react-core';
 import getContainerProps from './examples/common/getContainerProps';
 
 export default {

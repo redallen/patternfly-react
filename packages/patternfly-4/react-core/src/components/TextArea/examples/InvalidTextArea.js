@@ -1,5 +1,5 @@
 import React from 'react';
-import { TextArea } from '@patternfly/react-core';
+import { TextArea } from '@redallen-patternfly/react-core';
 
 class InvalidTextArea extends React.Component {
   state = {

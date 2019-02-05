@@ -1,8 +1,8 @@
 import React from 'react';
-import { css } from '@patternfly/react-styles';
+import { css } from '@redallen-patternfly/react-styles';
 import PropTypes from 'prop-types';
 import styles from '@patternfly/patternfly/components/DataList/data-list.css';
-import { EllipsisVIcon } from '@patternfly/react-icons';
+import { EllipsisVIcon } from '@redallen-patternfly/react-icons';
 import { Button } from '../Button';
 
 const DataListAction = ({ className, id, 'aria-label': ariaLabel, 'aria-labelledby': ariaLabelledBy, ...props }) => (

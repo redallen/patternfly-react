@@ -9,7 +9,7 @@ import {
   LoginPage,
   BackgroundImageSrc,
   ListItem
-} from '@patternfly/react-core';
+} from '@redallen-patternfly/react-core';
 
 /**
  * Note: When using background-filter.svg, you must also include #image_overlay as the fragment identifier

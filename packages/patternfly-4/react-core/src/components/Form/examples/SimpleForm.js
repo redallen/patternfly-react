@@ -9,7 +9,7 @@ import {
   ToolbarGroup,
   Button,
   Radio
-} from '@patternfly/react-core';
+} from '@redallen-patternfly/react-core';
 
 class SimpleForm extends React.Component {
   state = {

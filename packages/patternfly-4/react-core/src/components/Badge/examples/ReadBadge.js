@@ -1,5 +1,5 @@
 import React from 'react';
-import { Badge } from '@patternfly/react-core';
+import { Badge } from '@redallen-patternfly/react-core';
 
 class ReadBadge extends React.Component {
   render() {

@@ -4,7 +4,7 @@ import Tippy from '@tippy.js/react';
 import FocusTrap from 'focus-trap-react';
 import { KEY_CODES } from '../../internal/constants';
 import styles from '@patternfly/patternfly/components/Popover/popover.css';
-import { css, getModifier } from '@patternfly/react-styles';
+import { css, getModifier } from '@redallen-patternfly/react-styles';
 import PopoverArrow from './PopoverArrow';
 import PopoverContent from './PopoverContent';
 import PopoverBody from './PopoverBody';
@@ -12,7 +12,7 @@ import PopoverHeader from './PopoverHeader';
 import PopoverFooter from './PopoverFooter';
 import PopoverCloseButton from './PopoverCloseButton';
 import GenerateId from '../../internal/GenerateId/GenerateId';
-import { c_popover_MaxWidth as popoverMaxWidth } from '@patternfly/react-tokens';
+import { c_popover_MaxWidth as popoverMaxWidth } from '@redallen-patternfly/react-tokens';
 import { tippyStyles } from '../Tooltip/styles';
 
 tippyStyles();

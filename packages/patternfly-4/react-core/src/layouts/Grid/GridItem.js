@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from '@patternfly/patternfly/layouts/Grid/grid.css';
-import { css } from '@patternfly/react-styles';
+import { css } from '@redallen-patternfly/react-styles';
 import { DeviceSizes } from '../../styles/sizes';
 import {
   getOffsetKey,

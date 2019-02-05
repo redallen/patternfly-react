@@ -5,7 +5,7 @@ import {
   global_Color_light_100,
   global_success_color_100,
   global_success_color_200
-} from '@patternfly/react-tokens';
+} from '@redallen-patternfly/react-tokens';
 import Theme from './theme-common';
 
 // Colors

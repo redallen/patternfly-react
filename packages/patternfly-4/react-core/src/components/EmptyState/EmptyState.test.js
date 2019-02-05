@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { AddressBookIcon } from '@patternfly/react-icons';
+import { AddressBookIcon } from '@redallen-patternfly/react-icons';
 import EmptyState from './EmptyState';
 import EmptyStateBody from './EmptyStateBody';
 import EmptyStateSecondaryActions from './EmptyStateSecondaryActions';

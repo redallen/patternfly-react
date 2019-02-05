@@ -1,4 +1,4 @@
-import { ChartLegend, ChartPie } from '@patternfly/react-charts';
+import { ChartLegend, ChartPie } from '@redallen-patternfly/react-charts';
 import SimpleChart from './examples/SimpleChart';
 import getContainerProps from './examples/common/getContainerProps';
 

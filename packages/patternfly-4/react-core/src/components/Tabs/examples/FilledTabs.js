@@ -1,5 +1,5 @@
 import React from 'react';
-import { Tabs, Tab } from '@patternfly/react-core';
+import { Tabs, Tab } from '@redallen-patternfly/react-core';
 
 class FilledTabs extends React.Component {
   state = {

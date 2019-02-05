@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from '@patternfly/patternfly/components/Tooltip/tooltip.css';
-import { css } from '@patternfly/react-styles';
+import { css } from '@redallen-patternfly/react-styles';
 
 const TooltipArrow = ({ className, ...rest }) => <div className={css(styles.tooltipArrow, className)} {...rest} />;
 

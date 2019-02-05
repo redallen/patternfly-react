@@ -1,5 +1,5 @@
 import React from 'react';
-import { css } from '@patternfly/react-styles';
+import { css } from '@redallen-patternfly/react-styles';
 import styles from './navigation.styles';
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
@@ -10,7 +10,7 @@ import {
   Form,
   FormGroup,
   TextInput
-} from '@patternfly/react-core';
+} from '@redallen-patternfly/react-core';
 
 const routeShape = PropTypes.shape({
   to: PropTypes.string.isRequired,

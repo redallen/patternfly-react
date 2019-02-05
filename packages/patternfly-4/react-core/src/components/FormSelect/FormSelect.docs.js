@@ -1,4 +1,4 @@
-import { FormSelect, FormSelectOption, FormSelectOptionGroup } from '@patternfly/react-core';
+import { FormSelect, FormSelectOption, FormSelectOptionGroup } from '@redallen-patternfly/react-core';
 import FormSelectInput from './examples/FormSelectInput';
 import FormSelectInputDisabled from './examples/FormSelectInputDisabled';
 import FormSelectInputGrouped from './examples/FormSelectInputGrouped';

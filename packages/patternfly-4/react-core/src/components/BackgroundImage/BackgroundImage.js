@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { css, StyleSheet } from '@patternfly/react-styles';
+import { css, StyleSheet } from '@redallen-patternfly/react-styles';
 import styles from '@patternfly/patternfly/components/BackgroundImage/background-image.css';
 
 /* eslint-disable camelcase */
@@ -12,7 +12,7 @@ import {
   c_background_image_BackgroundImage_sm_2x,
   c_background_image_BackgroundImage_lg,
   c_background_image_Filter
-} from '@patternfly/react-tokens';
+} from '@redallen-patternfly/react-tokens';
 
 export const BackgroundImageSrc = {
   xs: 'xs',

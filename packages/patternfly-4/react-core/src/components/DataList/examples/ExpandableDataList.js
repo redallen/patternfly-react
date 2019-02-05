@@ -7,7 +7,7 @@ import {
   DataListContent,
   DataListCheck,
   DataListAction
-} from '@patternfly/react-core';
+} from '@redallen-patternfly/react-core';
 
 class ExpandableDataList extends React.Component {
   state = {

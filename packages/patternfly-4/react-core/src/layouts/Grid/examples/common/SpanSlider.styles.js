@@ -1,9 +1,9 @@
-import { StyleSheet } from '@patternfly/react-styles';
+import { StyleSheet } from '@redallen-patternfly/react-styles';
 import {
   global_FontSize_xs as fontSize,
   global_LineHeight_sm as lineHeight,
   global_spacer_xs as marginBottom
-} from '@patternfly/react-tokens';
+} from '@redallen-patternfly/react-tokens';
 
 export default StyleSheet.create({
   spanSlider: {

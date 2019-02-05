@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { NavVariants } from './NavVariants';
 import styles from '@patternfly/patternfly/components/Nav/nav.css';
-import { css } from '@patternfly/react-styles';
+import { css } from '@redallen-patternfly/react-styles';
 
 const propTypes = {
   /** Indicates the list type. */

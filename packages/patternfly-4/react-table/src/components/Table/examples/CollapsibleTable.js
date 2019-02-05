@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table, TableHeader, TableBody } from '@patternfly/react-table';
+import { Table, TableHeader, TableBody } from '@redallen-patternfly/react-table';
 
 class CollapsibleTable extends React.Component {
   constructor(props) {

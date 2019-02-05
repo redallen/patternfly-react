@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from '@patternfly/patternfly/components/Nav/nav.css';
 import a11yStyles from '@patternfly/patternfly/utilities/Accessibility/accessibility.css';
-import { css } from '@patternfly/react-styles';
+import { css } from '@redallen-patternfly/react-styles';
 import PropTypes from 'prop-types';
 import NavToggle from './NavToggle';
-import { AngleRightIcon } from '@patternfly/react-icons';
+import { AngleRightIcon } from '@redallen-patternfly/react-icons';
 import { NavContext } from './Nav';
 import { getUniqueId } from '../../internal/util';
 

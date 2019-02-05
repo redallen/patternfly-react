@@ -1,4 +1,4 @@
-import { AboutModal } from '@patternfly/react-core';
+import { AboutModal } from '@redallen-patternfly/react-core';
 import SimpleAboutModal from './examples/SimpleAboutModal';
 
 export default {

@@ -1,4 +1,4 @@
-import { Tooltip, TooltipPosition } from '@patternfly/react-core';
+import { Tooltip, TooltipPosition } from '@redallen-patternfly/react-core';
 import SimpleTooltip from './examples/SimpleTooltip';
 import TooltipPositions from './examples/TooltipPositions';
 

@@ -1,4 +1,4 @@
-import { EmptyState, EmptyStateBody, EmptyStateSecondaryActions } from '@patternfly/react-core';
+import { EmptyState, EmptyStateBody, EmptyStateSecondaryActions } from '@redallen-patternfly/react-core';
 import Simple from './examples/SimpleEmptyState';
 
 export default {

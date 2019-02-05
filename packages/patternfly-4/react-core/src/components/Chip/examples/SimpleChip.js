@@ -1,5 +1,5 @@
 import React from 'react';
-import { Chip } from '@patternfly/react-core';
+import { Chip } from '@redallen-patternfly/react-core';
 
 class SimpleChip extends React.Component {
   state = {

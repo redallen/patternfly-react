@@ -1,4 +1,4 @@
-import { Title, TitleSize } from '@patternfly/react-core';
+import { Title, TitleSize } from '@redallen-patternfly/react-core';
 import TitleSizes from './examples/TitleSizes';
 
 export default {

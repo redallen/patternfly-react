@@ -15,7 +15,7 @@ import { Button as PFButton } from 'patternfly-react';
 const btn = <PFButton bsStyle='primary'>Button</PFButton>;
 `,
   pretty(`
-    import { Button as PFButton  } from '@patternfly/react-core';
+    import { Button as PFButton  } from '@redallen-patternfly/react-core';
     const btn = <PFButton variant="primary">Button</PFButton>;
   `),
   'Supports import alias'
@@ -29,7 +29,7 @@ import { Button } from 'patternfly-react';
 const btn = <Button bsStyle='primary'>Button</Button>;
 `,
   pretty(`
-    import { Button } from '@patternfly/react-core';
+    import { Button } from '@redallen-patternfly/react-core';
     const btn = <Button variant="primary">Button</Button>;
   `),
   'Transforms bsStyle primary to variant primary'
@@ -43,7 +43,7 @@ import { Button } from 'patternfly-react';
 const btn = <Button block>Button</Button>;
 `,
   pretty(`
-    import { Button } from '@patternfly/react-core';
+    import { Button } from '@redallen-patternfly/react-core';
     const btn = <Button isBlock variant="secondary">Button</Button>;
   `),
   'Transforms block to isBlock'
@@ -57,7 +57,7 @@ defineInlineTest(
   const btn = <Button disabled>Button</Button>;
 `,
   pretty(`
-    import { Button } from '@patternfly/react-core';
+    import { Button } from '@redallen-patternfly/react-core';
     const btn = <Button isDisabled variant="secondary">Button</Button>;
   `),
   'Transforms disabled to isDisabled'
@@ -71,7 +71,7 @@ import { Button } from 'patternfly-react';
 const btn = <Button active>Button</Button>;
 `,
   pretty(`
-    import { Button } from '@patternfly/react-core';
+    import { Button } from '@redallen-patternfly/react-core';
     const btn = <Button isActive variant="secondary">Button</Button>;
   `),
   'Transforms active to isActive'
@@ -85,7 +85,7 @@ import { Button } from 'patternfly-react';
 const btn = <Button componentClass="a">Button</Button>;
 `,
   pretty(`
-    import { Button } from '@patternfly/react-core';
+    import { Button } from '@redallen-patternfly/react-core';
     const btn = <Button component="a" variant="secondary">Button</Button>;
   `),
   'Transforms componentClass to component'
@@ -99,7 +99,7 @@ import { Button } from 'patternfly-react';
 const btn = <Button bsClass="btn">Button</Button>;
 `,
   pretty(`
-    import { Button } from '@patternfly/react-core';
+    import { Button } from '@redallen-patternfly/react-core';
     const btn = <Button variant="secondary">Button</Button>;
   `),
   'Removes bsClass prop'

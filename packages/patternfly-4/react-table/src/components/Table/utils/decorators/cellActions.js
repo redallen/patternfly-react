@@ -1,5 +1,5 @@
 import React from 'react';
-import { css } from '@patternfly/react-styles';
+import { css } from '@redallen-patternfly/react-styles';
 import styles from '@patternfly/patternfly/components/Table/table.css'
 import ActionsColumn from '../../ActionsColumn';
 

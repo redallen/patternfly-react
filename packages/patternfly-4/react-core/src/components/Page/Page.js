@@ -1,8 +1,8 @@
 import React, { cloneElement } from 'react';
 import styles from '@patternfly/patternfly/components/Page/page.css';
-import { css } from '@patternfly/react-styles';
+import { css } from '@redallen-patternfly/react-styles';
 import PropTypes from 'prop-types';
-import { global_breakpoint_md as globalBreakpointMd } from '@patternfly/react-tokens';
+import { global_breakpoint_md as globalBreakpointMd } from '@redallen-patternfly/react-tokens';
 import { debounce } from '../../internal/util';
 
 export const PageLayouts = {

@@ -1,10 +1,10 @@
-import { StyleSheet } from '@patternfly/react-styles';
+import { StyleSheet } from '@redallen-patternfly/react-styles';
 import {
   global_FontSize_lg as fontSizeLg,
   global_spacer_md as spacerMd,
   global_BackgroundColor_100 as navBackgroundColor,
   c_nav_Width as sidebarWidth
-} from '@patternfly/react-tokens';
+} from '@redallen-patternfly/react-tokens';
 
 export default StyleSheet.create({
   navigation: {

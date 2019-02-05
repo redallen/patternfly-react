@@ -1,9 +1,9 @@
 import React from 'react';
-import { CaretDownIcon } from '@patternfly/react-icons';
+import { CaretDownIcon } from '@redallen-patternfly/react-icons';
 import PropTypes from 'prop-types';
 import Toggle from './Toggle';
 import styles from '@patternfly/patternfly/components/Dropdown/dropdown.css';
-import { css } from '@patternfly/react-styles';
+import { css } from '@redallen-patternfly/react-styles';
 
 const DropdownToggle = ({ children, iconComponent: IconComponent, ...props }) => (
   <Toggle {...props}>

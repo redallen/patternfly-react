@@ -1,4 +1,4 @@
-import { ApplicationLauncher } from '@patternfly/react-core';
+import { ApplicationLauncher } from '@redallen-patternfly/react-core';
 import SimpleApplicationLauncher from './examples/SimpleApplicationLauncher';
 import TooltipApplicationLauncher from './examples/TooltipApplicationLauncher';
 

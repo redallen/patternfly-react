@@ -1,6 +1,6 @@
 import React from 'react';
-import { Button } from '@patternfly/react-core';
-import { TimesIcon, PlusCircleIcon } from '@patternfly/react-icons';
+import { Button } from '@redallen-patternfly/react-core';
+import { TimesIcon, PlusCircleIcon } from '@redallen-patternfly/react-icons';
 
 class ButtonVariants extends React.Component {
   render() {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch } from '@patternfly/react-core';
+import { Switch } from '@redallen-patternfly/react-core';
 
 class DisabledSwitch extends React.Component {
   render() {

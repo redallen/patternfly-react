@@ -1,5 +1,5 @@
-import { StyleSheet, css } from '@patternfly/react-styles';
-import { global_BorderColor as borderColor, global_BorderWidth_md as borderWidth } from '@patternfly/react-tokens';
+import { StyleSheet, css } from '@redallen-patternfly/react-styles';
+import { global_BorderColor as borderColor, global_BorderWidth_md as borderWidth } from '@redallen-patternfly/react-tokens';
 
 const bullseyeClass = '.pf-l-bullseye';
 

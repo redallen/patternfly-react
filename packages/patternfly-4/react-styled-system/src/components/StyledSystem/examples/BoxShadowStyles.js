@@ -1,5 +1,5 @@
 import React from 'react';
-import { PatternFlyThemeProvider, StyledConstants, StyledBox } from '@patternfly/react-styled-system';
+import { PatternFlyThemeProvider, StyledConstants, StyledBox } from '@redallen-patternfly/react-styled-system';
 
 class BoxShadowStyles extends React.Component {
   render() {

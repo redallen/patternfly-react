@@ -2,8 +2,8 @@
 import {
   global_BackgroundColor_dark_100,
   global_Color_light_100
-} from '@patternfly/react-tokens';
-import { css, StyleSheet } from '@patternfly/react-styles';
+} from '@redallen-patternfly/react-tokens';
+import { css, StyleSheet } from '@redallen-patternfly/react-styles';
 
 const styles = StyleSheet.create({
   demoLayout: {
