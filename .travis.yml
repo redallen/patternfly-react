@@ -33,5 +33,5 @@ branches:
 deploy:
   provider: surge
   project: ./.public/
-  domain: patternfly-react.surge.sh
+  domain: redallen-patternfly-react.surge.sh
   skip_cleanup: true
