@@ -3,6 +3,62 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.17.0 (2019-02-05)
+
+
+### Bug Fixes
+
+* **BadgedResource:** don't restrict resourceName to a string ([#1260](https://github.com/redallen/patternfly-react/issues/1260)) ([e50bb35](https://github.com/redallen/patternfly-react/commit/e50bb35))
+* **BadgedResource:** Use css over inlined style for bg color ([#870](https://github.com/redallen/patternfly-react/issues/870)) ([e504964](https://github.com/redallen/patternfly-react/commit/e504964))
+* **build:** Support running npm scripts under Windows ([#1251](https://github.com/redallen/patternfly-react/issues/1251)) ([df0c275](https://github.com/redallen/patternfly-react/commit/df0c275))
+* **catalog tile:** remove the default tooltip for description text ([#640](https://github.com/redallen/patternfly-react/issues/640)) ([cca07db](https://github.com/redallen/patternfly-react/commit/cca07db)), closes [#637](https://github.com/redallen/patternfly-react/issues/637)
+* **Catalog tiles:** decrease the vertical spacing between catalog tiles ([#669](https://github.com/redallen/patternfly-react/issues/669)) ([d78e2e7](https://github.com/redallen/patternfly-react/commit/d78e2e7)), closes [#668](https://github.com/redallen/patternfly-react/issues/668)
+* **catalog-tile:** allow icons to be used in the tile image area ([#620](https://github.com/redallen/patternfly-react/issues/620)) ([a563f7a](https://github.com/redallen/patternfly-react/commit/a563f7a)), closes [#618](https://github.com/redallen/patternfly-react/issues/618)
+* **CatalogItemHeader:** Make subtitle optional ([#808](https://github.com/redallen/patternfly-react/issues/808)) ([b795f6c](https://github.com/redallen/patternfly-react/commit/b795f6c))
+* **CatalogTile:** Catalog Tiles can shrink ([#810](https://github.com/redallen/patternfly-react/issues/810)) ([8b30aca](https://github.com/redallen/patternfly-react/commit/8b30aca))
+* **CatalogTile:** Fade end of description text rather than truncate ([#850](https://github.com/redallen/patternfly-react/issues/850)) ([5c9a52f](https://github.com/redallen/patternfly-react/commit/5c9a52f))
+* **CatalogTile:** Fix to correctly position fading out of description text ([#958](https://github.com/redallen/patternfly-react/issues/958)) ([b2237fc](https://github.com/redallen/patternfly-react/commit/b2237fc))
+* **CatalogTile:** Fix to not allow the description text to overflow the tile ([#804](https://github.com/redallen/patternfly-react/issues/804)) ([9bd4541](https://github.com/redallen/patternfly-react/commit/9bd4541))
+* **CatalogTile:** Fix to show only the iconImg if given, not both the image and icon. ([#709](https://github.com/redallen/patternfly-react/issues/709)) ([f43da6b](https://github.com/redallen/patternfly-react/commit/f43da6b))
+* **CatalogTile:** Style update for tile with focus ([#764](https://github.com/redallen/patternfly-react/issues/764)) ([a577072](https://github.com/redallen/patternfly-react/commit/a577072))
+* **CatalogTileView:** Behave correctly when CatalogTile components are wrapped. ([#835](https://github.com/redallen/patternfly-react/issues/835)) ([5527ae3](https://github.com/redallen/patternfly-react/commit/5527ae3)), closes [#759](https://github.com/redallen/patternfly-react/issues/759)
+* **CatalogTileView:** Fix to not render hidden tiles in catalog tile view categories ([#725](https://github.com/redallen/patternfly-react/issues/725)) ([5f98876](https://github.com/redallen/patternfly-react/commit/5f98876))
+* **CatalogTileView:** Fix to prevent category size updates after unmount ([#910](https://github.com/redallen/patternfly-react/issues/910)) ([df5ded3](https://github.com/redallen/patternfly-react/commit/df5ded3))
+* **CatalogTileView:** Fix to render non-tile children of a category ([#730](https://github.com/redallen/patternfly-react/issues/730)) ([c52a609](https://github.com/redallen/patternfly-react/commit/c52a609))
+* **CatalogTileView:** Remove unused styling of CatalogTileViewCategory column children. ([#769](https://github.com/redallen/patternfly-react/issues/769)) ([30b9327](https://github.com/redallen/patternfly-react/commit/30b9327)), closes [#765](https://github.com/redallen/patternfly-react/issues/765)
+* **CatalogTileView:** Support tiles without categories. ([#977](https://github.com/redallen/patternfly-react/issues/977)) ([134af90](https://github.com/redallen/patternfly-react/commit/134af90))
+* **extensions:** Create local helpers to lessen dependencies ([#985](https://github.com/redallen/patternfly-react/issues/985)) ([3e1d440](https://github.com/redallen/patternfly-react/commit/3e1d440))
+* **Extensions:** Fix patternfly-react imports to pull from the default component file. ([#860](https://github.com/redallen/patternfly-react/issues/860)) ([bb1afd3](https://github.com/redallen/patternfly-react/commit/bb1afd3))
+* **FilterSidePanel/VerticalTabs:** Adjust top and bottom spacing of filter-side-panel and vertical-t ([#877](https://github.com/redallen/patternfly-react/issues/877)) ([abc8cc1](https://github.com/redallen/patternfly-react/commit/abc8cc1))
+* **table-grid:** use package import rather than relative in TableGridHead ([#734](https://github.com/redallen/patternfly-react/issues/734)) ([fea7d67](https://github.com/redallen/patternfly-react/commit/fea7d67))
+* **VerticalTabs:** restore vertical spacing between tabs ([#688](https://github.com/redallen/patternfly-react/issues/688)) ([b6a096f](https://github.com/redallen/patternfly-react/commit/b6a096f)), closes [#664](https://github.com/redallen/patternfly-react/issues/664) [#687](https://github.com/redallen/patternfly-react/issues/687)
+* **VerticalTabs:** set tab text to wrap when necessary ([#664](https://github.com/redallen/patternfly-react/issues/664)) ([a579fba](https://github.com/redallen/patternfly-react/commit/a579fba)), closes [#663](https://github.com/redallen/patternfly-react/issues/663)
+
+
+### Features
+
+* **BadgedResource:** Add BadgedResource component to patternfly-react-extensions ([#829](https://github.com/redallen/patternfly-react/issues/829)) ([735b12c](https://github.com/redallen/patternfly-react/commit/735b12c)), closes [#775](https://github.com/redallen/patternfly-react/issues/775)
+* **catalog item header:** add CatalogItemHeader component ([#636](https://github.com/redallen/patternfly-react/issues/636)) ([d0f0330](https://github.com/redallen/patternfly-react/commit/d0f0330))
+* **catalog-tile:** add CatalogTile component ([#614](https://github.com/redallen/patternfly-react/issues/614)) ([4af84e9](https://github.com/redallen/patternfly-react/commit/4af84e9))
+* **catalog-tile-view:** add CatalogTileView component ([#617](https://github.com/redallen/patternfly-react/issues/617)) ([47a6c11](https://github.com/redallen/patternfly-react/commit/47a6c11))
+* **CatalogTile:** Add footer option to tiles ([#1059](https://github.com/redallen/patternfly-react/issues/1059)) ([30c31bb](https://github.com/redallen/patternfly-react/commit/30c31bb))
+* **CatalogTile:** Use a link for tiles with href or onClick props ([#763](https://github.com/redallen/patternfly-react/issues/763)) ([f4bd91d](https://github.com/redallen/patternfly-react/commit/f4bd91d))
+* **component:** Creating a DiffView Component ([#1019](https://github.com/redallen/patternfly-react/issues/1019)) ([f38c10a](https://github.com/redallen/patternfly-react/commit/f38c10a))
+* **Extensions:** Import patternfly-react components individually ([#853](https://github.com/redallen/patternfly-react/issues/853)) ([bfe7179](https://github.com/redallen/patternfly-react/commit/bfe7179))
+* **filter-side-panel:** Add filter-side-panel and package patternfly-react-extensions ([#579](https://github.com/redallen/patternfly-react/issues/579)) ([894afe4](https://github.com/redallen/patternfly-react/commit/894afe4))
+* **HintBlock:** Add the HintBlock component ([#922](https://github.com/redallen/patternfly-react/issues/922)) ([92559e6](https://github.com/redallen/patternfly-react/commit/92559e6))
+* **Properties Side Panel:** adds the PropertiesSidePanel component ([#647](https://github.com/redallen/patternfly-react/issues/647)) ([cad387f](https://github.com/redallen/patternfly-react/commit/cad387f))
+* **table-grid:** add Row and Cell selection support to TableGrid ([#657](https://github.com/redallen/patternfly-react/issues/657)) ([b10402e](https://github.com/redallen/patternfly-react/commit/b10402e)), closes [#656](https://github.com/redallen/patternfly-react/issues/656) [#652](https://github.com/redallen/patternfly-react/issues/652)
+* **table-grid:** add Table Grid component ([#594](https://github.com/redallen/patternfly-react/issues/594)) ([c8ec177](https://github.com/redallen/patternfly-react/commit/c8ec177))
+* **TableGrid:** add Checkbox select support to TableGrid ([#659](https://github.com/redallen/patternfly-react/issues/659)) ([80776f1](https://github.com/redallen/patternfly-react/commit/80776f1))
+* **vertical tabs:** add vertical-tabs component ([#592](https://github.com/redallen/patternfly-react/issues/592)) ([106c64a](https://github.com/redallen/patternfly-react/commit/106c64a))
+* **vertical-tabs:** add sub-tab support, with restricted mode ([#611](https://github.com/redallen/patternfly-react/issues/611)) ([8c5d6dd](https://github.com/redallen/patternfly-react/commit/8c5d6dd))
+* **VirtualTableGrid:** Add a table grid styled component using react-virtualized ([#818](https://github.com/redallen/patternfly-react/issues/818)) ([f8cc152](https://github.com/redallen/patternfly-react/commit/f8cc152)), closes [#773](https://github.com/redallen/patternfly-react/issues/773)
+
+
+
+
+
 ## [2.16.12](https://github.com/redallen/patternfly-react/compare/patternfly-react-extensions@2.16.11...patternfly-react-extensions@2.16.12) (2019-02-05)
 
 **Note:** Version bump only for package patternfly-react-extensions
