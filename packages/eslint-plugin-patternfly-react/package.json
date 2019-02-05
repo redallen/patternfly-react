@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-patternfly-react",
+  "name": "@redallen-patternfly/eslint-plugin-patternfly-react",
   "version": "0.3.0",
   "private": false,
   "main": "./lib/index.js",
