@@ -3,6 +3,75 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.31.0 (2019-02-05)
+
+
+### Bug Fixes
+
+* **build:** Support running npm scripts under Windows ([#1251](https://github.com/redallen/patternfly-react/issues/1251)) ([df0c275](https://github.com/redallen/patternfly-react/commit/df0c275))
+* **BulletChart:** Cannot set text property for custom axis tic mark ([#1029](https://github.com/redallen/patternfly-react/issues/1029)) ([7e58ebf](https://github.com/redallen/patternfly-react/commit/7e58ebf))
+* **BulletChart:** Fix for duplicate key warning on ranges ([#1073](https://github.com/redallen/patternfly-react/issues/1073)) ([70f8d36](https://github.com/redallen/patternfly-react/commit/70f8d36))
+* **CardDropdownButton:** Allow props to be passed ([#932](https://github.com/redallen/patternfly-react/issues/932)) ([2ee5117](https://github.com/redallen/patternfly-react/commit/2ee5117))
+* **CardHeightMatching:** fix infinite calls to match heights ([#628](https://github.com/redallen/patternfly-react/issues/628)) ([2d6a290](https://github.com/redallen/patternfly-react/commit/2d6a290)), closes [#627](https://github.com/redallen/patternfly-react/issues/627)
+* **DropdownKebab:** Allow title attribute ([#885](https://github.com/redallen/patternfly-react/issues/885)) ([be38223](https://github.com/redallen/patternfly-react/commit/be38223))
+* **DualList:** Add item disability functionality. ([#1071](https://github.com/redallen/patternfly-react/issues/1071)) ([ddc0e8e](https://github.com/redallen/patternfly-react/commit/ddc0e8e))
+* **DualList:** Adding debounce for filter changes ([#1078](https://github.com/redallen/patternfly-react/issues/1078)) ([7f4c438](https://github.com/redallen/patternfly-react/commit/7f4c438))
+* **DualList:** Adding hidden HTML select inputs to reflect the selector items. ([#1095](https://github.com/redallen/patternfly-react/issues/1095)) ([59ca4e9](https://github.com/redallen/patternfly-react/commit/59ca4e9))
+* **DualList:** de-Select items after the transition between lists. ([#1178](https://github.com/redallen/patternfly-react/issues/1178)) ([91c33bf](https://github.com/redallen/patternfly-react/commit/91c33bf))
+* **DualList:** fix hidden inputs ([#1207](https://github.com/redallen/patternfly-react/issues/1207)) ([84942ff](https://github.com/redallen/patternfly-react/commit/84942ff))
+* **DualList:** refactor helpers functions signatures ([#1190](https://github.com/redallen/patternfly-react/issues/1190)) ([378e44e](https://github.com/redallen/patternfly-react/commit/378e44e))
+* **ExpandCollapse:** Fix to export ALIGN_LEFT and ALIGN_CENTER constants ([#826](https://github.com/redallen/patternfly-react/issues/826)) ([94e956a](https://github.com/redallen/patternfly-react/commit/94e956a))
+* **exports:** add exports for ApplicationLauncher, InlineEdit, SessionTimeout ([#608](https://github.com/redallen/patternfly-react/issues/608)) ([f261b27](https://github.com/redallen/patternfly-react/commit/f261b27)), closes [#576](https://github.com/redallen/patternfly-react/issues/576)
+* **Extensions:** Fix patternfly-react imports to pull from the default component file. ([#860](https://github.com/redallen/patternfly-react/issues/860)) ([bb1afd3](https://github.com/redallen/patternfly-react/commit/bb1afd3))
+* **less:** convert less variables from scss ([#948](https://github.com/redallen/patternfly-react/issues/948)) ([2b5bb71](https://github.com/redallen/patternfly-react/commit/2b5bb71))
+* **LoadingState:** Add LoadingState component to exports ([#881](https://github.com/redallen/patternfly-react/issues/881)) ([#980](https://github.com/redallen/patternfly-react/issues/980)) ([fb1e0e6](https://github.com/redallen/patternfly-react/commit/fb1e0e6))
+* **Login Page:** fix settings visibility ([#1171](https://github.com/redallen/patternfly-react/issues/1171)) ([3f79c48](https://github.com/redallen/patternfly-react/commit/3f79c48))
+* **LoginPage:** add LoginPageCard inner components documentation. ([#994](https://github.com/redallen/patternfly-react/issues/994)) ([c00d355](https://github.com/redallen/patternfly-react/commit/c00d355))
+* **LoginPage:** Add submit error callback handling ([#952](https://github.com/redallen/patternfly-react/issues/952)) ([44aab83](https://github.com/redallen/patternfly-react/commit/44aab83))
+* **LoginPage:** Fix background-image style ([#937](https://github.com/redallen/patternfly-react/issues/937)) ([3307e9b](https://github.com/redallen/patternfly-react/commit/3307e9b))
+* **LoginPage:** improve form's error style and behavior ([#942](https://github.com/redallen/patternfly-react/issues/942)) ([c828b04](https://github.com/redallen/patternfly-react/commit/c828b04))
+* **LoginPage:** Improve inputs validation. ([#936](https://github.com/redallen/patternfly-react/issues/936)) ([60c1067](https://github.com/redallen/patternfly-react/commit/60c1067))
+* **LoginPage:** improve the submit UX ([#944](https://github.com/redallen/patternfly-react/issues/944)) ([769b67b](https://github.com/redallen/patternfly-react/commit/769b67b))
+* **LoginPage:** small fixes. ([#911](https://github.com/redallen/patternfly-react/issues/911)) ([55ec079](https://github.com/redallen/patternfly-react/commit/55ec079))
+* **Masthead:** fix issue with navbar title not displaying ([#758](https://github.com/redallen/patternfly-react/issues/758)) ([e724561](https://github.com/redallen/patternfly-react/commit/e724561))
+* **MessageDialog:** conflict between footer and primaryAction props ([#1134](https://github.com/redallen/patternfly-react/issues/1134)) ([83baeb9](https://github.com/redallen/patternfly-react/commit/83baeb9))
+* **modal transition:** Reduce translate3d (right offset) positioning for right-side-modal-pf to 25% ([#878](https://github.com/redallen/patternfly-react/issues/878)) ([5512ff3](https://github.com/redallen/patternfly-react/commit/5512ff3))
+* **ModelessOverlay:** allow vertical scrolling ([#796](https://github.com/redallen/patternfly-react/issues/796)) ([93ed571](https://github.com/redallen/patternfly-react/commit/93ed571))
+* **ModelessOverlay:** Fix for animation on open in Firefox browser ([#776](https://github.com/redallen/patternfly-react/issues/776)) ([469ab3a](https://github.com/redallen/patternfly-react/commit/469ab3a)), closes [#774](https://github.com/redallen/patternfly-react/issues/774)
+* **pf3:** fix usage of noop in BulletChart ([#1083](https://github.com/redallen/patternfly-react/issues/1083)) ([c73490d](https://github.com/redallen/patternfly-react/commit/c73490d))
+* **README:** update test command ([#679](https://github.com/redallen/patternfly-react/issues/679)) ([5f4deaf](https://github.com/redallen/patternfly-react/commit/5f4deaf))
+* **Slider:** Call onSlide on slide event ([#828](https://github.com/redallen/patternfly-react/issues/828)) ([7638f80](https://github.com/redallen/patternfly-react/commit/7638f80))
+* **Slider:** Update state when properties are updated. ([#1223](https://github.com/redallen/patternfly-react/issues/1223)) ([033a38b](https://github.com/redallen/patternfly-react/commit/033a38b))
+* **SocialLoginPage:** fix the props provided in SocialLoginPage test. ([#1069](https://github.com/redallen/patternfly-react/issues/1069)) ([c6c17ac](https://github.com/redallen/patternfly-react/commit/c6c17ac)), closes [#1068](https://github.com/redallen/patternfly-react/issues/1068)
+* **Storybook:** Fix horizontal masthead examples using iconImg instead of titleImg ([#768](https://github.com/redallen/patternfly-react/issues/768)) ([e4af9cf](https://github.com/redallen/patternfly-react/commit/e4af9cf)), closes [#767](https://github.com/redallen/patternfly-react/issues/767)
+* **subcomponents:** Make all subcomponents avaliable from base component ([#916](https://github.com/redallen/patternfly-react/issues/916)) ([4c4989b](https://github.com/redallen/patternfly-react/commit/4c4989b))
+* **vertical nav:** Add href paths to VerticalNav menuItems  ([0026149](https://github.com/redallen/patternfly-react/commit/0026149)), closes [#431](https://github.com/redallen/patternfly-react/issues/431)
+* **warnings:** fix warnings and compound-label.less ([#580](https://github.com/redallen/patternfly-react/issues/580)) ([a272045](https://github.com/redallen/patternfly-react/commit/a272045)), closes [#575](https://github.com/redallen/patternfly-react/issues/575) [#572](https://github.com/redallen/patternfly-react/issues/572)
+* **Wizard.Pattern:** allow disabling cancel button ([#801](https://github.com/redallen/patternfly-react/issues/801)) ([8c0cd77](https://github.com/redallen/patternfly-react/commit/8c0cd77))
+* **Wizard.Pattern:** allow disabling previous and next steps in Wizard.Pattern ([#529](https://github.com/redallen/patternfly-react/issues/529)) ([529eeeb](https://github.com/redallen/patternfly-react/commit/529eeeb)), closes [#526](https://github.com/redallen/patternfly-react/issues/526) [#527](https://github.com/redallen/patternfly-react/issues/527)
+* Fix [#704](https://github.com/redallen/patternfly-react/issues/704) ([#705](https://github.com/redallen/patternfly-react/issues/705)) ([0b99407](https://github.com/redallen/patternfly-react/commit/0b99407))
+
+
+### Features
+
+* **a11y:** add basic a11y checks with react-axe ([#712](https://github.com/redallen/patternfly-react/issues/712)) ([a6458a0](https://github.com/redallen/patternfly-react/commit/a6458a0)), closes [#603](https://github.com/redallen/patternfly-react/issues/603)
+* **BulletChart:** Add Thresholds to Legend ([#1074](https://github.com/redallen/patternfly-react/issues/1074)) ([49c3b94](https://github.com/redallen/patternfly-react/commit/49c3b94))
+* **BulletChart:** Allow for custom values (non-percent) and legend text ([#1040](https://github.com/redallen/patternfly-react/issues/1040)) ([685b400](https://github.com/redallen/patternfly-react/commit/685b400))
+* **DesktopViewer:** introduce DesktopViewer component ([#607](https://github.com/redallen/patternfly-react/issues/607)) ([f001ef5](https://github.com/redallen/patternfly-react/commit/f001ef5))
+* **ExpandCollapse:** introduce ExpandCollapse component ([#613](https://github.com/redallen/patternfly-react/issues/613)) ([31eac90](https://github.com/redallen/patternfly-react/commit/31eac90))
+* **filter:** update to latest patternfly designs ([#558](https://github.com/redallen/patternfly-react/issues/558)) ([917808a](https://github.com/redallen/patternfly-react/commit/917808a))
+* **helpers:** Add exported helpers object containing all helper functions. ([#842](https://github.com/redallen/patternfly-react/issues/842)) ([7e42a8b](https://github.com/redallen/patternfly-react/commit/7e42a8b))
+* **HintBlock:** Add the HintBlock component ([#922](https://github.com/redallen/patternfly-react/issues/922)) ([92559e6](https://github.com/redallen/patternfly-react/commit/92559e6))
+* **ListViewItem:** Add initialExpand prop to ListViewItem ([#1114](https://github.com/redallen/patternfly-react/issues/1114)) ([15ac1b7](https://github.com/redallen/patternfly-react/commit/15ac1b7))
+* **LoadingState:** Add LoadingState component ([#881](https://github.com/redallen/patternfly-react/issues/881)) ([#886](https://github.com/redallen/patternfly-react/issues/886)) ([d48d45f](https://github.com/redallen/patternfly-react/commit/d48d45f))
+* **modal:** add class to allow Modal dialog to be placed on the right side ([#650](https://github.com/redallen/patternfly-react/issues/650)) ([e80f1fd](https://github.com/redallen/patternfly-react/commit/e80f1fd))
+* **modeless-overlay:** add the ModelessOverlay component ([#624](https://github.com/redallen/patternfly-react/issues/624)) ([55e2d40](https://github.com/redallen/patternfly-react/commit/55e2d40))
+* **Overlay:** Export the Overlay component from react-bootstrap ([#1070](https://github.com/redallen/patternfly-react/issues/1070)) ([03788f4](https://github.com/redallen/patternfly-react/commit/03788f4))
+
+
+
+
+
 # 2.30.0 (2019-02-05)
 
 
