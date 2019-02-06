@@ -73,7 +73,7 @@
     "build:docs": "yarn build && lerna run docbuild --scope=@redallen-patternfly/react-docs --stream",
     "build:typecheck": "lerna run build:typecheck --scope=@redallen-patternfly/react-core --stream",
     "build:prdocs": "lerna run pr-build --scope=@redallen-patternfly/react-docs --stream",
-    "clean": "yarn clean:build && yarn clean:coverage && yarn:clean:node_modules",
+    "clean": "yarn clean:build && yarn clean:coverage && yarn clean:node_modules",
     "clean:build": "shx rm -rf packages/*/dist && shx rm -rf packages/patternfly-?/*/dist",
     "clean:coverage": "shx rm -rf coverage",
     "clean:node_modules": "find . -type d -name 'node_modules' | xargs rm -rf",
