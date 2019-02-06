@@ -1,5 +1,5 @@
 import { SFC, HTMLProps, ReactType, ReactNode } from 'react';
-import { OneOf, Omit } from '../../../react-core/src/typeUtils';
+import { OneOf, Omit } from '../../../../react-core/src/typeUtils';
 import { SortByDirection } from './SortColumn';
 import { DropdownPosition, DropdownDirection } from '@redallen-patternfly/react-core';
 export interface ISortBy {
