@@ -8,7 +8,13 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['packages/**/*.js'],
+      files: ['**/__mocks__/**', '**/Stories/**', '*.stories.js', '*.test.js'],
+      rules: {
+        'import/no-extraneous-dependencies': 'off'
+      }
+    },
+    {
+      files: ['**/*.js'],
       rules: {
         'import/no-unresolved': [
           'error',
