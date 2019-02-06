@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sort, Toolbar } from '../../../index';
+import { Sort, Toolbar } from '../../index';
 
 export const mockSortFields = [
   {
@@ -94,7 +94,7 @@ export class MockSortExample extends React.Component {
 
 export const mockSortExampleSource = `
 import React from 'react';
-import { Sort, Toolbar } from '../../../index';
+import { Sort, Toolbar } from '../../index';
 
 export const mockSortFields = [
   {

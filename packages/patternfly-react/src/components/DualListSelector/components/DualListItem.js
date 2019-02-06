@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import DualListItemTooltip from './DualListItemTooltip';
-import { TypeAheadSelect } from '../../../components/TypeAheadSelect';
-import { noop } from '../../../common/helpers';
+import { TypeAheadSelect } from '../../components/TypeAheadSelect';
+import { noop } from '../../common/helpers';
 
 const { Highlighter } = TypeAheadSelect;
 

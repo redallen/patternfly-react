@@ -6,7 +6,7 @@ import { storybookPackageName, STORYBOOK_CATEGORY } from 'storybook/constants/si
 import { VerticalTabs, VerticalTabsTab } from './index';
 import { MockVerticalTabsExample, MockVerticalTabsExampleSource } from './_mocks_/mockVerticalTabsExample';
 
-import { name } from '../../../package.json';
+import { name } from '../../package.json';
 import { boolean, select, withKnobs } from '@storybook/addon-knobs';
 
 const stories = storiesOf(`${storybookPackageName(name)}/${STORYBOOK_CATEGORY.WIDGETS}/Vertical Tabs`, module);

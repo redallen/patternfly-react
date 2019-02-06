@@ -3,7 +3,7 @@ import { withInfo } from '@storybook/addon-info';
 import { withKnobs } from '@storybook/addon-knobs';
 import { inlineTemplate } from 'storybook/decorators/storyTemplates';
 import { DOCUMENTATION_URL } from 'storybook/constants/siteConstants';
-import { Row, Col } from '../../../index';
+import { Row, Col } from '../../index';
 
 import { WizardPatternExample, wizardPatternExampleSource } from './WizardPatternExample';
 

@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { DropdownButton, MenuItem } from '../../../../index';
-import { noop } from '../../../../common/helpers';
+import { DropdownButton, MenuItem } from '../../../index';
+import { noop } from '../../../common/helpers';
 
 class LoginLanguagePicker extends React.Component {
   constructor(props) {

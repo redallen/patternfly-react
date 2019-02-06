@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Alert } from '../../../Alert';
-import { noop } from '../../../../common/helpers';
+import { Alert } from '../../Alert';
+import { noop } from '../../../common/helpers';
 
 class LoginPageAlert extends React.Component {
   state = { show: this.props.show };

@@ -4,7 +4,7 @@ import { withKnobs, select } from '@storybook/addon-knobs';
 import { withInfo } from '@storybook/addon-info';
 import { defaultTemplate } from 'storybook/decorators/storyTemplates';
 import { storybookPackageName, DOCUMENTATION_URL, STORYBOOK_CATEGORY } from 'storybook/constants/siteConstants';
-import { name } from '../../../package.json';
+import { name } from '../../package.json';
 import { MockOverlayManager, basicExampleSource } from './__mocks__/mockOverlayManager';
 import { Overlay } from './index';
 

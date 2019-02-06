@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Icon } from '../../../index';
-import { noop } from '../../../common/helpers';
+import { Icon } from '../../index';
+import { noop } from '../../common/helpers';
 import { FILTER_LABEL } from '../constants';
 
 const DualListFilter = ({ onChange, side, placeHolder }) => (

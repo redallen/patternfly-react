@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { patternfly } from '../../../common/patternfly';
+import { patternfly } from '../../common/patternfly';
 import { Tooltip } from '../../Tooltip/index';
-import { noop } from '../../../common/helpers';
+import { noop } from '../../common/helpers';
 
 import BulletChartValue from './BulletChartValue';
 import BulletChartRange from './BulletChartRange';

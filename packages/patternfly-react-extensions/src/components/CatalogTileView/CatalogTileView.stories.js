@@ -5,7 +5,7 @@ import { defaultTemplate } from 'storybook/decorators/storyTemplates';
 import { storybookPackageName } from 'storybook/constants/siteConstants';
 import { boolean, withKnobs } from '@storybook/addon-knobs';
 
-import { name } from '../../../package.json';
+import { name } from '../../package.json';
 import { MockCatalogTileViewExample, MockCatalogTileViewExampleSource } from './__mocks__/mockCatalogTileViewExample';
 import {
   MockCatalogTileViewNoCategoriesExample,

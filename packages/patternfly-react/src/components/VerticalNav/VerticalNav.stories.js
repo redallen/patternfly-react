@@ -19,7 +19,7 @@ import { VerticalNav, Icon, MenuItem, Dropdown } from '../../index';
 
 const { Masthead, Brand, IconBar, Item } = VerticalNav;
 
-import { name } from '../../../package.json';
+import { name } from '../../package.json';
 
 // Vertical Nav CSS uses position: fixed, but storybook doesn't render components at the top of the page body.
 // We need this little bit of magic to force position: fixed children to render relative to the storybook body.

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { Button, Icon } from '../../../../index';
+import { Button, Icon } from '../../../index';
 import LoginCardSocialLink from './LoginCardSocialLink';
 
 class LoginCardSocialColumns extends React.Component {

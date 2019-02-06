@@ -1,8 +1,8 @@
 import classNames from 'classnames';
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Dropdown } from '../../../Dropdown';
-import { Icon } from '../../../Icon';
+import { Dropdown } from '../../Dropdown';
+import { Icon } from '../../Icon';
 
 const NotificationDrawerDropDown = ({ id, children, className, pullRight, ...props }) => {
   const classes = classNames('dropdown', { 'pull-right': pullRight }, 'dropdown-kebab-pf', className);

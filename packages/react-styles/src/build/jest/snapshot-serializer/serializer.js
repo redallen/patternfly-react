@@ -1,6 +1,6 @@
 import { getSelectors, getStyles } from './cssUtils';
 import { getNodes } from './reactUtils';
-import { getInsertedStyles } from '../../../utils';
+import { getInsertedStyles } from '../../utils';
 import { addOverrides } from './cssPropertyOverrides';
 
 export function createSerializer({ globalCSS = '' } = {}) {

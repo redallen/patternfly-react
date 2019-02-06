@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Grid, Row, Col } from '../../../../index';
+import { Grid, Row, Col } from '../../../index';
 
 const BasicLoginPageLayout = ({ children, layout, ...props }) => (
   <Grid {...props} fluid>

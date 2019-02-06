@@ -10,7 +10,7 @@ import {
   utilizationCardAddWithInfo,
   utilizationBarCardStory
 } from './Stories/index';
-import { name } from '../../../package.json';
+import { name } from '../../package.json';
 
 const stories = storiesOf(`${storybookPackageName(name)}/${STORYBOOK_CATEGORY.CARDS}`, module);
 stories.addDecorator(withKnobs);

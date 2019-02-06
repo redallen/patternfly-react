@@ -17,7 +17,7 @@ import {
 import { Icon } from '../../Icon';
 import { Button } from '../../Button';
 import { mockRows } from './mockRows';
-import { FormControl } from '../../../index';
+import { FormControl } from '../../index';
 
 /**
  * Reactabular client side data sorting based on the following api docs:
@@ -336,7 +336,7 @@ import {
 import { Icon } from '../../Icon';
 import { Button } from '../../Button';
 import { mockRows } from './mockRows';
-import { FormControl } from '../../../index';
+import { FormControl } from '../../index';
 
 /**
  * Reactabular client side data sorting based on the following api docs:

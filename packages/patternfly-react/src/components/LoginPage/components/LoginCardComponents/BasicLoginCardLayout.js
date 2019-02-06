@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Row, Col } from '../../../../index';
+import { Row, Col } from '../../../index';
 
 const BasicLoginCardLayout = ({ children, ...props }) => (
   <Row>

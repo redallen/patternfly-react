@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { Button, Icon } from '../../../index';
+import { Button, Icon } from '../../index';
 import lorem from './lorem';
 import MessageDialog from '../MessageDialog';
 
@@ -55,7 +55,7 @@ export default MessageDialogQuestion;
 export const MessageDialogQuestionSource = `
 import React, { Component } from 'react';
 
-import { Button, Icon } from '../../../index';
+import { Button, Icon } from '../../index';
 import lorem from './lorem';
 import MessageDialog from '../MessageDialog';
 

@@ -2,7 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 import { boolean } from '@storybook/addon-knobs/dist/index';
 import { mockListItems } from './mockListItems';
-import { Button, Grid, ListView } from '../../../index';
+import { Button, Grid, ListView } from '../../index';
 
 export class MockCompoundExpansion extends React.Component {
   static renderActions() {
@@ -95,7 +95,7 @@ import { mockListItems } from './mockListItems';
 import { boolean } from '@storybook/addon-knobs/dist/index';
 import classNames from 'classnames';
 
-import { Button, Grid, ListView } from '../../../index';
+import { Button, Grid, ListView } from '../../index';
 
 export class MockCompoundExpansion extends React.Component {
     state = {

@@ -7,7 +7,7 @@ import { Icon } from '../../Icon';
 import { MenuItem } from '../../MenuItem';
 import { inlineTemplate } from 'storybook/decorators/storyTemplates';
 import { DOCUMENTATION_URL } from 'storybook/constants/siteConstants';
-import { EmptyState, EmptyStateTitle, EmptyStateIcon, EmptyStateInfo, EmptyStateAction } from '../../../index';
+import { EmptyState, EmptyStateTitle, EmptyStateIcon, EmptyStateInfo, EmptyStateAction } from '../../index';
 
 const handleClick = e => {
   e.preventDefault();

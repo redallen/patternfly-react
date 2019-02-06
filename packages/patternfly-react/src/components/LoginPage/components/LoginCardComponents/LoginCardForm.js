@@ -4,8 +4,8 @@ import LoginCardInput from './LoginCardInput';
 import LoginCardSettings from './LoginCardSettings';
 import LoginCardSubmitButton from './LoginCardSubmitButton';
 import LoginFormError from './LoginFormError';
-import { Form } from '../../../../index';
-import { noop } from '../../../../common/helpers';
+import { Form } from '../../../index';
+import { noop } from '../../../common/helpers';
 
 const LoginCardForm = ({
   usernameField,

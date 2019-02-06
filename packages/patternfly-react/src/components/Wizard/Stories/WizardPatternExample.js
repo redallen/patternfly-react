@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { boolean, number } from '@storybook/addon-knobs';
 import { Button } from '../../Button';
-import { Wizard } from '../../../index';
+import { Wizard } from '../../index';
 
 const wizardSteps = [
   {

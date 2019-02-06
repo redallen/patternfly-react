@@ -1,5 +1,5 @@
 import React from 'react';
-import { VerticalNav, Masthead } from '../../../index';
+import { VerticalNav, Masthead } from '../../index';
 import { mockNavItems } from './mockNavItems';
 
 export class MockWithMastHeadComponent extends React.Component {
@@ -26,7 +26,7 @@ export class MockWithMastHeadComponent extends React.Component {
 
 export const mockWithMastHeadSource = `
 import React from 'react';
-import { VerticalNav, MastHead as MastheadPf } from '../../../index';
+import { VerticalNav, MastHead as MastheadPf } from '../../index';
 import { mockNavItems } from './mockNavItems';
 
 export class MockWithMastHeadComponent extends React.Component {

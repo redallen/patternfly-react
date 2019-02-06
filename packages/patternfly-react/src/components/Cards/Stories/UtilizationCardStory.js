@@ -1,7 +1,7 @@
 import React from 'react';
 import { CardGrid, CardTitle, CardBody } from '../index';
 import { DonutChart, SparklineChart } from '../../Chart/index';
-import { patternfly } from '../../../common/patternfly';
+import { patternfly } from '../../common/patternfly';
 import {
   UtilizationCard,
   UtilizationCardDetails,

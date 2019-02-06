@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import { Fade } from 'react-bootstrap';
 import classNames from 'classnames';
 import LoginCardInputWarning from './LoginCardInputWarning';
-import { FormControl, FormGroup, HelpBlock } from '../../../../index';
-import { noop } from '../../../../common/helpers';
+import { FormControl, FormGroup, HelpBlock } from '../../../index';
+import { noop } from '../../../common/helpers';
 
 const LoginCardInput = ({
   id,

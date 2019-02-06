@@ -156,12 +156,12 @@ exports[`VerticalNav renders properly with item objects 1`] = `
         <img
           alt=""
           class="navbar-brand-icon"
-          src="../../../storybook/img/logo-alt.svg"
+          src="../../storybook/img/logo-alt.svg"
         />
         <img
           alt=""
           class="navbar-brand-name"
-          src="../../../storybook/img/brand-alt.svg"
+          src="../../storybook/img/brand-alt.svg"
         />
       </span>
     </span>

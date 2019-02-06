@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { noop } from '../../../../common/helpers';
+import { noop } from '../../../common/helpers';
 
 const LoginCardRememberMe = ({ onClick, label, className, ...props }) =>
   label && (

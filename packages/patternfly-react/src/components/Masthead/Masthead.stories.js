@@ -8,7 +8,7 @@ import { Icon } from '../Icon';
 import { MenuItem } from '../../index';
 import { Masthead } from './index';
 
-import { name } from '../../../package.json';
+import { name } from '../../package.json';
 
 import { MockHorizontalMasthead, mockHorizontalMastheadSource } from './__mocks__/mockHorizontalMasthead';
 import pfLogo from 'storybook/img/logo-alt.svg';

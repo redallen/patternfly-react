@@ -6,7 +6,7 @@ import { storybookPackageName, STORYBOOK_CATEGORY } from 'storybook/constants/si
 
 import { DiffView } from './index';
 
-import { name } from '../../../package.json';
+import { name } from '../../package.json';
 import { boolean, text, select, withKnobs } from '@storybook/addon-knobs';
 
 const stories = storiesOf(`${storybookPackageName(name)}/${STORYBOOK_CATEGORY.CONTENT_VIEWS}/DiffView`, module);

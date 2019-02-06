@@ -1,5 +1,5 @@
 import React from 'react';
-import { VerticalNav } from '../../../index';
+import { VerticalNav } from '../../index';
 
 export const basicExample = (props, firstItemClass) => (
   <VerticalNav {...props} showBadges>

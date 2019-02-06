@@ -1,5 +1,5 @@
 import React from 'react';
-import { Icon, Dropdown, MenuItem } from '../../../index';
+import { Icon, Dropdown, MenuItem } from '../../index';
 
 export const MockIconBarChildren = props => (
   <React.Fragment>

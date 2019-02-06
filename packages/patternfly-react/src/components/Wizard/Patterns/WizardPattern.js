@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { noop, Wizard, Icon, Button } from '../../../index';
+import { noop, Wizard, Icon, Button } from '../../index';
 import WizardPatternBody from './WizardPatternBody';
 import { wizardStepShape } from './WizardPatternConstants';
 

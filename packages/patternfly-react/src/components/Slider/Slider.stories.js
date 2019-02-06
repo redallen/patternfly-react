@@ -6,7 +6,7 @@ import { defaultTemplate } from 'storybook/decorators/storyTemplates';
 import { storybookPackageName, DOCUMENTATION_URL, STORYBOOK_CATEGORY } from 'storybook/constants/siteConstants';
 import { Slider } from './index';
 import { Form, FormControl, ControlLabel, FormGroup, Col } from '../../index';
-import { name } from '../../../package.json';
+import { name } from '../../package.json';
 
 const SliderStories = storiesOf(
   `${storybookPackageName(name)}/${STORYBOOK_CATEGORY.FORMS_AND_CONTROLS}/Slider`,

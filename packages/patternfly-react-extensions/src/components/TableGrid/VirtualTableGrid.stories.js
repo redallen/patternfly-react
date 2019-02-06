@@ -7,7 +7,7 @@ import { MockVirtualTableGridExample, MockVirtualTableGridExampleSource } from '
 
 import { VirtualTableGrid, TableGridHead, TableGridColumnHeader, TableGridRow, TableGridCol } from './index';
 
-import { name } from '../../../package.json';
+import { name } from '../../package.json';
 import { boolean, select, withKnobs } from '@storybook/addon-knobs';
 
 const stories = storiesOf(`${storybookPackageName(name)}/${STORYBOOK_CATEGORY.CONTENT_VIEWS}/VirtualTableGrid`, module);

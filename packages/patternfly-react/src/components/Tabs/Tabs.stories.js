@@ -7,7 +7,7 @@ import { action } from '@storybook/addon-actions';
 import { defaultTemplate } from 'storybook/decorators/storyTemplates';
 import { storybookPackageName, DOCUMENTATION_URL, STORYBOOK_CATEGORY } from 'storybook/constants/siteConstants';
 import { TabContainer, Nav, NavItem, NavDropdown, MenuItem, TabPane, TabContent } from '../../index';
-import { name } from '../../../package.json';
+import { name } from '../../package.json';
 
 const stories = storiesOf(`${storybookPackageName(name)}/${STORYBOOK_CATEGORY.WIDGETS}/Tabs`, module);
 const description = (

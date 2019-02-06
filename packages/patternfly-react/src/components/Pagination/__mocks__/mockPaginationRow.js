@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { noop } from '../../../common/helpers';
+import { noop } from '../../common/helpers';
 import { PaginationRow, PAGINATION_VIEW_TYPES } from '../index';
 
 export class MockPaginationRow extends React.Component {
@@ -81,7 +81,7 @@ MockPaginationRow.defaultProps = {
 export const mockPaginationSource = `
 import React from 'react';
 import PropTypes from 'prop-types';
-import { noop } from '../../../common/helpers';
+import { noop } from '../../common/helpers';
 import { PaginationRow, PAGINATION_VIEW_TYPES } from '../index';
 
 export class MockPaginationRow extends React.Component {

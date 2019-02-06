@@ -3,7 +3,7 @@ import { withInfo } from '@storybook/addon-info';
 import { withKnobs, boolean, number, select, text } from '@storybook/addon-knobs';
 import { inlineTemplate } from 'storybook/decorators/storyTemplates';
 import { DOCUMENTATION_URL } from 'storybook/constants/siteConstants';
-import { patternfly } from '../../../common/patternfly';
+import { patternfly } from '../../common/patternfly';
 
 import { BulletChart } from '../index';
 

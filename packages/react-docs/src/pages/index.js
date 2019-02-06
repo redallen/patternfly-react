@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import Content from '../components/content';
 import { Title } from '@redallen-patternfly/react-core';
 import { StyleSheet, css } from '@redallen-patternfly/react-styles';
-import packageJson from '../../../react-core/package.json';
+import packageJson from '../../react-core/package.json';
 import {
   global_Color_dark_100 as heroBackgrounColor,
   global_Color_light_100 as heroTextColor

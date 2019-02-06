@@ -2,7 +2,7 @@ const helpers = require('../../lernaHelpers');
 const { join, resolve } = require('path');
 const { REMOVE_NPM_SCOPE } = require('../helpers');
 
-const packagesRoot = resolve(__dirname, '../../../packages');
+const packagesRoot = resolve(__dirname, '../../packages');
 
 const packageTypes = {
   general: 0,

@@ -7,7 +7,7 @@ import { defaultTemplate } from 'storybook/decorators/storyTemplates';
 import { storybookPackageName, DOCUMENTATION_URL, STORYBOOK_CATEGORY } from 'storybook/constants/siteConstants';
 import { ALERT_TYPES } from './AlertConstants';
 import { Alert } from './index';
-import { name } from '../../../package.json';
+import { name } from '../../package.json';
 
 const stories = storiesOf(`${storybookPackageName(name)}/${STORYBOOK_CATEGORY.WIDGETS}/Alert`, module);
 stories.addDecorator(withKnobs);

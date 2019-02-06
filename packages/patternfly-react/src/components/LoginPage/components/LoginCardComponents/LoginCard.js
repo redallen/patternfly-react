@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Card from '../../../Cards/Card';
+import Card from '../../Cards/Card';
 import Header from './LoginCardHeader';
 import LanguagePicker from './LoginLanguagePicker';
 import WithValidation from './LoginCardWithValidation';

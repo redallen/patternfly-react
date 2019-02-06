@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { Button } from '../../../index';
+import { Button } from '../../index';
 import lorem from './lorem';
 import MessageDialog from '../MessageDialog';
 
@@ -53,7 +53,7 @@ export default MessageDialogNondestructiveAction;
 export const MessageDialogNondestructiveActionSource = `
 import React, { Component } from 'react';
 
-import { Button } from '../../../index';
+import { Button } from '../../index';
 import lorem from './lorem';
 import MessageDialog from '../MessageDialog';
 

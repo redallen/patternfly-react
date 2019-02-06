@@ -7,7 +7,7 @@ import { MockTableGridExample, MockTableGridExampleSource } from './_mocks_/mock
 
 import { TableGrid, TableGridHead, TableGridColumnHeader, TableGridBody, TableGridRow, TableGridCol } from './index';
 
-import { name } from '../../../package.json';
+import { name } from '../../package.json';
 import { boolean, select, withKnobs } from '@storybook/addon-knobs';
 
 const stories = storiesOf(`${storybookPackageName(name)}/${STORYBOOK_CATEGORY.CONTENT_VIEWS}/TableGrid`, module);

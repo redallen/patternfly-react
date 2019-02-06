@@ -1,6 +1,6 @@
 import React from 'react';
 import { action } from '@storybook/addon-actions';
-import { OverlayTrigger, Tooltip } from '../../../index';
+import { OverlayTrigger, Tooltip } from '../../index';
 import { Card, CardGrid, CardTitle, CardBody } from '../index';
 import {
   AggregateStatusCount,

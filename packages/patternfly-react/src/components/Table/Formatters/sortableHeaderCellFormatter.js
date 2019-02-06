@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { noop } from '../../../common/helpers';
+import { noop } from '../../common/helpers';
 import TableHeading from '../TableHeading';
 
 const sortableHeaderCellFormatter = ({ cellProps, column, sortingColumns, onSort }) => {

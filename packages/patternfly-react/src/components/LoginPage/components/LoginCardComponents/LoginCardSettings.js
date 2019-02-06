@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import RememberMe from './LoginCardRememberMe';
-import { FormGroup } from '../../../../index';
+import { FormGroup } from '../../../index';
 import ForgotPassword from './LoginCardForgotPassword';
 
 const LoginCardSettings = ({ rememberMe, forgotPassword, className, ...props }) =>

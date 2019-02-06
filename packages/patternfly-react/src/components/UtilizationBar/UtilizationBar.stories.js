@@ -5,7 +5,7 @@ import { withInfo } from '@storybook/addon-info';
 import { defaultTemplate } from 'storybook/decorators/storyTemplates';
 import { storybookPackageName, DOCUMENTATION_URL, STORYBOOK_CATEGORY } from 'storybook/constants/siteConstants';
 import { UtilizationBar } from './index';
-import { name } from '../../../package.json';
+import { name } from '../../package.json';
 
 const stories = storiesOf(`${storybookPackageName(name)}/${STORYBOOK_CATEGORY.DATA_VISUALIZATION}/Charts`, module);
 stories.addDecorator(withKnobs);

@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import UUID from 'uuid/v1';
-import { DropdownKebab } from '../../../index';
+import { DropdownKebab } from '../../index';
 import DualListFilter from './DualListFilter';
 import DualListSort from './DualListSort';
 import DualListMainCheckbox from './DualListMainCheckbox';
-import { noop } from '../../../common/helpers';
+import { noop } from '../../common/helpers';
 import { SORT_ARIA_LABEL } from '../constants';
 
 const DualListHeading = ({

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Filter, FormControl, Toolbar } from '../../../index';
+import { Filter, FormControl, Toolbar } from '../../index';
 import { findIndex, find, remove } from 'lodash';
 
 export const mockFilterExampleFields = [
@@ -306,7 +306,7 @@ export class MockFilterExample extends React.Component {
 
 export const mockFilterExampleSource = `
 import React from 'react';
-import { Filter, FormControl, Toolbar } from '../../../index';
+import { Filter, FormControl, Toolbar } from '../../index';
 import { findIndex, find, remove } from 'lodash';
 
 export const mockFilterExampleFields = [

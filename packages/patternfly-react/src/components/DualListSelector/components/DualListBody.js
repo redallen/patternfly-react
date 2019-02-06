@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import DualListItems from './DualListItems';
 import { NO_ITEMS_FOUND, NO_ITEMS } from '../constants';
 import { getFilterredItemsLength } from '../helpers';
-import { noop } from '../../../common/helpers';
+import { noop } from '../../common/helpers';
 
 const DualListBody = ({ items, filterTerm, onItemChange, side, noItemsFoundMessage, noItemsMessage }) => {
   let listItems;

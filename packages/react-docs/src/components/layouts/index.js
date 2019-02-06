@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { graphql, StaticQuery } from 'gatsby';
-import * as DocsFiles from '../../../.tmp';
+import * as DocsFiles from '../../.tmp';
 import Page from '../page';
 import Navigation from '../navigation';
 import { injectGlobal } from 'emotion';

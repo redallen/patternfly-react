@@ -4,7 +4,7 @@ import * as sort from 'sortabular';
 import * as resolve from 'table-resolver';
 import { compose } from 'recompose';
 import { cloneDeep, findIndex, orderBy } from 'lodash';
-import { KEY_CODES } from '../../../common/helpers';
+import { KEY_CODES } from '../../common/helpers';
 import {
   customHeaderFormattersDefinition,
   defaultSortingOrder,
@@ -16,7 +16,7 @@ import {
 } from '../index';
 import { ConfirmButton, CancelButton } from '../../InlineEdit';
 import { mockRows } from './mockRows';
-import { Form, FormControl, InputGroup } from '../../../index';
+import { Form, FormControl, InputGroup } from '../../index';
 
 /**
  * Reactabular client side data sorting based on the following api docs:
@@ -340,7 +340,7 @@ import * as sort from 'sortabular';
 import * as resolve from 'table-resolver';
 import { compose } from 'recompose';
 import { cloneDeep, findIndex, orderBy } from 'lodash';
-import { KEY_CODES } from '../../../common/helpers';
+import { KEY_CODES } from '../../common/helpers';
 import {
   customHeaderFormattersDefinition,
   defaultSortingOrder,
@@ -352,7 +352,7 @@ import {
 } from '../index';
 import { ConfirmButton, CancelButton } from '../../InlineEdit';
 import { mockRows } from './mockRows';
-import { Form, FormControl, InputGroup } from '../../../index';
+import { Form, FormControl, InputGroup } from '../../index';
 
 /**
  * Reactabular client side data sorting based on the following api docs:

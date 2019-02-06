@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { NotificationDrawer } from '../NotificationDrawer/index';
 import { NotificationDrawerPanelWrapper } from './index';
-import { noop } from '../../../common/helpers';
+import { noop } from '../../common/helpers';
 
 const NotificationDrawerWrapper = ({
   panels,

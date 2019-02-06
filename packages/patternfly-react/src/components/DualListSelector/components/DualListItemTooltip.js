@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { OverlayTrigger, Tooltip } from '../../../index';
+import { OverlayTrigger, Tooltip } from '../../index';
 
 const DualListItemTooltip = ({ id, text, children }) => {
   const tooltip = <Tooltip id={id}>{text}</Tooltip>;

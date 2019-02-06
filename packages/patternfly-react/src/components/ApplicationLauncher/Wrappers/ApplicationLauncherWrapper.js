@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import ApplicationLauncher from '../ApplicationLauncher';
 import ApplicationLauncherItem from '../ApplicationLauncherItem';
-import { noop } from '../../../common/helpers';
+import { noop } from '../../common/helpers';
 
 const ApplicationLauncherWrapper = ({ apps, noIcons, grid, tooltip, tooltipPlacement, toggleLauncher, open }) => {
   const renderApps = apps.map((app, i) => (

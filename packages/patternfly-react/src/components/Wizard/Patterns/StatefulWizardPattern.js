@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import WizardPattern from './WizardPattern';
 import { wizardStepShape } from './WizardPatternConstants';
-import { noop, propOrState, excludeKeys } from '../../../index';
+import { noop, propOrState, excludeKeys } from '../../index';
 
 /**
  * StatefulWizardPattern - the Stateful Wizard Pattern component.

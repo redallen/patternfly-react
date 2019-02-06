@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import DualListItem from './DualListItem';
-import { noop } from '../../../common/helpers';
+import { noop } from '../../common/helpers';
 
 const DualListItems = ({ items, filterTerm, onChange, side }) => {
   const menuItems = items.map((item, index) => {

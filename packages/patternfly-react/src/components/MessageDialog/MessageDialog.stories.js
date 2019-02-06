@@ -6,7 +6,7 @@ import { defaultTemplate } from 'storybook/decorators/storyTemplates';
 import LinkTo from '@storybook/addon-links/react';
 
 import { storybookPackageName, DOCUMENTATION_URL, STORYBOOK_CATEGORY } from 'storybook/constants/siteConstants';
-import { name } from '../../../package.json';
+import { name } from '../../package.json';
 
 import MessageDialog from './MessageDialog';
 

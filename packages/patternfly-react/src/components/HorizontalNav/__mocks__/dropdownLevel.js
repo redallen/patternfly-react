@@ -1,6 +1,6 @@
 import React from 'react';
 import { HorizontalNavMenu, HorizontalNavMenuItem } from '../index';
-import { MenuItem } from '../../../index';
+import { MenuItem } from '../../index';
 
 export const dropdownLevel = (
   <HorizontalNavMenu>

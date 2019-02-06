@@ -6,7 +6,7 @@ import { NotificationDrawer } from '../NotificationDrawer/index';
 import { Icon } from '../../Icon';
 import { Button } from '../../Button';
 import { MenuItem } from '../../MenuItem';
-import { noop } from '../../../common/helpers';
+import { noop } from '../../common/helpers';
 import getIconClass from './Icon.consts';
 
 const NotificationDrawerPanelWrapper = ({

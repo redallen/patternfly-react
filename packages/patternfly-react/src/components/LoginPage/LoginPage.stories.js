@@ -8,7 +8,7 @@ import LoginPage from './LoginPage';
 import englishMessages from './mocks/messages.en';
 import frenchMessages from './mocks/messages.fr';
 import images from './assets/img';
-import { name } from '../../../package.json';
+import { name } from '../../package.json';
 
 const stories = storiesOf(
   `${storybookPackageName(name)}/${STORYBOOK_CATEGORY.APPLICATION_FRAMEWORK}/Login Page`,

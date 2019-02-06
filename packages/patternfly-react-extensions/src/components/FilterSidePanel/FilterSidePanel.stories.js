@@ -7,7 +7,7 @@ import { MockFilterSidePanelExample, MockFilterSidePanelExampleSource } from './
 
 import { FilterSidePanel, FilterSidePanelCategory, FilterSidePanelCategoryItem } from './index';
 
-import { name } from '../../../package.json';
+import { name } from '../../package.json';
 import { number, withKnobs } from '@storybook/addon-knobs';
 
 const stories = storiesOf(

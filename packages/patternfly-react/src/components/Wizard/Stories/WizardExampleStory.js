@@ -2,7 +2,7 @@ import React from 'react';
 import { withInfo } from '@storybook/addon-info';
 import { inlineTemplate } from 'storybook/decorators/storyTemplates';
 import { DOCUMENTATION_URL } from 'storybook/constants/siteConstants';
-import { Row, Col } from '../../../index';
+import { Row, Col } from '../../index';
 
 import { WizardExample, wizardExampleSource } from './WizardExample';
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Icon } from '../../..';
-import { noop } from '../../../common/helpers';
+import { Icon } from '../..';
+import { noop } from '../../common/helpers';
 import { SORT_ARIA_LABEL } from '../constants';
 
 const DualListSort = ({ onClick, side, isSortAsc, ariaLabel }) => (

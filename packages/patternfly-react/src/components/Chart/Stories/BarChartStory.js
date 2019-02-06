@@ -1,6 +1,6 @@
 import React from 'react';
 import { withInfo } from '@storybook/addon-info';
-import { patternfly } from '../../../common/patternfly';
+import { patternfly } from '../../common/patternfly';
 import { BarChart, GroupedBarChart, StackedBarChart } from '../index';
 import { inlineTemplate } from 'storybook/decorators/storyTemplates';
 import { DOCUMENTATION_URL, DESCRIPTION } from 'storybook/constants/siteConstants';

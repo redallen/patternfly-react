@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { noop } from '../../../common/helpers';
+import { noop } from '../../common/helpers';
 import TableSelectionHeading from '../TableSelectionHeading';
 import TableCheckbox from '../TableCheckbox';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Masthead, MenuItem } from '../../../index';
+import { Masthead, MenuItem } from '../../index';
 
 export const mastheadMock = props => (
   <Masthead {...props}>

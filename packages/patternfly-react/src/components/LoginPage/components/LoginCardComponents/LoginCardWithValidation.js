@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import LoginCardInput from './LoginCardInput';
-import { KEY_CODES, KEYS } from '../../../../common/helpers';
+import { KEY_CODES, KEYS } from '../../../common/helpers';
 
 class LoginCardWithValidation extends React.Component {
   state = {

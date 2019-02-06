@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { withInfo } from '@storybook/addon-info';
 import { defaultTemplate } from 'storybook/decorators/storyTemplates';
 import { storybookPackageName, STORYBOOK_CATEGORY, DOCUMENTATION_URL } from 'storybook/constants/siteConstants';
-import { name } from '../../../package.json';
+import { name } from '../../package.json';
 import { boolean, select, text, withKnobs } from '@storybook/addon-knobs';
 
 import { ExpandCollapse } from './index';

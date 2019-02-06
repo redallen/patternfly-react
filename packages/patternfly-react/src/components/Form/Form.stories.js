@@ -21,7 +21,7 @@ import { InputGroupsFormFields, getInputGroupsFormKnobs } from './Stories/InputG
 import { InlineFormField } from './Stories/InlineFormField';
 import { HorizontalFormField } from './Stories/HorizontalFormField';
 import { VerticalFormField } from './Stories/VerticalFormField';
-import { name } from '../../../package.json';
+import { name } from '../../package.json';
 
 const stories = storiesOf(`${storybookPackageName(name)}/${STORYBOOK_CATEGORY.FORMS_AND_CONTROLS}/Forms`, module);
 

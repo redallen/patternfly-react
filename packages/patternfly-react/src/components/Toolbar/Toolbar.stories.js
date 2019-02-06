@@ -8,7 +8,7 @@ import { storybookPackageName, DOCUMENTATION_URL, STORYBOOK_CATEGORY } from 'sto
 import { Toolbar, ToolbarResults, ToolbarRightContent, ToolbarFind, ToolbarViewSelector } from '../../index';
 
 import { MockToolbarExample, mockToolbarExampleSource } from './__mocks__/mockToolbarExample';
-import { name } from '../../../package.json';
+import { name } from '../../package.json';
 
 const stories = storiesOf(`${storybookPackageName(name)}/${STORYBOOK_CATEGORY.FORMS_AND_CONTROLS}/Toolbar`, module);
 

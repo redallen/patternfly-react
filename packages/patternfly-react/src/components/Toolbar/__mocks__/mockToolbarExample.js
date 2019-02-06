@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Button, DropdownKebab, Filter, FormControl, Icon, MenuItem, Sort, Toolbar } from '../../../index';
-import { noop } from '../../../common/helpers';
+import { Button, DropdownKebab, Filter, FormControl, Icon, MenuItem, Sort, Toolbar } from '../../index';
+import { noop } from '../../common/helpers';
 
 import { mockFilterExampleFields } from '../../Filter/__mocks__/mockFilterExample';
 import { mockSortFields } from '../../Sort/__mocks__/mockSortExample';
@@ -376,8 +376,8 @@ import {
   MenuItem,
   Sort,
   Toolbar
-} from '../../../index';
-import { noop } from '../../../common/helpers';
+} from '../../index';
+import { noop } from '../../common/helpers';
 
 import { mockFilterExampleFields } from '../../Filter/__mocks__/mockFilterExample';
 import { mockSortFields } from '../../Sort/__mocks__/mockSortExample';

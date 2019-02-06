@@ -8,7 +8,7 @@ import { storybookPackageName, DOCUMENTATION_URL, STORYBOOK_CATEGORY } from 'sto
 import { MockTreeView, MockTreeViewSource, keyboardNavigation } from './__mocks__/MockTreeView';
 import TreeViewNodeSpecification from './__mocks__/TreeViewNodeSpecification';
 import TreeView from './TreeView';
-import { name } from '../../../package.json';
+import { name } from '../../package.json';
 
 const stories = storiesOf(`${storybookPackageName(name)}/${STORYBOOK_CATEGORY.WIDGETS}/Tree View`, module);
 stories.addDecorator(withKnobs);
