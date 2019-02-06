@@ -8,7 +8,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['**/*.js'],
+      files: ['packages/**/*.js'],
       rules: {
         'import/no-unresolved': [
           'error',
