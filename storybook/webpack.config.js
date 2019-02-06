@@ -4,6 +4,7 @@ const { readdirSync, statSync } = require('fs');
 const { parse } = require('path');
 
 const ROOT_DIR = '..';
+// TODO: correct path now pf3+pf4 packages are siblings
 const PCKGS = `${ROOT_DIR}/packages/patternfly-3`;
 
 const packages = readdirSync(path.resolve(__dirname, PCKGS))
@@ -62,7 +63,7 @@ module.exports = (baseConfig, env, defaultConfig) => {
 
   defaultConfig.resolve.alias = {
     ...defaultConfig.resolve.alias,
-    'patternfly-react': path.resolve(__dirname, '../packages/patternfly-3/patternfly-react/src')
+    'patternfly-react': path.resolve(__dirname, '../packages/patternfly-react/src')
   };
 
   return defaultConfig;

@@ -19,11 +19,13 @@ const packageConfigs = {
   [packageTypes.pf3]: {
     name: 'PatternFly 3',
     value: packageTypes.pf3,
+    // TODO: correct path now pf3+pf4 packages are siblings
     location: join(packagesRoot, '/patternfly-3')
   },
   [packageTypes.pf4]: {
     name: 'PatternFly 4',
     value: packageTypes.pf4,
+    // TODO: correct path now pf3+pf4 packages are siblings
     location: join(packagesRoot, '/patternfly-4')
   }
 };

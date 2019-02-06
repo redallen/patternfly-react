@@ -17,7 +17,7 @@ const defaultProps = {
 };
 
 const pathPrefix = 'https://github.com/redallen/patternfly-react/tree/master/packages/';
-const getPkgPrefix = pkg => (pkg === 'icons' ? 'react-icons' : `patternfly-4/react-${pkg}`);
+const getPkgPrefix = pkg => (pkg === 'icons' ? 'react-icons' : `react-${pkg}`);
 const navItemDescriptor = pkg => `Found in patternfly ${pkg}`;
 const navItemDescriptorId = children => `${children}Descriptor`;
 

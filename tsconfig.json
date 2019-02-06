@@ -17,7 +17,7 @@
     "allowJs": true,
     "paths": {
       "*": [
-        "./packages/patternfly-4/react-core/dist/esm/*"
+        "./packages/react-core/dist/esm/*"
       ]
     }
   },

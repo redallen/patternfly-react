@@ -1,6 +1,6 @@
 {
   "presets": [
-    "../.babelrc.js"
+    "../../.babelrc.js"
   ],
   "env": {
     "production:esm": {

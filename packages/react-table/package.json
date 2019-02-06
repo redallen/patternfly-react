@@ -24,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/redallen/patternfly-react/issues"
   },
-  "homepage": "https://github.com/redallen/patternfly-react/tree/master/packages/patternfly-4/react-table#readme",
+  "homepage": "https://github.com/redallen/patternfly-react/tree/master/packages/react-table#readme",
   "dependencies": {
     "@patternfly/patternfly": "1.0.178",
     "@redallen-patternfly/react-core": "^3.0.2",
