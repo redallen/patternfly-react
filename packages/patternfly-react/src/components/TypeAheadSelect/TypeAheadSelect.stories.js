@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { withKnobs, select, boolean, number } from '@storybook/addon-knobs';
 import { defaultTemplate } from 'storybook/decorators/storyTemplates';
 import { storybookPackageName, STORYBOOK_CATEGORY } from 'storybook/constants/siteConstants';
-import { name } from '../../package.json';
+const name = 'patternfly-react';
 import { Form, FormGroup, Button, TypeAheadSelect, AsyncTypeAheadSelect } from '../../index';
 import Mocks from './mock';
 import GithubMenuItem from './GithubMenuItem';

@@ -6,7 +6,7 @@ import { storybookPackageName, DOCUMENTATION_URL, STORYBOOK_CATEGORY } from 'sto
 
 import { MockModalManager, basicExampleSource } from './__mocks__/mockModalManager';
 import { Modal } from '../../index';
-import { name } from '../../package.json';
+const name = 'patternfly-react';
 import { boolean, withKnobs } from '@storybook/addon-knobs';
 
 const stories = storiesOf(

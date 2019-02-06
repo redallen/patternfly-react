@@ -6,7 +6,7 @@ import { defaultTemplate } from 'storybook/decorators/storyTemplates';
 import { storybookPackageName, DOCUMENTATION_URL, STORYBOOK_CATEGORY } from 'storybook/constants/siteConstants';
 import { Button } from '../Button';
 import { EmptyState } from './index';
-import { name } from '../../package.json';
+const name = 'patternfly-react';
 
 const stories = storiesOf(`${storybookPackageName(name)}/${STORYBOOK_CATEGORY.COMMUNICATION}/Empty State`, module);
 

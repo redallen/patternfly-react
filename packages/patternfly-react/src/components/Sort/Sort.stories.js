@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { withInfo } from '@storybook/addon-info';
 import { defaultTemplate } from 'storybook/decorators/storyTemplates';
 import { Sort, SortTypeSelector, SortDirectionSelector } from '../../index';
-import { name } from '../../package.json';
+const name = 'patternfly-react';
 import { storybookPackageName, DOCUMENTATION_URL, STORYBOOK_CATEGORY } from 'storybook/constants/siteConstants';
 import { MockSortExample, mockSortExampleSource } from './__mocks__/mockSortExample';
 

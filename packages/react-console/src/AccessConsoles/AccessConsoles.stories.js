@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { withInfo } from '@storybook/addon-info';
 import { inlineTemplate } from 'storybook/decorators/storyTemplates';
-import { name } from '../../package.json';
+const name = 'patternfly-react';
 import { storybookPackageName } from 'storybook/constants/siteConstants';
 
 import { noop } from '@redallen-patternfly/patternfly-react';

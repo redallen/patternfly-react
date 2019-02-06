@@ -5,7 +5,7 @@ import { withInfo } from '@storybook/addon-info';
 import { defaultTemplate } from 'storybook/decorators/storyTemplates';
 import { storybookPackageName, DOCUMENTATION_URL, STORYBOOK_CATEGORY } from 'storybook/constants/siteConstants';
 import { Icon } from './index';
-import { name } from '../../package.json';
+const name = 'patternfly-react';
 
 const IconStories = storiesOf(`${storybookPackageName(name)}/${STORYBOOK_CATEGORY.WIDGETS}/Icon`, module);
 

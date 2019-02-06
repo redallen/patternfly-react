@@ -7,7 +7,7 @@ import { MockFilterSidePanelExample, MockFilterSidePanelExampleSource } from './
 
 import { FilterSidePanel, FilterSidePanelCategory, FilterSidePanelCategoryItem } from './index';
 
-import { name } from '../../package.json';
+const name = 'patternfly-react-extensions';
 import { number, withKnobs } from '@storybook/addon-knobs';
 
 const stories = storiesOf(

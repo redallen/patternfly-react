@@ -15,7 +15,7 @@ import {
 } from '../../index';
 
 import { MockFilterExample, mockFilterExampleSource } from './__mocks__/mockFilterExample';
-import { name } from '../../package.json';
+const name = 'patternfly-react';
 
 const stories = storiesOf(`${storybookPackageName(name)}/${STORYBOOK_CATEGORY.FORMS_AND_CONTROLS}/Filter`, module);
 

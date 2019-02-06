@@ -6,7 +6,7 @@ import { storybookPackageName, STORYBOOK_CATEGORY } from 'storybook/constants/si
 
 import { DiffView } from './index';
 
-import { name } from '../../package.json';
+const name = 'patternfly-react-extensions';
 import { boolean, text, select, withKnobs } from '@storybook/addon-knobs';
 
 const stories = storiesOf(`${storybookPackageName(name)}/${STORYBOOK_CATEGORY.CONTENT_VIEWS}/DiffView`, module);

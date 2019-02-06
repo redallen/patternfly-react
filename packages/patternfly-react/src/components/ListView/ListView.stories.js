@@ -13,7 +13,7 @@ import { MenuItem } from '../MenuItem';
 import { ListView } from './index';
 import { MockCompoundExpansion, MockCompoundExpansionSource } from './__mocks__/mockCompoundExpansionExample';
 import { mockListItems } from './__mocks__/mockListItems';
-import { name } from '../../package.json';
+const name = 'patternfly-react';
 
 const stories = storiesOf(`${storybookPackageName(name)}/${STORYBOOK_CATEGORY.CONTENT_VIEWS}/List View`, module);
 stories.addDecorator(withKnobs);

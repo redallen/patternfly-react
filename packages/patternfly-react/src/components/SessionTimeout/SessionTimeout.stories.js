@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { withKnobs, number, text } from '@storybook/addon-knobs';
 import { defaultTemplate } from 'storybook/decorators/storyTemplates';
 import { storybookPackageName, STORYBOOK_CATEGORY } from 'storybook/constants/siteConstants';
-import { name } from '../../package.json';
+const name = 'patternfly-react';
 import { SessionTimeout, CountDownSessionTimeout } from './index';
 
 const stories = storiesOf(`${storybookPackageName(name)}/${STORYBOOK_CATEGORY.COMMUNICATION}/Session Timeout`, module);
@@ -18,8 +18,8 @@ stories.addDecorator(withKnobs).addDecorator(
 stories
   .add('Session Timeout', () => (
     <SessionTimeout
-      logoutFnc={() => {}}
-      continueFnc={() => {}}
+      logoutFnc={() => { }}
+      continueFnc={() => { }}
       displayBefore={number('displayBefore', 30)}
       timeLeft={number('timeLeft', 30)}
       primaryContent={<p className="lead">{text('primary content', 'Your session is about to expire')}</p>}

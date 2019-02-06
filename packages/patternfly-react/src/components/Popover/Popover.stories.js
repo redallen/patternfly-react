@@ -5,7 +5,7 @@ import { withInfo } from '@storybook/addon-info';
 import { defaultTemplate } from 'storybook/decorators/storyTemplates';
 import { storybookPackageName, DOCUMENTATION_URL, STORYBOOK_CATEGORY } from 'storybook/constants/siteConstants';
 import { Button, OverlayTrigger, Popover } from '../../index';
-import { name } from '../../package.json';
+const name = 'patternfly-react';
 
 const stories = storiesOf(`${storybookPackageName(name)}/${STORYBOOK_CATEGORY.WIDGETS}/Popover`, module);
 stories.addDecorator(withKnobs);

@@ -7,7 +7,7 @@ import { storybookPackageName, DOCUMENTATION_URL, STORYBOOK_CATEGORY } from 'sto
 import { Button } from '../Button';
 import { MenuItem } from '../MenuItem';
 import { DropdownKebab } from './index';
-import { name } from '../../package.json';
+const name = 'patternfly-react';
 
 const stories = storiesOf(`${storybookPackageName(name)}/${STORYBOOK_CATEGORY.WIDGETS}/Dropdown Kebab`, module);
 stories.addDecorator(withKnobs);

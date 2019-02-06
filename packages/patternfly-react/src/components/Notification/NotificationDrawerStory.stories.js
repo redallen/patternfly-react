@@ -6,7 +6,7 @@ import {
   WrapperNotificationDrawerStory,
   StatefulNotificationDrawerStory
 } from './Stories/index';
-import { name } from '../../package.json';
+const name = 'patternfly-react';
 
 const stories = storiesOf(
   `${storybookPackageName(name)}/${STORYBOOK_CATEGORY.COMMUNICATION}/Notification Drawer`,

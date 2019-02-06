@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { withInfo } from '@storybook/addon-info/dist/index';
 import { defaultTemplate } from 'storybook/decorators/storyTemplates';
 import { storybookPackageName, STORYBOOK_CATEGORY } from 'storybook/constants/siteConstants';
-import { name } from '../../package.json';
+const name = 'patternfly-react-extensions';
 
 import { BadgedResource } from './index';
 

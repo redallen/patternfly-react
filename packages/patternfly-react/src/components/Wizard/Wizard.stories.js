@@ -1,7 +1,7 @@
 import { storiesOf } from '@storybook/react';
 import { loadingWizardExampleWithInfo, wizardExampleWithInfo, wizardPatternExampleAddWithInfo } from './Stories';
 
-import { name } from '../../package.json';
+const name = 'patternfly-react';
 import { storybookPackageName, STORYBOOK_CATEGORY } from 'storybook/constants/siteConstants';
 
 /**

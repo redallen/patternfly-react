@@ -4,7 +4,7 @@ import { withInfo } from '@storybook/addon-info';
 import { defaultTemplate } from 'storybook/decorators/storyTemplates';
 import { storybookPackageName, DOCUMENTATION_URL, STORYBOOK_CATEGORY } from 'storybook/constants/siteConstants';
 import { ListGroup, ListGroupItem } from '../ListGroup';
-import { name } from '../../package.json';
+const name = 'patternfly-react';
 import { InfoTip } from './index';
 
 const stories = storiesOf(`${storybookPackageName(name)}/${STORYBOOK_CATEGORY.WIDGETS}/Info Tip`, module);

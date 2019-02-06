@@ -7,7 +7,7 @@ import { storybookPackageName, DOCUMENTATION_URL, STORYBOOK_CATEGORY } from 'sto
 
 import { LoadingState } from './index';
 
-import { name } from '../../package.json';
+const name = 'patternfly-react';
 
 const stories = storiesOf(`${storybookPackageName(name)}/${STORYBOOK_CATEGORY.COMMUNICATION}/Loading State`, module);
 

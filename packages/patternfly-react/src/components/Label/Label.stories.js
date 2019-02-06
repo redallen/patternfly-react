@@ -6,7 +6,7 @@ import { storybookPackageName, DOCUMENTATION_URL, STORYBOOK_CATEGORY } from 'sto
 import { Label, DisposableLabel, RemoveButton, CompoundLabel } from './index';
 import { MockCompoundLabel, mockCompoundLabelSource } from './__mocks__/mockCompoundLabel';
 import { MockLabelRemove, mockLabelRemoveSource } from './__mocks__/mockLabelExamples';
-import { name } from '../../package.json';
+const name = 'patternfly-react';
 
 const stories = storiesOf(`${storybookPackageName(name)}/${STORYBOOK_CATEGORY.WIDGETS}/Label`, module);
 

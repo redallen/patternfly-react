@@ -8,7 +8,7 @@ import { storybookPackageName, DOCUMENTATION_URL, STORYBOOK_CATEGORY } from 'sto
 
 import { Pager, PaginationRow, Paginator, PAGINATION_VIEW_TYPES } from './index';
 import { MockPaginationRow, mockPaginationSource } from './__mocks__/mockPaginationRow';
-import { name } from '../../package.json';
+const name = 'patternfly-react';
 
 const stories = storiesOf(`${storybookPackageName(name)}/${STORYBOOK_CATEGORY.WIDGETS}/Pagination`, module);
 stories.addDecorator(withKnobs);

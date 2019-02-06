@@ -6,7 +6,7 @@ import { storybookPackageName, DOCUMENTATION_URL, STORYBOOK_CATEGORY } from 'sto
 import { select, withKnobs } from '@storybook/addon-knobs';
 
 import { MockModelessManager, basicExampleSource } from './__mocks__/mockModelessManager';
-import { name } from '../../package.json';
+const name = 'patternfly-react';
 
 import ModelessOverlay from './ModelessOverlay';
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { defaultTemplate } from 'storybook/decorators/storyTemplates';
 import { HorizontalNav } from './index';
-import { name } from '../../package.json';
+const name = 'patternfly-react';
 import { storybookPackageName, DOCUMENTATION_URL, STORYBOOK_CATEGORY } from 'storybook/constants/siteConstants';
 import pfFitBrand from 'storybook/img/brand.svg';
 import { mastheadMock } from './__mocks__/masthead';

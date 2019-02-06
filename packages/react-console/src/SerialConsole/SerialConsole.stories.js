@@ -11,7 +11,7 @@ import constants from '../common/constants';
 
 const { CONNECTED, DISCONNECTED, LOADING } = constants;
 
-import { name } from '../../package.json';
+const name = 'patternfly-react';
 
 const stories = storiesOf(`${storybookPackageName(name)}/Serial Console`, module);
 stories.addDecorator(

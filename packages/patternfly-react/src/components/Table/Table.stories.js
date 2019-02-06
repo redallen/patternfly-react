@@ -12,7 +12,7 @@ import {
   inlineEditColumnTable,
   inlineEditCellTable
 } from './Stories';
-import { name } from '../../package.json';
+const name = 'patternfly-react';
 
 const stories = storiesOf(`${storybookPackageName(name)}/${STORYBOOK_CATEGORY.CONTENT_VIEWS}/Table View`, module);
 stories.addDecorator(withKnobs);
