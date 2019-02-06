@@ -48,6 +48,18 @@
     "react-virtualized": "9.x",
     "unidiff": "^1.0.1"
   },
+  "devDependencies": {
+    "@storybook/addon-actions": "^v3.4.11",
+    "@storybook/addon-info": "^v3.4.11",
+    "@storybook/addon-knobs": "^v3.4.11",
+    "@storybook/addon-links": "^v3.4.11",
+    "@storybook/addon-options": "^v3.4.11",
+    "@storybook/addon-storysource": "^v3.4.11",
+    "@storybook/addon-viewport": "^3.4.11",
+    "@storybook/addons": "^3.3.0",
+    "@storybook/react": "^v3.4.11",
+    "@storybook/storybook-deployer": "^2.1.0"
+  },
   "peerDependencies": {
     "prop-types": "^15.6.1",
     "react": "^16.3.2",

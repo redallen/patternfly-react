@@ -66,6 +66,16 @@
     "build:sass": "shx mkdir -p dist/sass && shx cp -r sass/patternfly-react/* dist/sass && cross-env node-sass --output-style compressed --include-path sass --include-path $npm_package_sassIncludes_patternfly --include-path $npm_package_sassIncludes_bootstrap --include-path $npm_package_sassIncludes_fontAwesome -o dist/css sass/patternfly-react.scss"
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^v3.4.11",
+    "@storybook/addon-info": "^v3.4.11",
+    "@storybook/addon-knobs": "^v3.4.11",
+    "@storybook/addon-links": "^v3.4.11",
+    "@storybook/addon-options": "^v3.4.11",
+    "@storybook/addon-storysource": "^v3.4.11",
+    "@storybook/addon-viewport": "^3.4.11",
+    "@storybook/addons": "^3.3.0",
+    "@storybook/react": "^v3.4.11",
+    "@storybook/storybook-deployer": "^2.1.0",
     "react-axe": "^3.0.2",
     "shx": "^0.3.2"
   }
