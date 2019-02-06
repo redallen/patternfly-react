@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.4](https://github.com/redallen/patternfly-react/compare/patternfly4-react-lerna-root@3.0.2...patternfly4-react-lerna-root@3.0.4) (2019-02-06)
+
+
+### Bug Fixes
+
+* **pf4:** c1 ([f900fa2](https://github.com/redallen/patternfly-react/commit/f900fa2))
+
+
+
+
+
 ## [3.0.3](https://github.com/redallen/patternfly-react/compare/patternfly4-react-lerna-root@3.0.2...patternfly4-react-lerna-root@3.0.3) (2019-02-06)
 
 
