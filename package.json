@@ -131,6 +131,7 @@
     "test:current": "jest --watch",
     "test:integration": "lerna run integration:setup && lerna run build:demo && lerna run integration:test",
     "test:watch": "jest --watchAll",
+    "travis-deploy-once": "travis-deploy-once",
     "version": "lerna-changelog --from=`git rev-list --max-parents=0 HEAD` > CHANGELOG.md && git add CHANGELOG.md"
   },
   "jest": {
