@@ -9,3 +9,5 @@ export const GutterSize = {
 export function getGutterModifier(styleObj, size, defaultValue) {
   return getModifier(styleObj, `gutter-${size}`, defaultValue);
 }
+
+// core change
