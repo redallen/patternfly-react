@@ -10,3 +10,5 @@ const server = localWebServer.listen({
 cypress.run().then(results => server.close());
 
 // c2
+// 1. lerna version --changelog --no-push
+// 2. 
