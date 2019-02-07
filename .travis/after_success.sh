@@ -11,5 +11,5 @@ if [ "${TRAVIS_REPO_SLUG}" == "${TRIGGER_REPO_SLUG}" -a "$TRAVIS_BRANCH" == "${T
   export GITHUB_AUTH="${GH_TOKEN}"
   # helpful for debugging any lerna EUNCOMMIT errors
   git status --short;
-  npm run travis-deploy-once "npm run lerna:publish"
+  npm run lerna:publish
 fi

@@ -115,7 +115,6 @@
     "commitmsg": "commitlint -e",
     "coveralls": "shx cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "generate": "yarn plop",
-    "lerna": "lerna",
     "lerna:publish": "lerna publish --yes",
     "lint": "lerna run lint --parallel",
     "lint:fix": "lerna run lint:fix --parallel",
@@ -132,7 +131,6 @@
     "test:current": "jest --watch",
     "test:integration": "lerna run integration:setup && lerna run build:demo && lerna run integration:test",
     "test:watch": "jest --watchAll",
-    "travis-deploy-once": "travis-deploy-once",
     "version": "lerna-changelog --from=`git rev-list --max-parents=0 HEAD` > CHANGELOG.md && git add CHANGELOG.md"
   },
   "jest": {
