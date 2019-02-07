@@ -1,6 +1,5 @@
 {
   "name": "demo-app-ts",
-  "version": "0.1.5",
   "private": true,
   "dependencies": {
     "react": "^16.7.0",
