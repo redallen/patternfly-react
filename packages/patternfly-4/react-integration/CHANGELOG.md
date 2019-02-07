@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.20](https://github.com/redallen/patternfly-react/compare/@redallen-patternfly/react-integration@1.0.19...@redallen-patternfly/react-integration@1.0.20) (2019-02-07)
+
+
+### Bug Fixes
+
+* **c2:** c2 ([26292fe](https://github.com/redallen/patternfly-react/commit/26292fe))
+
+
+
+
+
 ## [1.0.19](https://github.com/redallen/patternfly-react/compare/@redallen-patternfly/react-integration@1.0.17...@redallen-patternfly/react-integration@1.0.19) (2019-02-06)
 
 
