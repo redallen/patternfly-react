@@ -17,9 +17,9 @@ before_install:
 - yarn install
 script:
 - yarn build
-# - yarn test
-# - yarn coveralls
-# - yarn test:integration
+- yarn test
+- yarn coveralls
+- yarn test:integration
 after_success:
 - .travis/after_success.sh
 - .travis/release.sh
@@ -30,8 +30,8 @@ git:
 branches:
   except:
   - "/^v\\d+\\.\\d+\\.\\d+$/"
-# deploy:
-#   provider: surge
-#   project: ./.public/
-#   domain: redallen-patternfly-react.surge.sh
-#   skip_cleanup: true
+deploy:
+  provider: surge
+  project: ./.public/
+  domain: redallen-patternfly-react.surge.sh
+  skip_cleanup: true
