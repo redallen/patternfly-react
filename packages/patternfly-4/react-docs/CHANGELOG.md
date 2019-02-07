@@ -3,6 +3,40 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 3.24.0 (2019-02-07)
+
+
+### Bug Fixes
+
+* **@patternfly/react-docs:** fixes the path to the font files ([#649](https://github.com/redallen/patternfly-react/issues/649)) ([9a26933](https://github.com/redallen/patternfly-react/commit/9a26933))
+* **@patternfly/react-docs:** use emotion to load in global pf core st… ([#634](https://github.com/redallen/patternfly-react/issues/634)) ([79a8b7e](https://github.com/redallen/patternfly-react/commit/79a8b7e))
+* **a11y:** tweak html for better accessibility ([#917](https://github.com/redallen/patternfly-react/issues/917)) ([c1af473](https://github.com/redallen/patternfly-react/commit/c1af473))
+* **build:** Support building Gatsby app under Windows ([#1248](https://github.com/redallen/patternfly-react/issues/1248)) ([89bc7f8](https://github.com/redallen/patternfly-react/commit/89bc7f8))
+* **examples and docs:** adding react-live… ([#666](https://github.com/redallen/patternfly-react/issues/666)) ([da3d4b6](https://github.com/redallen/patternfly-react/commit/da3d4b6))
+* **react-docs:** Fix live mode toggling ([#780](https://github.com/redallen/patternfly-react/issues/780)) ([f7cc358](https://github.com/redallen/patternfly-react/commit/f7cc358))
+* **react-docs: oneoftype support:** ([#721](https://github.com/redallen/patternfly-react/issues/721)) ([91c5f31](https://github.com/redallen/patternfly-react/commit/91c5f31)), closes [#720](https://github.com/redallen/patternfly-react/issues/720)
+* **surge:** add surge pr support to travis ([#653](https://github.com/redallen/patternfly-react/issues/653)) ([2259aeb](https://github.com/redallen/patternfly-react/commit/2259aeb))
+* **title:** allow multiple heading levels for Title ([#1005](https://github.com/redallen/patternfly-react/issues/1005)) ([0eae3d1](https://github.com/redallen/patternfly-react/commit/0eae3d1))
+
+
+### Features
+
+* **a11y:** add accessibility checks for pf4 ([#904](https://github.com/redallen/patternfly-react/issues/904)) ([f324be7](https://github.com/redallen/patternfly-react/commit/f324be7))
+* **example:** Add dark theme toggle button & change background colort ([#1212](https://github.com/redallen/patternfly-react/issues/1212)) ([ec1bfbf](https://github.com/redallen/patternfly-react/commit/ec1bfbf))
+* **full-page:** add functionality to show components in full page mode ([#658](https://github.com/redallen/patternfly-react/issues/658)) ([514ce42](https://github.com/redallen/patternfly-react/commit/514ce42))
+* **Live Examples:** allow users to tab past editors ([#694](https://github.com/redallen/patternfly-react/issues/694)) ([c36b53a](https://github.com/redallen/patternfly-react/commit/c36b53a))
+* **page layout demos:** Add PF4 page layout demos ([#749](https://github.com/redallen/patternfly-react/issues/749)) ([025d862](https://github.com/redallen/patternfly-react/commit/025d862))
+* **patternfly-react/patternfly-4/react-core/:** added PF4 AboutModal Component ([#671](https://github.com/redallen/patternfly-react/issues/671)) ([1b01037](https://github.com/redallen/patternfly-react/commit/1b01037)), closes [#482](https://github.com/redallen/patternfly-react/issues/482)
+* **pf4-avatar:** introduce avatar component ([#615](https://github.com/redallen/patternfly-react/issues/615)) ([4b213fb](https://github.com/redallen/patternfly-react/commit/4b213fb))
+* **pf4-brand:** introduce brand component ([#633](https://github.com/redallen/patternfly-react/issues/633)) ([53ed4d1](https://github.com/redallen/patternfly-react/commit/53ed4d1))
+* **pf4-nav:** add nav component ([#626](https://github.com/redallen/patternfly-react/issues/626)) ([677587c](https://github.com/redallen/patternfly-react/commit/677587c)), closes [#547](https://github.com/redallen/patternfly-react/issues/547)
+* **styled-system:** adds styled system to pf4 as its own package ([#891](https://github.com/redallen/patternfly-react/issues/891)) ([2888855](https://github.com/redallen/patternfly-react/commit/2888855))
+* **Table:** introduce new component Table based on pf4 designs ([#821](https://github.com/redallen/patternfly-react/issues/821)) ([7b38cbc](https://github.com/redallen/patternfly-react/commit/7b38cbc))
+
+
+
+
+
 ## [3.23.2](https://github.com/redallen/patternfly-react/compare/@redallen-patternfly/react-docs@3.23.1...@redallen-patternfly/react-docs@3.23.2) (2019-02-05)
 
 **Note:** Version bump only for package @redallen-patternfly/react-docs

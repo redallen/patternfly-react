@@ -3,6 +3,37 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 4.0.0 (2019-02-07)
+
+
+### Bug Fixes
+
+* **charts:** address typescript issues ([#902](https://github.com/redallen/patternfly-react/issues/902)) ([83cb283](https://github.com/redallen/patternfly-react/commit/83cb283))
+* **prerelease:** attempt to add prerelease channel to react-charts ([#1160](https://github.com/redallen/patternfly-react/issues/1160)) ([0e3e807](https://github.com/redallen/patternfly-react/commit/0e3e807))
+* **readme:** update readme for react-charts ([#1225](https://github.com/redallen/patternfly-react/issues/1225)) ([7799263](https://github.com/redallen/patternfly-react/commit/7799263))
+
+
+### Code Refactoring
+
+* **AboutModal:** Upgrade core to 1.0.175 and Refactor AboutModal ([#1307](https://github.com/redallen/patternfly-react/issues/1307)) ([1f85756](https://github.com/redallen/patternfly-react/commit/1f85756)), closes [#1267](https://github.com/redallen/patternfly-react/issues/1267)
+
+
+### Features
+
+* **Alert:** Add optional Close button to Alert via onClose prop ([#1200](https://github.com/redallen/patternfly-react/issues/1200)) ([9d59dcb](https://github.com/redallen/patternfly-react/commit/9d59dcb)), closes [#1036](https://github.com/redallen/patternfly-react/issues/1036)
+* **PF4 Page:** Allow passing of custom ref for condensed header ([#941](https://github.com/redallen/patternfly-react/issues/941)) ([889ec1a](https://github.com/redallen/patternfly-react/commit/889ec1a))
+* **Popover:** Add PF4 Popover ([#754](https://github.com/redallen/patternfly-react/issues/754)) ([17cf0c0](https://github.com/redallen/patternfly-react/commit/17cf0c0))
+* **Table:** introduce new component Table based on pf4 designs ([#821](https://github.com/redallen/patternfly-react/issues/821)) ([7b38cbc](https://github.com/redallen/patternfly-react/commit/7b38cbc))
+
+
+### BREAKING CHANGES
+
+* **AboutModal:** removed heroImg and heroImageSrc and heroImageAlt props
+
+
+
+
+
 # 3.0.0 (2019-02-05)
 
 
