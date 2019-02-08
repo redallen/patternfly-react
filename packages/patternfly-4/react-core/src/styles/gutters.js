@@ -10,4 +10,4 @@ export function getGutterModifier(styleObj, size, defaultValue) {
   return getModifier(styleObj, `gutter-${size}`, defaultValue);
 }
 
-// core change6
+// core change7
