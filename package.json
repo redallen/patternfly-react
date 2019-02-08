@@ -22,6 +22,10 @@
     "url": "https://github.com/redallen/patternfly-react/issues"
   },
   "homepage": "https://github.com/redallen/patternfly-react#readme",
+  "dependencies": {
+    "@redallen-patternfly/react-core": "file:packages/patternfly-4/react-core",
+    "local-web-server": "^2.6.1"
+  },
   "devDependencies": {
     "@commitlint/cli": "^7.1.2",
     "@storybook/addon-actions": "^v3.4.11",
@@ -56,6 +60,7 @@
     "conventional-changelog-cli": "^2.0.5",
     "coveralls": "^3.0.0",
     "cross-env": "^5.1.4",
+    "cypress": "^3.1.4",
     "cz-conventional-changelog": "^2.1.0",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16.3": "^1.2.0",
@@ -129,7 +134,7 @@
     "storybook": "yarn storybook:run",
     "test": "yarn lint && jest",
     "test:current": "jest --watch",
-    "test:integration": "lerna run integration:setup && lerna run build:demo && lerna run integration:test",
+    "test:integration": "lerna run build:demo && lerna run integration:test",
     "test:watch": "jest --watchAll",
     "travis-deploy-once": "travis-deploy-once"
   },
