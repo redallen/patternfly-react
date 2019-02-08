@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.1](https://github.com/redallen/patternfly-react/compare/@redallen-patternfly/react-core@4.0.0...@redallen-patternfly/react-core@4.0.1) (2019-02-08)
+
+
+### Bug Fixes
+
+* **thing:** core change ([294abf6](https://github.com/redallen/patternfly-react/commit/294abf6))
+
+
+
+
+
 # 4.0.0 (2019-02-07)
 
 
