@@ -115,7 +115,7 @@
     "commitmsg": "commitlint -e",
     "coveralls": "shx cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "generate": "yarn plop",
-    "lerna:publish": "lerna publish --yes",
+    "lerna:publish": "lerna publish --github-release --conventional-commits --yes",
     "lint": "lerna run lint --parallel",
     "lint:fix": "lerna run lint:fix --parallel",
     "prettier": "prettier --write 'storybook/**/*.js' 'packages/**/*.js' 'scripts/**/*.js'",
@@ -131,8 +131,7 @@
     "test:current": "jest --watch",
     "test:integration": "lerna run integration:setup && lerna run build:demo && lerna run integration:test",
     "test:watch": "jest --watchAll",
-    "travis-deploy-once": "travis-deploy-once",
-    "version": "lerna-changelog --from=`git rev-list --max-parents=0 HEAD` > CHANGELOG.md && git add CHANGELOG.md"
+    "travis-deploy-once": "travis-deploy-once"
   },
   "jest": {
     "collectCoverage": true,
