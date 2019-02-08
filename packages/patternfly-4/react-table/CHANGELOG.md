@@ -3,6 +3,37 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 4.0.0 (2019-02-08)
+
+
+### Bug Fixes
+
+* **Table:** Do not return value if table is not collapsed ([#1272](https://github.com/redallen/patternfly-react/issues/1272)) ([fe8c13c](https://github.com/redallen/patternfly-react/commit/fe8c13c))
+* **Table:** Use direct imports for styles ([#1314](https://github.com/redallen/patternfly-react/issues/1314)) ([42b20e6](https://github.com/redallen/patternfly-react/commit/42b20e6))
+* **Table:** Use direct imports instead of spread ([#1237](https://github.com/redallen/patternfly-react/issues/1237)) ([e799809](https://github.com/redallen/patternfly-react/commit/e799809))
+
+
+### Code Refactoring
+
+* **AboutModal:** Upgrade core to 1.0.175 and Refactor AboutModal ([#1307](https://github.com/redallen/patternfly-react/issues/1307)) ([1f85756](https://github.com/redallen/patternfly-react/commit/1f85756)), closes [#1267](https://github.com/redallen/patternfly-react/issues/1267)
+
+
+### Features
+
+* **Alert:** Add optional Close button to Alert via onClose prop ([#1200](https://github.com/redallen/patternfly-react/issues/1200)) ([9d59dcb](https://github.com/redallen/patternfly-react/commit/9d59dcb)), closes [#1036](https://github.com/redallen/patternfly-react/issues/1036)
+* **PF4 Page:** Allow passing of custom ref for condensed header ([#941](https://github.com/redallen/patternfly-react/issues/941)) ([889ec1a](https://github.com/redallen/patternfly-react/commit/889ec1a))
+* **pf4-table:** Introduce new package [@patternfly](https://github.com/patternfly)/react-table for table implementation ([#899](https://github.com/redallen/patternfly-react/issues/899)) ([9cee1ad](https://github.com/redallen/patternfly-react/commit/9cee1ad))
+* **Table:** introduce new component Table based on pf4 designs ([#821](https://github.com/redallen/patternfly-react/issues/821)) ([7b38cbc](https://github.com/redallen/patternfly-react/commit/7b38cbc))
+
+
+### BREAKING CHANGES
+
+* **AboutModal:** removed heroImg and heroImageSrc and heroImageAlt props
+
+
+
+
+
 ## [3.0.6](https://github.com/redallen/patternfly-react/compare/@redallen-patternfly/react-table@3.0.5...@redallen-patternfly/react-table@3.0.6) (2019-02-08)
 
 **Note:** Version bump only for package @redallen-patternfly/react-table
