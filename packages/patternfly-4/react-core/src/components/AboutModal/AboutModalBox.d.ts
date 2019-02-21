@@ -9,3 +9,4 @@ export interface ModalBoxProps extends HTMLProps<HTMLDivElement> {
 declare const ModalBox: FunctionComponent<ModalBoxProps>;
 
 export default ModalBox;
+
