@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.0.6](https://github.com/redallen/patternfly-react/compare/@redallen-patternfly/react-core@5.0.4...@redallen-patternfly/react-core@5.0.6) (2019-02-21)
+
+
+### Bug Fixes
+
+* **about:** not really ([8605ada](https://github.com/redallen/patternfly-react/commit/8605ada))
+
+
+
+
+
 ## [5.0.5](https://github.com/redallen/patternfly-react/compare/@redallen-patternfly/react-core@5.0.4...@redallen-patternfly/react-core@5.0.5) (2019-02-21)
 
 
