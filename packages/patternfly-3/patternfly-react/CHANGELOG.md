@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.33.1](https://github.com/redallen/patternfly-react/compare/@redallen-patternfly/patternfly-react@2.33.0...@redallen-patternfly/patternfly-react@2.33.1) (2019-02-21)
+
+
+### Bug Fixes
+
+* **about:** not really2 ([54631f4](https://github.com/redallen/patternfly-react/commit/54631f4))
+
+
+
+
+
 # 2.33.0 (2019-02-08)
 
 
