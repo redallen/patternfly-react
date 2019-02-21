@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.0.1](https://github.com/redallen/patternfly-react/compare/@redallen-patternfly/react-core@6.0.0...@redallen-patternfly/react-core@6.0.1) (2019-02-21)
+
+
+### Bug Fixes
+
+* **about:** another core change ([cc6f9a2](https://github.com/redallen/patternfly-react/commit/cc6f9a2))
+* **about:** touch core ([19ea1f9](https://github.com/redallen/patternfly-react/commit/19ea1f9))
+
+
+
+
+
 # 6.0.0 (2019-02-21)
 
 
