@@ -15,3 +15,4 @@ export interface AboutModalProps extends HTMLProps<HTMLDivElement> {
 declare const AboutModal: FunctionComponent<AboutModalProps>;
 
 export default AboutModal;
+
