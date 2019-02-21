@@ -73,3 +73,4 @@ AboutModal.Versions = AboutModalVersions;
 AboutModal.VersionItem = AboutModalVersionItem;
 
 export default AboutModal;
+
