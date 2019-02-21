@@ -3,6 +3,32 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.15.0 (2019-02-21)
+
+
+### Bug Fixes
+
+* **AccessConsoles:** Fix child component recognition in production build ([#979](https://github.com/redallen/patternfly-react/issues/979)) ([dcd4065](https://github.com/redallen/patternfly-react/commit/dcd4065))
+* **AccessConsoles:** fix propTypes checking for "null" child ([#1139](https://github.com/redallen/patternfly-react/issues/1139)) ([4eed95d](https://github.com/redallen/patternfly-react/commit/4eed95d))
+* **build:** Support running npm scripts under Windows ([#1251](https://github.com/redallen/patternfly-react/issues/1251)) ([df0c275](https://github.com/redallen/patternfly-react/commit/df0c275))
+* **DesktopViewer:** Fix reference to constants in dist ([#964](https://github.com/redallen/patternfly-react/issues/964)) ([57c63ca](https://github.com/redallen/patternfly-react/commit/57c63ca))
+* **test dependencies:** hooray ([b64faae](https://github.com/redallen/patternfly-react/commit/b64faae))
+* **VncConsole:** disconnect VNC session when unmounting ([#1123](https://github.com/redallen/patternfly-react/issues/1123)) ([b7df8dc](https://github.com/redallen/patternfly-react/commit/b7df8dc))
+
+
+### Features
+
+* **AccessConsoles:** add DesktopViewer to AccessConsoles ([#989](https://github.com/redallen/patternfly-react/issues/989)) ([5a4e9c8](https://github.com/redallen/patternfly-react/commit/5a4e9c8))
+* **ConsoleSelector:** introduce ConsoleSelector component ([#606](https://github.com/redallen/patternfly-react/issues/606)) ([d876589](https://github.com/redallen/patternfly-react/commit/d876589))
+* **DesktopViewer:** introduce DesktopViewer component ([#607](https://github.com/redallen/patternfly-react/issues/607)) ([f001ef5](https://github.com/redallen/patternfly-react/commit/f001ef5))
+* **HintBlock:** Add the HintBlock component ([#922](https://github.com/redallen/patternfly-react/issues/922)) ([92559e6](https://github.com/redallen/patternfly-react/commit/92559e6))
+* **LoadingState:** Add LoadingState component ([#881](https://github.com/redallen/patternfly-react/issues/881)) ([#886](https://github.com/redallen/patternfly-react/issues/886)) ([d48d45f](https://github.com/redallen/patternfly-react/commit/d48d45f))
+* **Remote Desktop Protocol:** DesktopViewer is extended for the RDP ([#807](https://github.com/redallen/patternfly-react/issues/807)) ([b27cf7b](https://github.com/redallen/patternfly-react/commit/b27cf7b))
+
+
+
+
+
 ## [1.14.2](https://github.com/redallen/patternfly-react/compare/@redallen-patternfly/react-console@1.14.1...@redallen-patternfly/react-console@1.14.2) (2019-02-21)
 
 **Note:** Version bump only for package @redallen-patternfly/react-console

@@ -1,6 +1,6 @@
 {
   "name": "@redallen-patternfly/react-console",
-  "version": "1.14.2",
+  "version": "1.15.0",
   "private": false,
   "description": "This library provides a set of Console React components for use with the PatternFly reference implementation.",
   "main": "dist/js/index.js",
@@ -45,7 +45,7 @@
     "xterm": "^3.3.0"
   },
   "devDependencies": {
-    "@redallen-patternfly/patternfly-react": "^2.33.2",
+    "@redallen-patternfly/patternfly-react": "^2.34.0",
     "patternfly": "^3.58.0"
   },
   "peerDependencies": {
