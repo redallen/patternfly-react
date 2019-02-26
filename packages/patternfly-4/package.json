@@ -13,6 +13,6 @@
     "stylelint": "stylelint '**/sass/**/*.scss' !**/dist/**/*.scss"
   },
   "dependencies": {
-    "@types/jest": "^23.3.10"
+    "@types/jest": "^24.0.9"
   }
 }
