@@ -34,18 +34,18 @@
   "dependencies": {
     "@redallen-patternfly/react-styles": "^2.8.0",
     "@redallen-patternfly/react-tokens": "^6.0.0",
-    "emotion-theming": "^9.2.9",
-    "react-emotion": "^9.2.12",
-    "styled-system": "^3.1.11"
+    "emotion-theming": "^10.0.7",
+    "react-emotion": "^10.0.0",
+    "styled-system": "^4.0.0"
   },
   "peerDependencies": {
     "prop-types": "^15.6.1",
     "react": "^16.4.0"
   },
   "devDependencies": {
-    "@patternfly/patternfly": "1.0.178",
+    "@patternfly/patternfly": "1.0.210",
     "css": "^2.2.3",
-    "fs-extra": "^6.0.1",
+    "fs-extra": "^7.0.1",
     "glob": "^7.1.2",
     "npmlog": "^4.1.2"
   },
