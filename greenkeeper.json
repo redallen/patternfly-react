@@ -1,0 +1,26 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "package.json",
+        "packages/eslint-plugin-patternfly-react/package.json",
+        "packages/patternfly-3/package.json",
+        "packages/patternfly-3/patternfly-react-extensions/package.json",
+        "packages/patternfly-3/patternfly-react/package.json",
+        "packages/patternfly-3/react-console/package.json",
+        "packages/patternfly-4/package.json",
+        "packages/patternfly-4/react-charts/package.json",
+        "packages/patternfly-4/react-core/package.json",
+        "packages/patternfly-4/react-docs/package.json",
+        "packages/patternfly-4/react-integration/demo-app-ts/package.json",
+        "packages/patternfly-4/react-integration/package.json",
+        "packages/patternfly-4/react-styled-system/package.json",
+        "packages/patternfly-4/react-styles/package.json",
+        "packages/patternfly-4/react-table/package.json",
+        "packages/patternfly-4/react-tokens/package.json",
+        "packages/react-codemods/package.json",
+        "packages/react-icons/package.json"
+      ]
+    }
+  }
+}
