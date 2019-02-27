@@ -17467,9 +17467,9 @@ registry-url@^3.0.3:
   dependencies:
     rc "^1.0.1"
 
-registrytestpackage@1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/registrytestpackage/-/registrytestpackage-1.0.2.tgz#028bd39c740030b3e94b0bbd24c83b3a48a04966"
+registrytestpackage@1.0.19:
+  version "1.0.19"
+  resolved "https://registry.yarnpkg.com/registrytestpackage/-/registrytestpackage-1.0.19.tgz#73295954b28ebb5928beb7440c26ba1306182315"
   integrity sha512-v3VSYBxZC1H1EWRgpelx/66fxF/oeki8S4M7hY0Ru5eyani9Z7tmCINKkg+wRQAAfY1geBA9oRqRX52i4n10/g==
 
 regjsgen@^0.2.0:
