@@ -8,6 +8,7 @@ exports[`AboutModalBox Test 1`] = `
   z-index: 600;
   grid-template-rows: max-content max-content auto;
   grid-template-areas: "brand close" "header header" "content content";
+  width: 100vw;
   height: 100%;
   overflow-x: hidden;
   overflow-y: auto;
@@ -16,9 +17,9 @@ exports[`AboutModalBox Test 1`] = `
 }
 
 <div
+  aria-describedby="id2"
+  aria-labelledby="id"
   aria-modal="true"
-  ariaDescribedById="id2"
-  ariaLabelledbyId="id"
   className="pf-c-about-modal-box"
   role="dialog"
 >

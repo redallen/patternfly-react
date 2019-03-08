@@ -63,7 +63,7 @@ const ModalContent: FunctionComponent<AboutModalContainerProps> = ({
   return (
     <Backdrop>
       <Bullseye>
-        <AboutModalBox className={className} ariaLabelledbyId={ariaLabelledbyId} ariaDescribedById={ariaDescribedById}>
+        <AboutModalBox className={className} aria-labelledby={ariaLabelledbyId} aria-describedby={ariaDescribedById}>
           <AboutModalBoxBrand src={brandImageSrc} alt={brandImageAlt} />
           <AboutModalBoxCloseButton onClose={onClose} />
           <AboutModalBoxHeader id={ariaLabelledbyId} productName={productName} />

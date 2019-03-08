@@ -8,9 +8,9 @@ export interface AboutModalBoxProps extends HTMLProps<HTMLDivElement> {
   /** additional classes added to the AboutModalBox */
   className?: string;
   /** id to use for About Modal Box aria-labelledby attribute */
-  ariaLabelledbyId: string;
+  'aria-labelledby': string;
   /** id to use for About Modal Box aria-describedby attribute */
-  ariaDescribedById: string;
+  'aria-describedby': string;
 };
 
 export const defaultProps = {
