@@ -6,7 +6,7 @@
  */
 
 import React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
+import { useStaticQuery, graphql, Link } from 'gatsby';
 import Helmet from 'react-helmet';
 import { Page, PageHeader, PageSidebar } from '@patternfly/react-core';
 import SiteNav from '../components/siteNav';
@@ -37,10 +37,7 @@ const SidebarLayout = ({ children }) => {
   const Header = (
     <PageHeader
       style={{ backgroundColor: "black" }}
-      logo={prInfo.num ? `PR #${prInfo.num}` : data.site.siteMetadata.title}
-      logoProps={{
-        href: prInfo.url ? prInfo.url : "/"
-      }}
+      logo={<Link to="/">{prInfo.num ? `PR #${prInfo.num}` : data.site.siteMetadata.title}</Link>}
       showNavToggle />
   );
 
