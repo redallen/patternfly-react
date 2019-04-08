@@ -25,7 +25,7 @@ const IndexPage = ({ data }) => {
   return (
     <SidebarLayout>
       <div style={containerStyle}>
-        <PageSection style={centerStyle}>
+        <PageSection style={centerStyle} variant={PageSectionVariants.light}>
           <div style={{ flex: "none", textAlign: "center" }}>
             <Title size="4xl">PatternFly 4 React Docs</Title>
             <Title size="2xl">
@@ -35,8 +35,7 @@ const IndexPage = ({ data }) => {
             <p>Now go build something great.</p>
           </div>
         </PageSection>
-        <PageSection style={{ flexGrow: 0 }} variant={PageSectionVariants.dark}>
-          Built with:
+        <PageSection style={{ flexGrow: 0, textAlign: "right" }}>
           {Object.values(data)
             .filter(v => v.nodes)
             .map(v => v.nodes[0])
