@@ -49,7 +49,6 @@ async function onCreateNode({
 }) {
   if (!canParse(node)) return
 
-  const sourceText = await loadNodeContent(node);
   let parsed = null;
   try {
     if (isTSX(node)) {
@@ -61,6 +60,7 @@ async function onCreateNode({
       parsed = docgenJavascript.parse(jsText);
     }
     else if (isJSX(node)) {
+      const sourceText = await loadNodeContent(node);
       parsed = docgenJavascript.parse(sourceText);
     }
   } catch (err) {
