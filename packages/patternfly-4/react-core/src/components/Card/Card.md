@@ -6,7 +6,7 @@ propComponents: ['Card', 'CardHeader', 'CardBody', 'CardFooter']
 ---
 
 import { Card, CardActions, CardHead, CardHeader, CardBody, CardFooter, Checkbox, Dropdown, DropdownActions } from '@patternfly/react-core';
-import brandImg from './examples/brandImg.svg';
+import brandImg2 from './examples/brandImg.svg';
 
 ## Simple card
 ```js
@@ -153,7 +153,7 @@ class KebabDropdown extends React.Component {
     return (
       <Card>
         <CardHead>
-          <img src={brandImg} />
+          <img src={brandImg2} />
           <CardActions>
             <Checkbox />
             <Dropdown
