@@ -70,6 +70,7 @@ class BaseBody extends React.Component<BodyProps, {}> {
       });
     });
 
+    console.log('basebody')
     return React.createElement(renderers.body.wrapper as createElementType, props, children);
   }
 }

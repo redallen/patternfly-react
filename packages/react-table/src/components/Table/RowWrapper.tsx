@@ -98,6 +98,7 @@ class RowWrapper extends React.Component<RowWrapperProps, {}> {
       ...props
     } = this.props;
 
+    console.log('rowwrapper', props.children)
     return (
       <tr
         {...props}

@@ -1583,3 +1583,40 @@ class EditableRowsTable extends React.Component {
   }
 }
 ```
+
+```js title=Input
+import React from 'react';
+import { TextInput } from '@patternfly/react-core';
+import {
+  Table,
+  TableHeader,
+  TableBody
+} from '@patternfly/react-table';
+
+class InputTable extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      input1: '1',
+      input2: '2'
+    };
+    this.onTextChange1 = event => this.setState({input1: event});
+    this.onTextChange2 = event => this.setState({input2: event});
+  }
+
+  render() {
+    return (
+      <Table aria-label="Input table" cells={['c1', 'c2']} rows={[{
+        cells: 
+          [
+            <div><TextInput id="input1" type="text" value={this.state.input1} onChange={this.onTextChange1} /></div>,
+            <div><TextInput id="input2" type="text" value={this.state.input2} onChange={this.onTextChange2} /></div>,
+          ],
+      }]}>
+        <TableHeader />
+        <TableBody />
+      </Table>
+    );
+  }
+}
+```

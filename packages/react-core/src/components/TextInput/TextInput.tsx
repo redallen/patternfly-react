@@ -78,9 +78,7 @@ export class TextInputBase extends React.Component<TextInputProps> {
   }
 
   handleChange = (event: React.FormEvent<HTMLInputElement>) => {
-    if (this.props.onChange) {
-      this.props.onChange(event.currentTarget.value, event);
-    }
+    this.props.onChange(event.currentTarget.value, event);
   };
 
   render() {
@@ -119,6 +117,8 @@ export class TextInputBase extends React.Component<TextInputProps> {
   }
 }
 
+// export const TextInput = TextInputBase;
 export const TextInput = React.forwardRef((props: TextInputProps, ref: React.Ref<HTMLInputElement>) => (
   <TextInputBase {...props} innerRef={ref} />
 ));
+// export const TextInput = props => <TextInputRef {...props} />

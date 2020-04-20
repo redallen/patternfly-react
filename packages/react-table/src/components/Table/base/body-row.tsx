@@ -43,6 +43,7 @@ export class BodyRow extends React.Component<BodyRowProps, {}> {
 
     return !(columnsAreEqual(columns, nextProps.columns) && isEqual(rowData, nextProps.rowData));
   }
+
   render() {
     const { columns, renderers, onRow, rowKey, rowIndex, rowData } = this.props;
 
@@ -68,6 +69,7 @@ export class BodyRow extends React.Component<BodyRowProps, {}> {
           console.warn('Table.Body - Failed to receive a transformed result');
         }
 
+        console.log('bodyrow', renderers.cell, transformed.children)
         return React.createElement(
           renderers.cell as createElementType,
           {

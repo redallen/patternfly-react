@@ -106,6 +106,7 @@ export * from './TableDemo/TableCompoundExpandableDemo';
 export * from './TableDemo/TableEditableDemo';
 export * from './TableDemo/TableFirstCellAsHeaderDemo';
 export * from './TableDemo/TableHeadersWrappableDemo';
+export * from './TableDemo/TableInputDemo';
 export * from './TableDemo/TableRowWrapperDemo';
 export * from './TableDemo/TableRowClickDemo';
 export * from './TableDemo/TableSelectableDemo';

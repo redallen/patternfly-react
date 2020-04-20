@@ -17,6 +17,7 @@ export interface BodyCellProps {
   value?: any;
   isValid?: boolean;
   name?: string;
+  children?: React.ReactNode;
 }
 
 export const BodyCell: React.FunctionComponent<BodyCellProps> = ({
@@ -27,6 +28,7 @@ export const BodyCell: React.FunctionComponent<BodyCellProps> = ({
   isVisible,
   parentId,
   textCenter = false,
+  children,
   /* eslint-disable @typescript-eslint/no-unused-vars */
   errorText,
   isValid,
@@ -44,6 +46,8 @@ export const BodyCell: React.FunctionComponent<BodyCellProps> = ({
     ...props
   };
   return (parentId !== undefined && colSpan === undefined) || !isVisible ? null : (
-    <Component {...mappedProps} className={css(className, textCenter && styles.modifiers.center)} colSpan={colSpan} />
+    <Component {...mappedProps} className={css(className, textCenter && styles.modifiers.center)} colSpan={colSpan}>
+      {children}
+    </Component>
   );
 };

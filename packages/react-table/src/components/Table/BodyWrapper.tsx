@@ -29,6 +29,7 @@ export const BodyWrapper: React.FunctionComponent<BodyWrapperProps> = ({
   /* eslint-enable @typescript-eslint/no-unused-vars */
   ...props
 }: BodyWrapperProps) => {
+  console.log('tbodyRef', tbodyRef)
   if (mappedRows && mappedRows.some(row => row.hasOwnProperty('parent'))) {
     return (
       <React.Fragment>

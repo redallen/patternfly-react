@@ -552,6 +552,11 @@ export const Demos: DemoInterface[] = [
     componentType: Examples.TableHeadersWrappableDemo
   },
   {
+    id: 'table-input-demo',
+    name: 'Table Input Demo',
+    componentType: Examples.TableInputDemo
+  },
+  {
     id: 'table-row-wrapper-demo',
     name: 'Table Row Wrapper Demo',
     componentType: Examples.TableRowWrapperDemo
