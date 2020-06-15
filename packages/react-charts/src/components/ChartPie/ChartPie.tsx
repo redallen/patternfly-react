@@ -424,7 +424,10 @@ export interface ChartPieProps extends VictoryPieProps {
   y?: DataGetterPropType;
 }
 
-export const ChartPie: React.FunctionComponent<ChartPieProps> = ({
+/**
+ *
+ */
+export function ChartPie({
   allowTooltip = true,
   ariaDesc,
   ariaTitle,
@@ -452,7 +455,7 @@ export const ChartPie: React.FunctionComponent<ChartPieProps> = ({
   height = theme.pie.height,
   width = theme.pie.width,
   ...rest
-}: ChartPieProps) => {
+}: ChartPieProps) {
   const defaultPadding = {
     bottom: getPaddingForSide('bottom', padding, theme.pie.padding),
     left: getPaddingForSide('left', padding, theme.pie.padding),
@@ -529,7 +532,7 @@ export const ChartPie: React.FunctionComponent<ChartPieProps> = ({
       {getLegend()}
     </React.Fragment>
   );
-};
+}
 
 // Note: VictoryPie.role must be hoisted
 hoistNonReactStatics(ChartPie, VictoryPie);

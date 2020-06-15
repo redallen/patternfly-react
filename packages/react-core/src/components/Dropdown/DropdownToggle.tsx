@@ -44,7 +44,10 @@ export interface DropdownToggleProps extends React.HTMLProps<HTMLButtonElement> 
   onEnter?: (event?: React.MouseEvent<HTMLButtonElement>) => void;
 }
 
-export const DropdownToggle: React.FunctionComponent<DropdownToggleProps> = ({
+/**
+ *
+ */
+export function DropdownToggle({
   id = '',
   children = null,
   className = '',
@@ -65,7 +68,7 @@ export const DropdownToggle: React.FunctionComponent<DropdownToggleProps> = ({
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   ref, // Types of Ref are different for React.FC vs React.Component
   ...props
-}: DropdownToggleProps) => {
+}: DropdownToggleProps) {
   const toggle = (
     <DropdownContext.Consumer>
       {({ toggleTextClass, toggleIndicatorClass, toggleIconClass }) => (
@@ -112,4 +115,4 @@ export const DropdownToggle: React.FunctionComponent<DropdownToggleProps> = ({
   }
 
   return toggle;
-};
+}

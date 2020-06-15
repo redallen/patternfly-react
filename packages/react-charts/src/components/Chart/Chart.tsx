@@ -378,7 +378,10 @@ export interface ChartProps extends VictoryChartProps {
   width?: number;
 }
 
-export const Chart: React.FunctionComponent<ChartProps> = ({
+/**
+ *
+ */
+export function Chart({
   ariaDesc,
   ariaTitle,
   children,
@@ -397,7 +400,7 @@ export const Chart: React.FunctionComponent<ChartProps> = ({
   height = theme.chart.height,
   width = theme.chart.width,
   ...rest
-}: ChartProps) => {
+}: ChartProps) {
   const defaultPadding = {
     bottom: getPaddingForSide('bottom', padding, theme.chart.padding),
     left: getPaddingForSide('left', padding, theme.chart.padding),
@@ -474,6 +477,6 @@ export const Chart: React.FunctionComponent<ChartProps> = ({
       {getLegend()}
     </VictoryChartWithContainerComponent>
   );
-};
+}
 
 hoistNonReactStatics(Chart, VictoryChart);

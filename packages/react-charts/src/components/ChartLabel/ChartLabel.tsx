@@ -174,7 +174,10 @@ export interface ChartLabelProps extends VictoryLabelProps {
   y?: number;
 }
 
-export const ChartLabel: React.FunctionComponent<ChartLabelProps> = ({ style, ...rest }: ChartLabelProps) => {
+/**
+ *
+ */
+export function ChartLabel({ style, ...rest }: ChartLabelProps) {
   const applyDefaultStyle = (customStyle: React.CSSProperties) =>
     defaults(customStyle, {
       fontFamily: ChartCommonStyles.label.fontFamily,
@@ -183,7 +186,7 @@ export const ChartLabel: React.FunctionComponent<ChartLabelProps> = ({ style, ..
     });
   const newStyle = Array.isArray(style) ? style.map(applyDefaultStyle) : applyDefaultStyle(style);
   return <VictoryLabel style={newStyle as any} {...rest} />;
-};
+}
 
 // Note: VictoryLabel.role must be hoisted
 hoistNonReactStatics(ChartLabel, VictoryLabel);

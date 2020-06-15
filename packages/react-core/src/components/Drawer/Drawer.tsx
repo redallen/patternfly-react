@@ -27,7 +27,10 @@ export const DrawerContext = React.createContext<Partial<DrawerContextProps>>({
   isStatic: false
 });
 
-export const Drawer: React.SFC<DrawerProps> = ({
+/**
+ *
+ */
+export function Drawer({
   className = '',
   children,
   isExpanded = false,
@@ -35,20 +38,22 @@ export const Drawer: React.SFC<DrawerProps> = ({
   isStatic = false,
   position = 'right',
   ...props
-}: DrawerProps) => (
-  <DrawerContext.Provider value={{ isExpanded, isStatic }}>
-    <div
-      className={css(
-        styles.drawer,
-        isExpanded && styles.modifiers.expanded,
-        isInline && styles.modifiers.inline,
-        isStatic && styles.modifiers.static,
-        position === 'left' && styles.modifiers.panelLeft,
-        className
-      )}
-      {...props}
-    >
-      {children}
-    </div>
-  </DrawerContext.Provider>
-);
+}: DrawerProps) {
+  return (
+    <DrawerContext.Provider value={{ isExpanded, isStatic }}>
+      <div
+        className={css(
+          styles.drawer,
+          isExpanded && styles.modifiers.expanded,
+          isInline && styles.modifiers.inline,
+          isStatic && styles.modifiers.static,
+          position === 'left' && styles.modifiers.panelLeft,
+          className
+        )}
+        {...props}
+      >
+        {children}
+      </div>
+    </DrawerContext.Provider>
+  );
+}

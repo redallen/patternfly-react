@@ -410,7 +410,10 @@ export interface ChartGroupProps extends VictoryGroupProps {
   y0?: DataGetterPropType;
 }
 
-export const ChartGroup: React.FunctionComponent<ChartGroupProps> = ({
+/**
+ *
+ */
+export function ChartGroup({
   ariaDesc,
   ariaTitle,
   children,
@@ -422,7 +425,7 @@ export const ChartGroup: React.FunctionComponent<ChartGroupProps> = ({
   theme = getTheme(themeColor, themeVariant),
 
   ...rest
-}: ChartGroupProps) => {
+}: ChartGroupProps) {
   // Clone so users can override container props
   const container = React.cloneElement(containerComponent, {
     desc: ariaDesc,
@@ -438,7 +441,7 @@ export const ChartGroup: React.FunctionComponent<ChartGroupProps> = ({
       {children}
     </VictoryGroup>
   );
-};
+}
 
 // Note: VictoryGroup.role must be hoisted
 hoistNonReactStatics(ChartGroup, VictoryGroup);

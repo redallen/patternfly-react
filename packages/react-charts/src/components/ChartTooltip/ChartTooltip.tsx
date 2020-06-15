@@ -216,7 +216,10 @@ export interface ChartTooltipProps extends VictoryTooltipProps {
   y?: number;
 }
 
-export const ChartTooltip: React.FunctionComponent<ChartTooltipProps> = ({
+/**
+ *
+ */
+export function ChartTooltip({
   constrainToVisibleArea = false,
   labelComponent = <ChartLabel />, // Note that Victory provides its own label component here
   labelTextAnchor,
@@ -226,7 +229,7 @@ export const ChartTooltip: React.FunctionComponent<ChartTooltipProps> = ({
   // destructure last
   theme = getTheme(themeColor, themeVariant),
   ...rest
-}: ChartTooltipProps) => {
+}: ChartTooltipProps) {
   const chartLabelComponent = React.cloneElement(labelComponent, {
     textAnchor: labelTextAnchor,
     ...labelComponent.props
@@ -240,7 +243,7 @@ export const ChartTooltip: React.FunctionComponent<ChartTooltipProps> = ({
       {...rest}
     />
   );
-};
+}
 
 // Note: VictoryTooltip.defaultEvents must be hoisted
 hoistNonReactStatics(ChartTooltip, VictoryTooltip);

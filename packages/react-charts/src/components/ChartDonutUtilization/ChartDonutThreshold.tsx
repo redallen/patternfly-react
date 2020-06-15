@@ -399,7 +399,10 @@ export interface ChartDonutThresholdProps extends ChartDonutProps {
   y?: DataGetterPropType;
 }
 
-export const ChartDonutThreshold: React.FunctionComponent<ChartDonutThresholdProps> = ({
+/**
+ *
+ */
+export function ChartDonutThreshold({
   allowTooltip = true,
   ariaDesc,
   ariaTitle,
@@ -423,7 +426,7 @@ export const ChartDonutThreshold: React.FunctionComponent<ChartDonutThresholdPro
   height = theme.pie.height,
   width = theme.pie.width,
   ...rest
-}: ChartDonutThresholdProps) => {
+}: ChartDonutThresholdProps) {
   const defaultPadding = {
     bottom: getPaddingForSide('bottom', padding, theme.pie.padding),
     left: getPaddingForSide('left', padding, theme.pie.padding),
@@ -535,7 +538,7 @@ export const ChartDonutThreshold: React.FunctionComponent<ChartDonutThresholdPro
       {renderChildren()}
     </React.Fragment>
   );
-};
+}
 
 // Note: VictoryPie.role must be hoisted
 hoistNonReactStatics(ChartDonutThreshold, VictoryPie);

@@ -423,7 +423,10 @@ export interface ChartBarProps extends VictoryBarProps {
   y0?: DataGetterPropType;
 }
 
-export const ChartBar: React.FunctionComponent<ChartBarProps> = ({
+/**
+ *
+ */
+export function ChartBar({
   containerComponent = <ChartContainer />,
   themeColor,
   themeVariant,
@@ -431,7 +434,7 @@ export const ChartBar: React.FunctionComponent<ChartBarProps> = ({
   // destructure last
   theme = getTheme(themeColor, themeVariant),
   ...rest
-}: ChartBarProps) => {
+}: ChartBarProps) {
   // Clone so users can override container props
   const container = React.cloneElement(containerComponent, {
     theme,
@@ -440,7 +443,7 @@ export const ChartBar: React.FunctionComponent<ChartBarProps> = ({
 
   // Note: containerComponent is required for theme
   return <VictoryBar containerComponent={container} theme={theme} {...rest} />;
-};
+}
 
 // Note: VictoryBar.getDomain & VictoryBar.role must be hoisted
 hoistNonReactStatics(ChartBar, VictoryBar);

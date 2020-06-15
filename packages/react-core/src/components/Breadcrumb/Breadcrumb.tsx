@@ -12,19 +12,24 @@ export interface BreadcrumbProps extends React.HTMLProps<HTMLElement> {
   'aria-label'?: string;
 }
 
-export const Breadcrumb: React.FunctionComponent<BreadcrumbProps & OUIAProps> = ({
+/**
+ *
+ */
+export function Breadcrumb({
   children = null,
   className = '',
   'aria-label': ariaLabel = 'Breadcrumb',
   ouiaId,
   ...props
-}: BreadcrumbProps & OUIAProps) => (
-  <nav
-    {...props}
-    aria-label={ariaLabel}
-    className={css(styles.breadcrumb, className)}
-    {...getOUIAProps('Breadcrumb', ouiaId)}
-  >
-    <ol className={css(styles.breadcrumbList)}>{children}</ol>
-  </nav>
-);
+}: BreadcrumbProps & OUIAProps) {
+  return (
+    <nav
+      {...props}
+      aria-label={ariaLabel}
+      className={css(styles.breadcrumb, className)}
+      {...getOUIAProps('Breadcrumb', ouiaId)}
+    >
+      <ol className={css(styles.breadcrumbList)}>{children}</ol>
+    </nav>
+  );
+}

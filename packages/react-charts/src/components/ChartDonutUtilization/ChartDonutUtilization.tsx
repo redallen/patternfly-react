@@ -529,7 +529,10 @@ export interface ChartDonutUtilizationProps extends ChartDonutProps {
   y?: DataGetterPropType;
 }
 
-export const ChartDonutUtilization: React.FunctionComponent<ChartDonutUtilizationProps> = ({
+/**
+ *
+ */
+export function ChartDonutUtilization({
   allowTooltip = true,
   ariaDesc,
   ariaTitle,
@@ -551,7 +554,7 @@ export const ChartDonutUtilization: React.FunctionComponent<ChartDonutUtilizatio
   height = theme.pie.height,
   width = theme.pie.width,
   ...rest
-}: ChartDonutUtilizationProps) => {
+}: ChartDonutUtilizationProps) {
   // Returns computed data representing pie chart slices
   const getComputedData = () => {
     const datum = getData();
@@ -644,7 +647,7 @@ export const ChartDonutUtilization: React.FunctionComponent<ChartDonutUtilizatio
   );
 
   return standalone ? <React.Fragment>{container}</React.Fragment> : <React.Fragment>{chart}</React.Fragment>;
-};
+}
 
 // Note: VictoryPie.role must be hoisted
 hoistNonReactStatics(ChartDonutUtilization, VictoryPie);
