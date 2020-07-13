@@ -1,8 +1,8 @@
 ---
-title: 'Tooltip'
+id: Tooltip
+title: Tooltip
 section: components
-cssPrefix: 'pf-c-tooltip'
-typescript: true
+cssPrefix: pf-c-tooltip
 propComponents: ['Tooltip']
 ---
 

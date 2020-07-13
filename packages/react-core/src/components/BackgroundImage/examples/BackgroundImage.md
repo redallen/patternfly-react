@@ -1,8 +1,8 @@
 ---
-title: 'Background image'
+id: Background image
+title: Background image
 section: components
-cssPrefix: 'pf-c-background-image'
-typescript: true
+cssPrefix: pf-c-background-image
 propComponents: ['BackgroundImage']
 ---
 

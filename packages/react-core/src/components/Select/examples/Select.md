@@ -1,9 +1,9 @@
 ---
-title: 'Select'
+id: Select
+title: Select
 section: components
-cssPrefix: 'pf-c-select'
+cssPrefix: pf-c-select
 propComponents: ['Select', 'SelectOption', 'SelectGroup', 'SelectOptionObject']
-typescript: true
 ouia: true
 ---
 

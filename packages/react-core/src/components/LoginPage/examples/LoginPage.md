@@ -1,8 +1,8 @@
 ---
-title: 'Login page'
+id: Login page
+title: Login page
 section: components
-cssPrefix: 'pf-c-login'
-typescript: true
+cssPrefix: pf-c-login
 propComponents:
   [
     'LoginPage',

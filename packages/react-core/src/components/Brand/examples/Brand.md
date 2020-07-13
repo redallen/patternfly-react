@@ -1,8 +1,8 @@
 ---
-title: 'Brand'
+id: Brand
+title: Brand
 section: components
 cssPrefix: null
-typescript: true
 propComponents: ['Brand']
 ---
 import { Brand } from '@patternfly/react-core';

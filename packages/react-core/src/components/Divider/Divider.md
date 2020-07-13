@@ -1,7 +1,8 @@
 ---
-title: 'Divider'
+id: Divider
+title: Divider
 section: components
-cssPrefix: 'pf-c-divider'
+cssPrefix: pf-c-divider
 typescript: true 
 propComponents: ['Divider']
 ---

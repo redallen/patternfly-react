@@ -1,8 +1,8 @@
 ---
+id: Overflow menu
 title: Overflow menu
 section: components
-cssPrefix: 'pf-c-overflow-menu'
-typescript: true
+cssPrefix: pf-c-overflow-menu
 propComponents: ['OverflowMenu', 'OverflowMenuContent', 'OverflowMenuControl', 'OverflowMenuDropdownItem', 'OverflowMenuGroup', 'OverflowMenuItem']
 ---
 

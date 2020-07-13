@@ -1,9 +1,9 @@
 ---
-title: 'Application launcher'
+id: Application launcher
+title: Application launcher
 section: components
-cssPrefix: 'pf-c-app-launcher'
+cssPrefix: pf-c-app-launcher
 propComponents: ['ApplicationLauncher', 'ApplicationLauncherItem']
-typescript: true
 ouia: true
 ---
 

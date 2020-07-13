@@ -1,8 +1,8 @@
 ---
-title: 'About modal'
+id: About modal
+title: About modal
 section: components
-cssPrefix: 'pf-c-about-modal-box'
-typescript: true
+cssPrefix: pf-c-about-modal-box
 propComponents: ['AboutModal']
 ---
 import { AboutModal, Button, TextContent, TextList, TextListItem } from '@patternfly/react-core';

@@ -1,9 +1,9 @@
 ---
-title: 'File upload'
-cssPrefix: 'pf-c-file-upload'
-typescript: true
+id: File upload
+title: File upload
+cssPrefix: pf-c-file-upload
 propComponents: ['FileUpload', 'FileUploadField']
-section: 'components'
+section: components
 beta: true
 ---
 

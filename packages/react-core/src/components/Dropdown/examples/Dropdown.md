@@ -1,10 +1,10 @@
 ---
-title: 'Dropdown'
+id: Dropdown
+title: Dropdown
 section: components
-cssPrefix: 'pf-c-dropdown'
+cssPrefix: pf-c-dropdown
 propComponents:
   ['Dropdown', 'DropdownGroup', 'DropdownItem', 'DropdownToggle', 'DropdownToggleCheckbox', 'DropdownToggleAction']
-typescript: true
 ouia: true
 ---
 

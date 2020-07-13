@@ -1,8 +1,8 @@
 ---
-title: 'Form select'
+id: Form select
+title: Form select
 section: components
-cssPrefix: 'pf-c-form-control'
-typescript: true
+cssPrefix: pf-c-form-control
 propComponents: ['FormSelect', 'FormSelectOption', 'FormSelectOptionGroup']
 ouia: true
 ---

@@ -1,8 +1,8 @@
 ---
-title: 'Title'
+id: Title
+title: Title
 section: components
-cssPrefix: 'pf-c-title'
-typescript: true
+cssPrefix: pf-c-title
 propComponents: ['Title']
 ---
 

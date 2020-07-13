@@ -1,9 +1,9 @@
 ---
-title: 'Tabs'
+id: Tabs
+title: Tabs
 section: components
-cssPrefix: 'pf-c-tabs'
+cssPrefix: pf-c-tabs
 propComponents: ['Tabs', 'Tab', 'TabContent', 'TabTitleText', 'TabTitleIcon' ]
-typescript: true
 ouia: true
 ---
 import { Tabs, Tab, TabsComponent, TabContent, TabTitleText, TabTitleIcon, Checkbox } from '@patternfly/react-core';

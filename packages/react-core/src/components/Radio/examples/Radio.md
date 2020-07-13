@@ -1,8 +1,8 @@
 ---
-title: 'Radio'
+id: Radio
+title: Radio
 section: components
-cssPrefix: 'pf-c-radio'
-typescript: true
+cssPrefix: pf-c-radio
 propComponents: ['Radio']
 ouia: true
 ---

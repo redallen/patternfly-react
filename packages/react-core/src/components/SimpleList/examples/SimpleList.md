@@ -1,8 +1,8 @@
 ---
-title: 'Simple list'
-section: 'components'
-cssPrefix: 'pf-c-simple-list'
-typescript: true
+id: Simple list
+title: Simple list
+section: components
+cssPrefix: pf-c-simple-list
 propComponents: ['SimpleList', 'SimpleListGroup', 'SimpleListItem']
 beta: true
 ---

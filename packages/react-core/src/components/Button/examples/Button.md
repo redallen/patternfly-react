@@ -1,8 +1,8 @@
 ---
-title: 'Button'
+id: Button
+title: Button
 section: components
-cssPrefix: 'pf-c-button'
-typescript: true
+cssPrefix: pf-c-button
 propComponents: ['Button']
 ouia: true
 ---

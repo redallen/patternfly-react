@@ -1,8 +1,8 @@
 ---
-title: 'Checkbox'
+id: Checkbox
+title: Checkbox
 section: components
-cssPrefix: 'pf-c-check'
-typescript: true
+cssPrefix: pf-c-check
 propComponents: ['Checkbox']
 ---
 

@@ -1,8 +1,8 @@
 ---
-title: 'Label'
+id: Label
+title: Label
 section: components
-cssPrefix: 'pf-c-label'
-typescript: true
+cssPrefix: pf-c-label
 propComponents: ['Label']
 ---
 

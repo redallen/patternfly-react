@@ -1,8 +1,8 @@
 ---
-title: 'List'
+id: List
+title: List
 section: components
-cssPrefix: 'pf-c-list'
-typescript: true
+cssPrefix: pf-c-list
 propComponents: ['List', 'ListItem']
 ---
 

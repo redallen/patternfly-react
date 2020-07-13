@@ -1,8 +1,8 @@
 ---
-title: 'Popover'
+id: Popover
+title: Popover
 section: components
-cssPrefix: 'pf-c-popover'
-typescript: true
+cssPrefix: pf-c-popover
 propComponents: ['Popover']
 ---
 

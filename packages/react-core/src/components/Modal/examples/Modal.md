@@ -1,8 +1,8 @@
 ---
-title: 'Modal'
+id: Modal
+title: Modal
 section: components
-cssPrefix: 'pf-c-modal-box'
-typescript: true
+cssPrefix: pf-c-modal-box
 propComponents: ['Modal', 'ModalBox', 'ModalBoxBody', 'ModalBoxCloseButton', 'ModalBoxFooter', 'ModalContent']
 ouia: true
 ---

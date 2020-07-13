@@ -1,8 +1,8 @@
 ---
-title: 'Chip group'
+id: Chip group
+title: Chip group
 section: components
-cssPrefix: 'pf-c-chip'
-typescript: true
+cssPrefix: pf-c-chip
 propComponents: ['Chip', 'ChipGroup']
 ouia: true
 ---
