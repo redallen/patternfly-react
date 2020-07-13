@@ -14,7 +14,6 @@ Most tab variations are available as open (default) or box style tabs. Select th
 ## Examples
 ### Default
 ```js
-import React from 'react';
 import { Tabs, Tab, TabTitleText, Checkbox } from '@patternfly/react-core';
 
 class SimpleTabs extends React.Component {
@@ -80,7 +79,6 @@ class SimpleTabs extends React.Component {
 
 ### Default overflow
 ```js
-import React from 'react';
 import { Tabs, Tab, TabTitleText, Checkbox } from '@patternfly/react-core';
 
 class ScrollButtonsPrimaryTabs extends React.Component {
@@ -162,7 +160,6 @@ class ScrollButtonsPrimaryTabs extends React.Component {
 
 ### Vertical
 ```js
-import React from 'react';
 import { Tabs, Tab, TabTitleText, Checkbox } from '@patternfly/react-core';
 
 class VerticalTabs extends React.Component {
@@ -228,7 +225,6 @@ class VerticalTabs extends React.Component {
 
 ### Inset
 ```js
-import React from 'react';
 import { Tabs, Tab, TabTitleText, Checkbox } from '@patternfly/react-core';
 
 class InsetTabs extends React.Component {
@@ -300,7 +296,6 @@ class InsetTabs extends React.Component {
 
 ### Icons and text
 ```js
-import React from 'react';
 import { Tabs, Tab, TabTitleText, TabTitleIcon } from '@patternfly/react-core';
 import { UsersIcon,  BoxIcon, DatabaseIcon, ServerIcon, LaptopIcon, ProjectDiagramIcon } from '@patternfly/react-icons';
 
@@ -347,7 +342,6 @@ class IconAndTextTabs extends React.Component {
 
 ### Tabs with sub tabs
 ```js
-import React from 'react';
 import { Tabs, Tab, TabTitleText, Checkbox } from '@patternfly/react-core';
 
 class SecondaryTabs extends React.Component {
@@ -460,7 +454,6 @@ class SecondaryTabs extends React.Component {
 
 ### Filled
 ```js
-import React from 'react';
 import { Tabs, Tab, TabTitleText, Checkbox } from '@patternfly/react-core';
 
 class FilledTabs extends React.Component {
@@ -517,7 +510,6 @@ class FilledTabs extends React.Component {
 
 ### Filled with icons
 ```js
-import React from 'react';
 import { Tabs, Tab, TabTitleText, TabTitleIcon, Checkbox } from '@patternfly/react-core';
 import { UsersIcon,  BoxIcon, DatabaseIcon } from '@patternfly/react-icons';
 
@@ -575,7 +567,6 @@ class FilledTabsWithIcons extends React.Component {
 
 ### Using the nav element
 ```js
-import React from 'react';
 import { Tabs, Tab, TabsComponent, TabTitleText } from '@patternfly/react-core';
 
 class TabsNav extends React.Component {
@@ -628,7 +619,6 @@ class TabsNav extends React.Component {
 
 ### Sub nav using the nav element
 ```js
-import React from 'react';
 import { Tabs, Tab, TabsComponent, TabTitleText } from '@patternfly/react-core';
 
 class SecondaryTabsNav extends React.Component {
@@ -713,7 +703,6 @@ class SecondaryTabsNav extends React.Component {
 
 ### Separate content
 ```js
-import React from 'react';
 import { Tabs, Tab, TabTitleText, TabContent } from '@patternfly/react-core';
 
 class SeparateTabContent extends React.Component {
@@ -762,7 +751,6 @@ class SeparateTabContent extends React.Component {
 
 ### Children mounting on click
 ```js
-import React from 'react';
 import { Tabs, Tab, TabTitleText } from '@patternfly/react-core';
 
 class MountingSimpleTabs extends React.Component {
@@ -799,7 +787,6 @@ class MountingSimpleTabs extends React.Component {
 
 ### Unmounting invisible children
 ```js
-import React from 'react';
 import { Tabs, Tab, TabTitleText } from '@patternfly/react-core';
 
 class UnmountingSimpleTabs extends React.Component {
@@ -836,7 +823,6 @@ class UnmountingSimpleTabs extends React.Component {
 
 ### Toggled separate content
 ```js
-import React from 'react';
 import { Tabs, Tab, TabsVariant, TabContent, Button, Divider } from '@patternfly/react-core';
 
 class ToggledSeparateContent extends React.Component {

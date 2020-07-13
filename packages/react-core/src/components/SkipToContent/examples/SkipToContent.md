@@ -10,7 +10,6 @@ import { SkipToContent } from '@patternfly/react-core';
 ## Examples
 ### Basic
 ```js isFullscreen
-import React from 'react';
 import { SkipToContent } from '@patternfly/react-core';
 
 class SimpleSkipToContent extends React.Component {

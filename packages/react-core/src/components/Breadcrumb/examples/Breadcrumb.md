@@ -11,7 +11,6 @@ import { Breadcrumb, BreadcrumbItem, BreadcrumbHeading } from '@patternfly/react
 ## Examples
 ### Basic
 ```js
-import React from 'react';
 import { Breadcrumb, BreadcrumbItem, BreadcrumbHeading } from '@patternfly/react-core';
 
 SimpleBreadcrumbs = () => (
@@ -28,7 +27,6 @@ SimpleBreadcrumbs = () => (
 
 ### Without home link
 ```js
-import React from 'react';
 import { Breadcrumb, BreadcrumbItem, BreadcrumbHeading } from '@patternfly/react-core';
 
 WithoutLinkBreadcrumbs = () => (
@@ -47,7 +45,6 @@ WithoutLinkBreadcrumbs = () => (
 
 ### With heading
 ```js
-import React from 'react';
 import { Breadcrumb, BreadcrumbItem, BreadcrumbHeading } from '@patternfly/react-core';
 
 HeadingBreadcrumbs = () => (

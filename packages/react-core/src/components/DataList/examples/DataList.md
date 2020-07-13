@@ -40,7 +40,6 @@ import { css } from '@patternfly/react-styles';
 
 ### Basic
 ```js
-import React from 'react';
 import {
   Button,
   DataList,
@@ -91,7 +90,6 @@ SimpleDataList = () => (
 
 ### Compact
 ```js
-import React from 'react';
 import {
   Button,
   DataList,
@@ -142,7 +140,6 @@ SimpleDataList = () => (
 
 ### Checkboxes, actions and additional cells
 ```js
-import React from 'react';
 import {
   Button,
   DataList,
@@ -358,7 +355,6 @@ class CheckboxActionDataList extends React.Component {
 
 ### Actions: single and multiple
 ```js
-import React from 'react';
 import {
   Button,
   Dropdown,
@@ -469,7 +465,6 @@ class ActionsDataList extends React.Component {
 
 ### Expandable
 ```js
-import React from 'react';
 import {
   Button,
   DataList,
@@ -711,7 +706,6 @@ class ExpandableDataList extends React.Component {
 
 ### Width modifiers
 ```js
-import React from 'react';
 import {
   Button,
   DataList,
@@ -915,7 +909,6 @@ class ModifiersDataList extends React.Component {
 
 ### Selectable rows
 ```js
-import React from 'react';
 import {
   Button,
   Dropdown,

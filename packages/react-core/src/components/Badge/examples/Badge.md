@@ -10,7 +10,6 @@ import { Badge } from '@patternfly/react-core';
 ## Examples
 ### Read
 ```js
-import React from 'react';
 import { Badge } from '@patternfly/react-core';
 
 ReadBadge = () => (
@@ -28,7 +27,6 @@ ReadBadge = () => (
 
 ### Unread
 ```js
-import React from 'react';
 import { Badge } from '@patternfly/react-core';
 
 UnreadBadge = () => (

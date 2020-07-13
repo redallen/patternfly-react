@@ -13,7 +13,6 @@ import { FormSelect, FormSelectOption, FormSelectOptionGroup, ValidatedOptions }
 
 ### Basic
 ```js
-import React from 'react';
 import { FormSelect, FormSelectOption, FormSelectOptionGroup } from '@patternfly/react-core';
 
 class FormSelectInput extends React.Component {
@@ -50,7 +49,6 @@ class FormSelectInput extends React.Component {
 
 ### Invalid
 ```js
-import React from 'react';
 import { FormSelect, FormSelectOption, FormSelectOptionGroup, ValidatedOptions } from '@patternfly/react-core';
 
 class FormSelectInputInvalid extends React.Component {
@@ -94,7 +92,6 @@ class FormSelectInputInvalid extends React.Component {
 
 ### Validated
 ```js
-import React from 'react';
 import { Form, FormGroup, FormSelect, FormSelectOption, FormSelectOptionGroup, ValidatedOptions } from '@patternfly/react-core';
 
 class FormSelectInputInvalid extends React.Component {
@@ -164,7 +161,6 @@ class FormSelectInputInvalid extends React.Component {
 
 ### Disabled
 ```js
-import React from 'react';
 import { FormSelect, FormSelectOption, FormSelectOptionGroup } from '@patternfly/react-core';
 
 class FormSelectInputDisabled extends React.Component {
@@ -201,7 +197,6 @@ class FormSelectInputDisabled extends React.Component {
 
 ### Grouped
 ```js
-import React from 'react';
 import { FormSelect, FormSelectOption, FormSelectOptionGroup } from '@patternfly/react-core';
 
 class FormSelectInputGrouped extends React.Component {

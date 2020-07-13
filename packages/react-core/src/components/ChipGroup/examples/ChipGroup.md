@@ -12,7 +12,6 @@ import { Badge, Chip, ChipGroup } from '@patternfly/react-core';
 ## Examples
 ### Single
 ```js
-import React from 'react';
 import { Badge, Chip } from '@patternfly/react-core';
 
 class SingleChip extends React.Component {
@@ -88,7 +87,6 @@ class SingleChip extends React.Component {
 
 ### Simple inline chip group
 ```js
-import React from 'react';
 import { Chip, ChipGroup } from '@patternfly/react-core';
 
 class SimpleInlineChipGroup extends React.Component {
@@ -126,7 +124,6 @@ class SimpleInlineChipGroup extends React.Component {
 
 ### Chip groups with categories
 ```js
-import React from 'react';
 import { Chip, ChipGroup } from '@patternfly/react-core';
 
 class SimpleCategoryChipGroup extends React.Component {
@@ -163,7 +160,6 @@ class SimpleCategoryChipGroup extends React.Component {
 
 ### Chip groups with categories removable
 ```js
-import React from 'react';
 import { Chip, ChipGroup } from '@patternfly/react-core';
 
 class CategoryChipGroupRemovable extends React.Component {

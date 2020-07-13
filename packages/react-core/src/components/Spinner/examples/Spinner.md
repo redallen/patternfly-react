@@ -14,7 +14,6 @@ import { Alert } from '@patternfly/react-core';
 ## Examples
 ### Basic
 ```js
-import React from 'react';
 import { Spinner } from '@patternfly/react-core';
 
 SpinnerBasic = () => (<Spinner/>);
@@ -22,7 +21,6 @@ SpinnerBasic = () => (<Spinner/>);
 
 ### Size variations
 ```js
-import React from 'react';
 import { Spinner } from '@patternfly/react-core';
 
 SpinnerSizeVariations = () => (

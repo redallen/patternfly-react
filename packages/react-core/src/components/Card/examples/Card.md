@@ -13,7 +13,6 @@ import pfLogo from './pfLogo.svg';
 ## Examples
 ### Basic
 ```js
-import React from 'react';
 import { Card, CardTitle, CardBody, CardFooter } from '@patternfly/react-core';
 
 SimpleCard = () => (
@@ -269,7 +268,6 @@ class KebabDropdown extends React.Component {
 
 ### Only image in the card head
 ```js
-import React from 'react';
 import { Brand, Card, CardBody, CardFooter, CardHeader, CardHeaderMain, CardTitle } from '@patternfly/react-core';
 
 ImageCard = () => (
@@ -288,7 +286,6 @@ ImageCard = () => (
 
 ### With no footer
 ```js
-import React from 'react';
 import { Card, CardTitle, CardBody, CardFooter } from '@patternfly/react-core';
 
 NoFooterCard = () => (
@@ -301,7 +298,6 @@ NoFooterCard = () => (
 
 ### With no header
 ```js
-import React from 'react';
 import { Card, CardTitle, CardBody, CardFooter } from '@patternfly/react-core';
 
 NoHeaderCard = () => (
@@ -314,7 +310,6 @@ NoHeaderCard = () => (
 
 ### With only a content section
 ```js
-import React from 'react';
 import { Card, CardTitle, CardBody, CardFooter } from '@patternfly/react-core';
 
 ContentOnlyCard = () => (
@@ -326,7 +321,6 @@ ContentOnlyCard = () => (
 
 ### With multiple body sections
 ```js
-import React from 'react';
 import { Card, CardTitle, CardBody, CardFooter } from '@patternfly/react-core';
 
 MultipleBodyCard = () => (
@@ -342,7 +336,6 @@ MultipleBodyCard = () => (
 
 ### With only one body that fills
 ```js
-import React from 'react';
 import { Card, CardTitle, CardBody, CardFooter } from '@patternfly/react-core';
 
 NoFillBodyCard = () => (
@@ -358,7 +351,6 @@ NoFillBodyCard = () => (
 
 ### Hover
 ```js
-import React from 'react';
 import { Card, CardTitle, CardBody, CardFooter } from '@patternfly/react-core';
 
 HoverableCard = () => (
@@ -372,7 +364,6 @@ HoverableCard = () => (
 
 ### Compact
 ```js
-import React from 'react';
 import { Card, CardTitle, CardBody, CardFooter } from '@patternfly/react-core';
 
 CompactCard = () => (
@@ -386,7 +377,6 @@ CompactCard = () => (
 
 ### Selectable and selected
 ```js
-import React from 'react';
 import { Card, CardHeader, CardActions, CardTitle, CardBody, Dropdown, DropdownToggle, DropdownItem, DropdownSeparator, DropdownPosition, DropdownDirection, KebabToggle, } from '@patternfly/react-core'; 
 
 class SelectableCard extends React.Component {
@@ -475,7 +465,6 @@ class SelectableCard extends React.Component {
 
 ### Flat
 ```js
-import React from 'react';
 import { Card, CardTitle, CardBody, CardFooter } from '@patternfly/react-core';
 
 SimpleCard = () => (

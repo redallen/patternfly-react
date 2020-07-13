@@ -13,7 +13,6 @@ import { SimpleList, SimpleListGroup, SimpleListItem } from '@patternfly/react-c
 
 ### Simple list
 ```js
-import React from 'react';
 import { SimpleList, SimpleListItem } from '@patternfly/react-core';
 
 class SimpleListDemo extends React.Component {
@@ -43,7 +42,6 @@ class SimpleListDemo extends React.Component {
 
 ### Grouped list
 ```js
-import React from 'react';
 import { SimpleList, SimpleListItem, SimpleListGroup } from '@patternfly/react-core';
 
 class SimpleListGroupDemo extends React.Component {

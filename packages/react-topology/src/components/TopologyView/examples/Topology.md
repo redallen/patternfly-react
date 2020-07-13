@@ -16,7 +16,6 @@ import './topology-example.css';
 ## Examples
 ### Default controls
 ```js
-import React from 'react';
 import { TopologyView, TopologyControlBar, createTopologyControlButtons, TopologySideBar } from '@patternfly/react-topology';
 import { ProjectToolbar } from './ProjectToolbar';
 import { ViewToolbar } from './ViewToolbar';
@@ -53,7 +52,6 @@ class DefaultTopologyView extends React.Component {
 
 ### Selected controls
 ```js
-import React from 'react';
 import { TopologyView, TopologyControlBar, createTopologyControlButtons } from '@patternfly/react-topology';
 import { ItemDetails } from './ItemDetails';
 import { ViewToolbar } from './ViewToolbar';
@@ -88,7 +86,6 @@ class SelectedTopologyView extends React.Component {
 
 ### Custom controls
 ```js
-import React from 'react';
 import { ExternalLinkAltIcon, FilmIcon, GlassCheersIcon } from '@patternfly/react-icons';
 import { TopologyView, TopologyControlBar, createTopologyControlButtons } from '@patternfly/react-topology';
 import { ItemDetails } from './ItemDetails';

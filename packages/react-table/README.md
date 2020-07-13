@@ -40,7 +40,6 @@ import '@patternfly/react-core/dist/styles/base.css';
 #### Example Component Usage
 
 ```javascript
-import React from 'react';
 import { Table, TableHeader, TableBody } from '@patternfly/react-table';
 
 class SimpleTable extends React.Component {

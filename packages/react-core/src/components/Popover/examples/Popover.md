@@ -11,7 +11,6 @@ import { Popover, PopoverPosition, Checkbox, Button } from '@patternfly/react-co
 ## Examples
 ### Basic
 ```js
-import React from 'react';
 import { Popover, PopoverPosition, Button } from '@patternfly/react-core';
 
 SimplePopover = () => (
@@ -31,7 +30,6 @@ SimplePopover = () => (
 
 ### Advanced
 ```js
-import React from 'react';
 import { Popover, PopoverPosition, Checkbox, Button } from '@patternfly/react-core';
 
 class AdvancedPopover extends React.Component {
@@ -121,7 +119,6 @@ class AdvancedPopover extends React.Component {
 
 ### Headless
 ```js
-import React from 'react';
 import { Popover, PopoverPosition, Button } from '@patternfly/react-core';
 
 HeadlessPopover = () => (
@@ -142,7 +139,6 @@ HeadlessPopover = () => (
 
 ### With Link
 ```js
-import React from 'react';
 import { Popover, PopoverPosition, Button } from '@patternfly/react-core';
 
 HeadlessPopover = () => (

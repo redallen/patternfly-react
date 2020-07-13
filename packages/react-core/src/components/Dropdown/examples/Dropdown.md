@@ -16,7 +16,6 @@ import { Link } from '@reach/router';
 
 ### Basic
 ```js
-import React from 'react';
 import {
   Dropdown,
   DropdownToggle,
@@ -88,7 +87,6 @@ class SimpleDropdown extends React.Component {
 
 ### With initial selection
 ```js
-import React from 'react';
 import {
   Dropdown,
   DropdownToggle,
@@ -161,7 +159,6 @@ class IntialSelectionDropdown extends React.Component {
 
 ### With groups
 ```js
-import React from 'react';
 import { Dropdown, DropdownToggle, DropdownGroup, DropdownItem, DropdownSeparator } from '@patternfly/react-core';
 
 class GroupedDropdown extends React.Component {
@@ -228,7 +225,6 @@ class GroupedDropdown extends React.Component {
 
 ### Disabled
 ```js
-import React from 'react';
 import {
   Dropdown,
   DropdownToggle,
@@ -295,7 +291,6 @@ class DisabledDropdown extends React.Component {
 
 ### Primary toggle
 ```js
-import React from 'react';
 import {
   Dropdown,
   DropdownToggle,
@@ -366,7 +361,6 @@ class PrimaryDropdown extends React.Component {
 
 ### Position right
 ```js
-import React from 'react';
 import {
   Dropdown,
   DropdownToggle,
@@ -435,7 +429,6 @@ class PositionRightDropdown extends React.Component {
 
 ### Direction up
 ```js
-import React from 'react';
 import {
   Dropdown,
   DropdownToggle,
@@ -503,7 +496,6 @@ class DirectionUpDropdown extends React.Component {
 
 ### With kebab
 ```js
-import React from 'react';
 import {
   Dropdown,
   DropdownToggle,
@@ -572,7 +564,6 @@ class KebabDropdown extends React.Component {
 
 ### Icon only
 ```js
-import React from 'react';
 import {
   Dropdown,
   DropdownToggle,
@@ -645,7 +636,6 @@ class IconDropdown extends React.Component {
 
 ### Split button
 ```js
-import React from 'react';
 import {
   Dropdown,
   DropdownToggle,
@@ -722,7 +712,6 @@ class SplitButtonDropdown extends React.Component {
 
 ### Split button (with text)
 ```js
-import React from 'react';
 import {
   Dropdown,
   DropdownToggle,
@@ -795,7 +784,6 @@ class SplitButtonDropdown extends React.Component {
 
 ### Split button (3rd state)
 ```js
-import React from 'react';
 import {
   Dropdown,
   DropdownToggle,
@@ -876,7 +864,6 @@ class SplitButtonDropdown extends React.Component {
 
 ### Split button (disabled)
 ```js
-import React from 'react';
 import {
   Dropdown,
   DropdownToggle,
@@ -953,7 +940,6 @@ class SplitButtonDisabledDropdown extends React.Component {
 
 ### Split button action
 ```js
-import React from 'react';
 import {
   Dropdown,
   DropdownToggle,
@@ -1067,7 +1053,6 @@ class SplitButtonActionDropdown extends React.Component {
 
 ### Basic panel
 ```js
-import React from 'react';
 import {
   Dropdown,
   DropdownToggle,
@@ -1114,7 +1099,6 @@ class DropdownPanel extends React.Component {
 
 ### Router link
 ```js
-import React from 'react';
 import {
   Button,
   Dropdown,
@@ -1179,7 +1163,6 @@ class RouterDropdown extends React.Component {
 
 ### Dropdown with image and text
 ```js
-import React from 'react';
 import {
   Dropdown,
   DropdownGroup,
@@ -1251,7 +1234,6 @@ class ImageTextDropdown extends React.Component {
 
 ### Append menu document body
 ```js
-import React from 'react';
 import {
   Dropdown,
   DropdownToggle,
@@ -1311,7 +1293,6 @@ class MenuOnDocumentBodyDropdown extends React.Component {
 ```
 ### Dropdown with descriptions
 ```js
-import React from 'react';
 import {
   Dropdown,
   DropdownToggle,

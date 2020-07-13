@@ -11,7 +11,6 @@ import './grid.css';
 ## Examples
 ### Basic
 ```js
-import React from 'react';
 import { Grid, GridItem } from '@patternfly/react-core';
 
 GridBasicExample = () => (
@@ -38,7 +37,6 @@ GridBasicExample = () => (
 
 ### With gutters
 ```js
-import React from 'react';
 import { Grid, GridItem } from '@patternfly/react-core';
 
 GridWithGuttersExample = () => (
@@ -65,7 +63,6 @@ GridWithGuttersExample = () => (
 
 ### With overrides
 ```js
-import React from 'react';
 import { Grid, GridItem } from '@patternfly/react-core';
 
 GridWithOverridesExample = () => (

@@ -22,7 +22,6 @@ This package is currently an extension. Extension components do not undergo the 
 ## Examples
 ### Editable
 ```js
-import React from 'react';
 import { Table, TableHeader, TableBody, RowWrapper, TableVariant, ExpandableRowContent } from '@patternfly/react-table';
 import {
   editableTableBody,
@@ -337,7 +336,6 @@ class EditableTable extends React.Component {
 
 ### With inline edit columns
 ```js
-import React from 'react';
 import { Table, TableHeader, TableBody, RowWrapper, TableVariant, ExpandableRowContent } from '@patternfly/react-table';
 import {
   editableTableBody,
@@ -497,7 +495,6 @@ class EditableTableColumn extends React.Component {
 
 ### With collapsible rows
 ```js
-import React from 'react';
 import { Table, TableHeader, TableBody, RowWrapper, TableVariant, ExpandableRowContent } from '@patternfly/react-table';
 import {
   editableTableBody,

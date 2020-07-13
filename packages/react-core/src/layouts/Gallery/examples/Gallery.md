@@ -12,7 +12,6 @@ import './gallery.css';
 ## Examples
 ### Basic
 ```js
-import React from 'react';
 import { Gallery, GalleryItem } from '@patternfly/react-core';
 
 GalleryBasicExample = () => (
@@ -31,7 +30,6 @@ GalleryBasicExample = () => (
 
 ### With gutters
 ```js
-import React from 'react';
 import { Gallery, GalleryItem } from '@patternfly/react-core';
 
 GalleryWithGuttersExample = () => (

@@ -13,7 +13,6 @@ import { Banner } from '@patternfly/react-core';
 
 ### Basic
 ```js
-import React from 'react';
 import { Banner } from '@patternfly/react-core';
 
 BannerVariants = () => (

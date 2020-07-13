@@ -12,7 +12,6 @@ import './checkbox.css';
 ## Examples
 ### Controlled
 ```js
-import React from 'react';
 import { Checkbox } from '@patternfly/react-core';
 
 class ControlledCheckbox extends React.Component {
@@ -92,7 +91,6 @@ class ControlledCheckbox extends React.Component {
 
 ### Uncontrolled
 ```js
-import React from 'react';
 import { Checkbox } from '@patternfly/react-core';
 
 UncontrolledCheckbox = () => (
@@ -105,7 +103,6 @@ UncontrolledCheckbox = () => (
 
 ### Disabled
 ```js
-import React from 'react';
 import { Checkbox } from '@patternfly/react-core';
 
 DisabledCheckbox = () => (
@@ -124,7 +121,6 @@ DisabledCheckbox = () => (
 
 ### Checkbox with description
 ```js
-import React from 'react';
 import { Checkbox } from '@patternfly/react-core';
 
 DisabledCheckbox = () => (

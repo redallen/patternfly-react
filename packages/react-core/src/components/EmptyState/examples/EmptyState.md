@@ -20,7 +20,6 @@ import { CubesIcon } from '@patternfly/react-icons';
 ## Examples
 ### Small
 ```js
-import React from 'react';
 import {
   Title,
   Button,
@@ -57,7 +56,6 @@ SimpleEmptyState = () => (
 
 ### Large
 ```js
-import React from 'react';
 import {
   Title,
   Button,
@@ -94,7 +92,6 @@ SimpleEmptyState = () => (
 
 ### Basic
 ```js
-import React from 'react';
 import {
   Title,
   Button,
@@ -130,7 +127,6 @@ SimpleEmptyState = () => (
 
 ### Extra Large
 ```js
-import React from 'react';
 import {
   Title,
   Button,
@@ -167,7 +163,6 @@ SimpleEmptyState = () => (
 
 ### Extra Large
 ```js
-import React from 'react';
 import {
   Title,
   Button,
@@ -204,7 +199,6 @@ SimpleEmptyState = () => (
 
 ### Spinner
 ```js
-import React from 'react';
 import {
   Title,
   Button,
@@ -236,7 +230,6 @@ EmptyStateSpinner = () => {
 
 ### No match found
 ```js
-import React from 'react';
 import {
   Title,
   Button,

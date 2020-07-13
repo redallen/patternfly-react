@@ -14,7 +14,6 @@ import { TimesIcon, PlusCircleIcon, ExternalLinkSquareAltIcon, CopyIcon } from '
 
 ### Variations
 ```js
-import React from 'react';
 import { Button } from '@patternfly/react-core';
 import { TimesIcon, PlusCircleIcon, ExternalLinkSquareAltIcon, CopyIcon } from '@patternfly/react-icons';
 
@@ -44,7 +43,6 @@ ButtonVariants = () => (
 
 ### Disabled
 ```js
-import React from 'react';
 import { Button } from '@patternfly/react-core';
 import { TimesIcon, PlusCircleIcon, Tooltip } from '@patternfly/react-icons';
 
@@ -74,7 +72,6 @@ DisabledBtn = () => (
 
 ### Aria disabled
 ```js
-import React from 'react';
 import { Button } from '@patternfly/react-core';
 import { TimesIcon, PlusCircleIcon, Tooltip } from '@patternfly/react-icons';
 
@@ -104,7 +101,6 @@ AriaDisabledBtn = () => (
 
 ### Aria disabled button with tooltip
 ```js
-import React from 'react';
 import { Button } from '@patternfly/react-core';
 import { TimesIcon, PlusCircleIcon, Tooltip } from '@patternfly/react-icons';
 
@@ -119,7 +115,6 @@ AriaDisabledBtnWithTooltip = () => (
 
 ### Aria disabled link as button with tooltip
 ```js
-import React from 'react';
 import { Button } from '@patternfly/react-core';
 import { TimesIcon, PlusCircleIcon, Tooltip } from '@patternfly/react-icons';
 
@@ -134,7 +129,6 @@ AriaDisabledLinkBtnWithTooltip = () => (
 
 ### Links as button
 ```js
-import React from 'react';
 import { Button } from '@patternfly/react-core';
 
 LinkButton = () => (
@@ -157,7 +151,6 @@ LinkButton = () => (
 
 ### Block level
 ```js
-import React from 'react';
 import { Button } from '@patternfly/react-core';
 import { TimesIcon } from '@patternfly/react-icons';
 
@@ -166,7 +159,6 @@ BlockButton = () => <Button isBlock>Block level button</Button>;
 
 ### Types
 ```js
-import React from 'react';
 import { Button } from '@patternfly/react-core';
 
 ButtonTypes = () => (
@@ -180,7 +172,6 @@ ButtonTypes = () => (
 
 ### Small
 ```js
-import React from 'react';
 import { Button } from '@patternfly/react-core';
 
 ButtonSmallVariants = () => (

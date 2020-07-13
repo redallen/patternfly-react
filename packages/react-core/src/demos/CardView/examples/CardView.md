@@ -4,7 +4,6 @@ section: 'demos'
 experimentalStage: 'early'
 ---
 
-import React from 'react';
 import {
 Avatar,
 Brand,
@@ -72,7 +71,6 @@ This is a demo that showcases Patternfly cards.
 
 ### Basic
 ```js isFullscreen
-import React from 'react';
 import {
   Avatar,
   Brand,
