@@ -32,20 +32,8 @@
     "@patternfly/react-styles": "^4.4.4",
     "@patternfly/react-table": "^4.11.2",
     "@patternfly/react-tokens": "^4.5.2",
-<<<<<<< Updated upstream
     "@patternfly/react-topology": "^4.4.23",
-    "@patternfly/react-virtualized-extension": "^4.5.14",
-    "gatsby": "2.21.0",
-    "gatsby-theme-patternfly-org": "^4.0.13",
-    "gatsby-transformer-react-docgen-typescript": "^4.0.5",
-    "null-loader": "^3.0.0",
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0",
-    "react-helmet": "^5.2.1"
-=======
-    "@patternfly/react-topology": "^4.4.16",
-    "@patternfly/react-virtualized-extension": "^4.5.7"
->>>>>>> Stashed changes
+    "@patternfly/react-virtualized-extension": "^4.5.14"
   },
   "devDependencies": {
     "@patternfly/patternfly-a11y": "^0.0.17",
