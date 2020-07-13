@@ -9,7 +9,8 @@ ouia: true
 import { Radio } from '@patternfly/react-core';
 
 ## Examples
-```js title=Controlled
+### Controlled
+```js
 import React from 'react';
 import { Radio } from '@patternfly/react-core';
 
@@ -43,7 +44,8 @@ class ControlledRadio extends React.Component {
 }
 ```
 
-```js title=Uncontrolled
+### Uncontrolled
+```js
 import React from 'react';
 import { Radio } from '@patternfly/react-core';
 
@@ -54,7 +56,8 @@ UncontrolledRadio = () => (
 );
 ```
 
-```js title=Reversed
+### Reversed
+```js
 import React from 'react';
 import { Radio } from '@patternfly/react-core';
 
@@ -65,7 +68,8 @@ ReversedRadio = () => (
 );
 ```
 
-```js title=Label-wraps
+### Label wraps
+```js
 import React from 'react';
 import { Radio } from '@patternfly/react-core';
 
@@ -76,7 +80,8 @@ LabelWrapsInputRadio = () => (
 );
 ```
 
-```js title=Disabled
+### Disabled
+```js
 import React from 'react';
 import { Radio } from '@patternfly/react-core';
 
@@ -88,7 +93,8 @@ DisabledRadio = () => (
 );
 ```
 
-```js title=With-description
+### With description
+```js
 import React from 'react';
 import { Radio } from '@patternfly/react-core';
 

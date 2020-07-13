@@ -9,7 +9,8 @@ propComponents: ['Title']
 import { Title, TitleSizes } from '@patternfly/react-core';
 
 ## Examples
-```js title=Sizes
+### Sizes
+```js
 import React from 'react';
 import { Title, TitleSizes } from '@patternfly/react-core';
 
@@ -35,7 +36,8 @@ import { Title, TitleSizes } from '@patternfly/react-core';
 </React.Fragment>
 ```
 
-```js title=Default-size-mappings
+### Default size mappings
+```js
 import React from 'react';
 import { Title } from '@patternfly/react-core';
 

@@ -12,7 +12,8 @@ import './TooltipExamples.css';
 
 ## Examples
 
-```js title=Basic
+### Basic
+```js
 import React from 'react';
 import { Tooltip } from '@patternfly/react-core';
 
@@ -29,7 +30,8 @@ BasicTooltip = () => (
 )
 ```
 
-```js title=On-icon
+### On icon
+```js
 import React from 'react';
 import { Tooltip } from '@patternfly/react-core';
 import { OutlinedQuestionCircleIcon } from '@patternfly/react-icons';
@@ -48,7 +50,8 @@ OnIconTooltip = () => (
 )
 ```
 
-```js title=Options
+### Options
+```js
 import React from 'react';
 import { Button, Tooltip, Checkbox, Select, SelectOption, TextInput } from '@patternfly/react-core';
 

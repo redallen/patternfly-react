@@ -9,7 +9,8 @@ import { Brand } from '@patternfly/react-core';
 import pfLogo from './pfLogo.svg';
 
 ## Examples
-```js title=Basic
+### Basic
+```js
 import React from 'react';
 import { Brand } from '@patternfly/react-core';
 import pfLogo from './examples/pfLogo.svg';

@@ -11,7 +11,8 @@ import { SimpleList, SimpleListGroup, SimpleListItem } from '@patternfly/react-c
 
 ## Examples
 
-```js title=Simple-list
+### Simple list
+```js
 import React from 'react';
 import { SimpleList, SimpleListItem } from '@patternfly/react-core';
 
@@ -40,7 +41,8 @@ class SimpleListDemo extends React.Component {
 }
 ```
 
-```js title=Grouped-list
+### Grouped list
+```js
 import React from 'react';
 import { SimpleList, SimpleListItem, SimpleListGroup } from '@patternfly/react-core';
 

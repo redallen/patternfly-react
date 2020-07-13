@@ -10,7 +10,8 @@ import { Avatar } from '@patternfly/react-core';
 import avatarImg from './avatarImg.svg';
 
 ## Examples
-```js title=Basic
+### Basic
+```js
 import React from 'react';
 import { Avatar } from '@patternfly/react-core';
 import avatarImg from './examples/avatarImg.svg';

@@ -23,7 +23,8 @@ import { ExclamationCircleIcon, HelpIcon } from '@patternfly/react-icons';
 
 ## Examples
 
-```js title=Basic
+### Basic
+```js
 import React from 'react';
 import {
   Form,
@@ -152,7 +153,8 @@ class SimpleForm extends React.Component {
 }
 ```
 
-```js title=Horizontal
+### Horizontal
+```js
 import React from 'react';
 import {
   Form,
@@ -262,7 +264,8 @@ class HorizontalForm extends React.Component {
 }
 ```
 
-```js title=Invalid
+### Invalid
+```js
 import React from 'react';
 import {
   Form,
@@ -322,7 +325,8 @@ class InvalidForm extends React.Component {
 }
 ```
 
-```js title=Validated
+### Validated
+```js
 import React from 'react';
 import {
   Form,
@@ -397,7 +401,8 @@ class InvalidForm extends React.Component {
 }
 ```
 
-```js title=Horizontal-no-padding-top
+### Horizontal no padding top
+```js
 import React from 'react';
 import { Form, FormGroup, Checkbox, Radio } from '@patternfly/react-core';
 

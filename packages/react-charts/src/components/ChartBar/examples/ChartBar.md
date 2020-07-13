@@ -25,7 +25,8 @@ Learn to build a bar chart using a Katacoda tutorial starting with a simple char
 [Start course](https://katacoda.com/patternfly/courses/react-charts/bar-chart)
 
 ## Examples
-```js title=Basic-with-right-aligned-legend
+### Basic with right aligned legend
+```js
 import React from 'react';
 import { Chart, ChartAxis, ChartBar, ChartGroup, ChartVoronoiContainer } from '@patternfly/react-charts';
 
@@ -62,7 +63,8 @@ BasicRightAlignedLegend = (
 )
 ```
 
-```js title=Purple-with-bottom-aligned-legend
+### Purple with bottom aligned legend
+```js
 import React from 'react';
 import { Chart, ChartAxis, ChartBar, ChartGroup, ChartThemeColor, ChartVoronoiContainer } from '@patternfly/react-charts';
 
@@ -98,7 +100,8 @@ PurpleBottomLegend = (
 )
 ```
 
-```js title=Multi--color-(ordered)-with-bottom--left-aligned-legend
+### Multi-color (ordered) with bottom  left aligned legend
+```js
 import React from 'react';
 import { Chart, ChartAxis, ChartBar, ChartGroup, ChartThemeColor } from '@patternfly/react-charts';
 import { VictoryZoomContainer } from 'victory-zoom-container';
@@ -138,7 +141,8 @@ BottomLeftLegend = (
 )
 ```
 
-```js title=Single-with-right-aligned-legend
+### Single with right aligned legend
+```js
 import React from 'react';
 import { Chart, ChartBar, ChartVoronoiContainer } from '@patternfly/react-charts';
 

@@ -10,7 +10,8 @@ import { Stack, StackItem } from '@patternfly/react-core';
 import './stack.css';
 
 ## Examples
-```js title=Basic
+### Basic
+```js
 import React from 'react';
 import { Stack, StackItem } from '@patternfly/react-core';
 
@@ -23,7 +24,8 @@ StackBasicExample = () => (
 );
 ```
 
-```js title=With-gutter
+### With gutter
+```js
 import React from 'react';
 import { Stack, StackItem } from '@patternfly/react-core';
 

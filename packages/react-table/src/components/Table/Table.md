@@ -60,7 +60,8 @@ import DemoSortableTable from './demo/DemoSortableTable';
 
 ## Examples
 
-```js title=Basic
+### Basic
+```js
 
 import React from 'react';
 import {
@@ -131,7 +132,8 @@ class SimpleTable extends React.Component {
 ```
 
 
-```js title=Row-click-handler
+### Row click handler
+```js
 import React from 'react';
 import {
   Table,
@@ -179,7 +181,8 @@ class RowClickTable extends React.Component {
 }
 ```
 
-```js title=Custom-row-wrapper
+### Custom row wrapper
+```js
 import React from 'react';
 import {
   Table,
@@ -254,7 +257,8 @@ class RowWrapperTable extends React.Component {
 }
 ```
 
-```js title=Sortable
+### Sortable
+```js
 import React from 'react';
 import {
   Table,
@@ -305,7 +309,8 @@ class SortableTable extends React.Component {
 }
 ```
 
-```js title=Sortable-with-wrapping-headers
+### Sortable with wrapping headers
+```js
 import React from 'react';
 import {
   Table,
@@ -372,7 +377,8 @@ class SortableWrappingHeaders extends React.Component {
 }
 ```
 
-```js title=Selectable
+### Selectable
+```js
 import React from 'react';
 import {
   Table,
@@ -469,7 +475,8 @@ class SelectableTable extends React.Component {
 }
 ```
 
-```js title=Simple-actions
+### Simple actions
+```js
 import React from 'react';
 import {
   Table,
@@ -532,7 +539,8 @@ class SimpleActionsTable extends React.Component {
 }
 ```
 
-```js title=Actions
+### Actions
+```js
 import React from 'react';
 import {
   Table,
@@ -627,7 +635,8 @@ class ActionsTable extends React.Component {
 }
 ```
 
-```js title=First-cell-as-header
+### First cell as header
+```js
 import React from 'react';
 import {
   Table,
@@ -664,7 +673,8 @@ class CellHeader extends React.Component {
 }
 ```
 
-```js title=Compact
+### Compact
+```js
 import React from 'react';
 import {
   Table,
@@ -700,7 +710,8 @@ class CompactTable extends React.Component {
 }
 ```
 
-```js title=Compact-borderless-rows
+### Compact borderless rows
+```js
 import React from 'react';
 import {
   Table,
@@ -742,7 +753,8 @@ class CompactTableBorderlessRows extends React.Component {
 }
 ```
 
-```js title=Compact-expandable
+### Compact expandable
+```js
 import React from 'react';
 import {
   Table,
@@ -832,7 +844,8 @@ class CompactExpandableTable extends React.Component {
 }
 ```
 
-```js title=With-width-modifiers
+### With width modifiers
+```js
 import React from 'react';
 import {
   Table,
@@ -872,7 +885,8 @@ class WidthTable extends React.Component {
 }
 ```
 
-```js title=Breakpoint-modifiers
+### Breakpoint modifiers
+```js
 import React from 'react';
 import {
   Table,
@@ -925,7 +939,8 @@ class HiddenVisibleBreakpointTable extends React.Component {
 }
 ```
 
-```js title=Collapsible
+### Collapsible
+```js
 import React from 'react';
 import {
   Table,
@@ -1011,7 +1026,8 @@ class CollapsibleTable extends React.Component {
 }
 ```
 
-```js title=Compound-expandable
+### Compound expandable
+```js
 import React from 'react';
 import {
   Table,
@@ -1211,7 +1227,8 @@ class CompoundExpandableTable extends React.Component {
 }
 ```
 
-```js title=Controlling-text
+### Controlling text
+```js
 import React from 'react';
 import {
   Table,
@@ -1266,7 +1283,8 @@ class ControllingText extends React.Component {
 }
 ```
 
-```js title=Modifiers-with-table-text
+### Modifiers with table text
+```js
 import React from 'react';
 import {
   Table,
@@ -1311,7 +1329,8 @@ class ModifiersWithTableText extends React.Component {
 }
 ```
 
-```js title=Empty-state
+### Empty state
+```js
 import React from 'react';
 import { Table, TableHeader, TableBody } from '@patternfly/react-table';
 import { Button, EmptyState, EmptyStateBody, EmptyStatePrimary, Bullseye, Title } from '@patternfly/react-core';
@@ -1341,7 +1360,8 @@ EmptyStateTable = () => {
 }
 ```
 
-```js title=Editable-rows isBeta
+### Editable rows
+```js isBeta
 import React from 'react';
 import { TextInput, SelectOption } from '@patternfly/react-core';
 import {

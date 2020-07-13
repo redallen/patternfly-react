@@ -11,7 +11,8 @@ import { Page, PageHeader, PageHeaderTools, PageSidebar, PageSection, PageSectio
 
 ## Examples
 
-```js title=Vertical-nav
+### Vertical nav
+```js
 import React from 'react';
 import {
   Page,
@@ -66,7 +67,8 @@ class VerticalPage extends React.Component {
 }
 ```
 
-```js title=Horizontal-nav
+### Horizontal nav
+```js
 import React from 'react';
 import {
   Page,
@@ -102,7 +104,8 @@ HorizontalPage = () => {
 };
 ```
 
-```js title=Main-Section-Padding
+### Main Section Padding
+```js
 import React from 'react';
 import {
   Page,
@@ -164,7 +167,8 @@ class VerticalPage extends React.Component {
 }
 ```
 
-```js title=With-or-without-fill
+### With or without fill
+```js
 import React from 'react';
 import {
   Page,

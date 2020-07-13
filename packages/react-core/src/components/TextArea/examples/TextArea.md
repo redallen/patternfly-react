@@ -9,7 +9,8 @@ typescript: true
 import { TextArea } from '@patternfly/react-core';
 
 ## Examples
-```js title=Basic
+### Basic
+```js
 import React from 'react';
 import { TextArea } from '@patternfly/react-core';
 
@@ -33,7 +34,8 @@ class SimpleTextArea extends React.Component {
 }
 ```
 
-```js title=Invalid
+### Invalid
+```js
 import React from 'react';
 import { TextArea } from '@patternfly/react-core';
 
@@ -65,7 +67,8 @@ class InvalidTextArea extends React.Component {
 }
 ```
 
-```js title=Validated
+### Validated
+```js
 import React from 'react';
 import { Form, FormGroup, TextArea } from '@patternfly/react-core';
 
@@ -133,7 +136,8 @@ class InvalidTextArea extends React.Component {
 }
 ```
 
-```js title=Vertically-resizable-text-area
+### Vertically resizable text area
+```js
 import React from 'react';
 import { TextArea } from '@patternfly/react-core';
 
@@ -157,7 +161,8 @@ class VerticalResizeTextArea extends React.Component {
 }
 ```
 
-```js title=Horizontally-resizable-text-area
+### Horizontally resizable text area
+```js
 import React from 'react';
 import { TextArea } from '@patternfly/react-core';
 
@@ -181,7 +186,8 @@ class horizontalResizeTextArea extends React.Component {
 }
 ```
 
-```js title=Uncontrolled
+### Uncontrolled
+```js
 import React from 'react';
 import { TextArea } from '@patternfly/react-core';
 

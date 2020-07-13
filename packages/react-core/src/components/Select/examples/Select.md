@@ -11,7 +11,8 @@ import { Select, SelectOption, SelectVariant, SelectGroup, SelectDirection, Chec
 
 ## Examples
 
-```js title=Single
+### Single
+```js
 import React from 'react';
 import { CubeIcon } from '@patternfly/react-icons';
 import { Select, SelectOption, SelectVariant, SelectDirection, Checkbox } from '@patternfly/react-core';
@@ -145,7 +146,8 @@ class SingleSelectInput extends React.Component {
 }
 ```
 
-```js title=Single-with-description
+### Single with description
+```js
 import React from 'react';
 import { Select, SelectOption, SelectVariant } from '@patternfly/react-core';
 
@@ -227,7 +229,8 @@ class SingleSelectDescription extends React.Component {
 }
 ```
 
-```js title=Grouped-single
+### Grouped single
+```js
 import React from 'react';
 import { Select, SelectOption, SelectVariant, SelectGroup } from '@patternfly/react-core';
 
@@ -300,7 +303,8 @@ class GroupedSingleSelectInput extends React.Component {
 }
 ```
 
-```js title=Checkbox-input
+### Checkbox input
+```js
 import React from 'react';
 import { Select, SelectOption, SelectVariant } from '@patternfly/react-core';
 
@@ -375,7 +379,8 @@ class CheckboxSelectInput extends React.Component {
 }
 ```
 
-```js title=Checkbox-input-no-badge
+### Checkbox input no badge
+```js
 import React from 'react';
 import { Select, SelectOption, SelectVariant } from '@patternfly/react-core';
 
@@ -450,7 +455,8 @@ class CheckboxSelectInputNoBadge extends React.Component {
 }
 ```
 
-```js title=Grouped-checkbox-input
+### Grouped checkbox input
+```js
 import React from 'react';
 import { Select, SelectOption, SelectVariant, SelectGroup } from '@patternfly/react-core';
 
@@ -531,7 +537,8 @@ class GroupedCheckboxSelectInput extends React.Component {
 }
 ```
 
-```js title=Grouped-checkbox-input-with-filtering
+### Grouped checkbox input with filtering
+```js
 import React from 'react';
 import { Select, SelectOption, SelectGroup, SelectVariant } from '@patternfly/react-core';
 
@@ -635,7 +642,8 @@ class FilteringCheckboxSelectInput extends React.Component {
 }
 ```
 
-```js title=Grouped-checkbox-input-with-filtering-and-placeholder-text
+### Grouped checkbox input with filtering and placeholder text
+```js
 import React from 'react';
 import { Select, SelectOption, SelectGroup, SelectVariant } from '@patternfly/react-core';
 
@@ -740,7 +748,8 @@ class FilteringCheckboxSelectInputWithPlaceholder extends React.Component {
 }
 ```
 
-```js title=Grouped-checkbox-input-with-filtering-and-custom-badging
+### Grouped checkbox input with filtering and custom badging
+```js
 import React from 'react';
 import { Select, SelectOption, SelectGroup, SelectVariant } from '@patternfly/react-core';
 
@@ -863,7 +872,8 @@ class FilteringCheckboxSelectInputWithBadging extends React.Component {
 }
 ```
 
-```js title=Typeahead
+### Typeahead
+```js
 import React from 'react';
 import { Checkbox, Select, SelectOption, SelectVariant } from '@patternfly/react-core';
 
@@ -997,7 +1007,8 @@ class TypeaheadSelectInput extends React.Component {
 }
 ```
 
-```js title=Custom-filtering
+### Custom filtering
+```js
 import React from 'react';
 import { Select, SelectOption, SelectVariant } from '@patternfly/react-core';
 
@@ -1078,7 +1089,8 @@ class TypeaheadSelectInput extends React.Component {
 }
 ```
 
-```js title=Multiple
+### Multiple
+```js
 import React from 'react';
 import { Checkbox, Select, SelectOption, SelectVariant } from '@patternfly/react-core';
 
@@ -1201,7 +1213,8 @@ class MultiTypeaheadSelectInput extends React.Component {
 }
 ```
 
-```js title=Multiple-with-custom-objects
+### Multiple with custom objects
+```js
 import React from 'react';
 import { Select, SelectOption, SelectVariant } from '@patternfly/react-core';
 
@@ -1304,7 +1317,8 @@ class MultiTypeaheadSelectInputCustomObjects extends React.Component {
 }
 ```
 
-```js title=Plain-multiple-typeahead
+### Plain multiple typeahead
+```js
 import React from 'react';
 import { Select, SelectOption, SelectVariant } from '@patternfly/react-core';
 
@@ -1386,7 +1400,8 @@ class PlainSelectInput extends React.Component {
 }
 ```
 
-```js title=Panel
+### Panel
+```js
 import React from 'react';
 import { CubeIcon } from '@patternfly/react-icons';
 import { Select, SelectOption, SelectVariant, SelectDirection, Checkbox } from '@patternfly/react-core';
@@ -1466,7 +1481,8 @@ class SingleSelectInput extends React.Component {
 }
 ```
 
-```js title=select-menu-document-body
+### select menu document body
+```js
 import React from 'react';
 import { Select, SelectOption, SelectVariant } from '@patternfly/react-core';
 

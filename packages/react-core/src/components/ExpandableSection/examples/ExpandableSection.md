@@ -9,7 +9,8 @@ propComponents: ['ExpandableSection']
 import { ExpandableSection } from '@patternfly/react-core';
 
 ## Examples
-```js title=Basic
+### Basic
+```js
 import React from 'react';
 import { ExpandableSection } from '@patternfly/react-core';
 
@@ -37,7 +38,8 @@ class SimpleExpandableSection extends React.Component {
 }
 ```
 
-```js title=Uncontrolled
+### Uncontrolled
+```js
 import React from 'react';
 import { ExpandableSection } from '@patternfly/react-core';
 
@@ -49,7 +51,8 @@ UncontrolledExpandable = () => (
 )
 ```
 
-```js title=Uncontrolled-with-dynamic-toggle-text
+### Uncontrolled with dynamic toggle text
+```js
 import React from 'react';
 import { ExpandableSection } from '@patternfly/react-core';
 

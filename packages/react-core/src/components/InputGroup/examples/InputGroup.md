@@ -21,7 +21,8 @@ import {
 } from '@patternfly/react-core';
 
 ## Examples
-```js title=Basic
+### Basic
+```js
 import React from 'react';
 import { AtIcon, SearchIcon } from '@patternfly/react-icons';
 import {
@@ -64,7 +65,8 @@ class SimpleInputGroups extends React.Component {
 }
 ```
 
-```js title=With-textarea
+### With textarea
+```js
 import React from 'react';
 import {
   Button,
@@ -92,7 +94,8 @@ class SimpleInputGroups extends React.Component {
 }
 ```
 
-```js title=With-dropdown
+### With dropdown
+```js
 import React from 'react';
 import {
   Button,
@@ -156,7 +159,8 @@ class SimpleInputGroups extends React.Component {
 }
 ```
 
-```js title=With-datepicker
+### With datepicker
+```js
 import React from 'react';
 import { CalendarAltIcon } from '@patternfly/react-icons';
 import {
@@ -185,7 +189,8 @@ class SimpleInputGroups extends React.Component {
 }
 ```
 
-```js title=With-popover
+### With popover
+```js
 import React from 'react';
 import { QuestionCircleIcon } from '@patternfly/react-icons';
 import {
@@ -236,7 +241,8 @@ class SimpleInputGroups extends React.Component {
 ```
 
 
-```js title=With-multiple-group-siblings
+### With multiple group siblings
+```js
 import React from 'react';
 import { DollarSignIcon } from '@patternfly/react-icons';
 import {
