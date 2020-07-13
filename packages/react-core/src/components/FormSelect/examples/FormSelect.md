@@ -1,13 +1,10 @@
 ---
 id: Form select
-title: Form select
 section: components
 cssPrefix: pf-c-form-control
 propComponents: ['FormSelect', 'FormSelectOption', 'FormSelectOptionGroup']
 ouia: true
 ---
-
-import { FormSelect, FormSelectOption, FormSelectOptionGroup, ValidatedOptions } from '@patternfly/react-core';
 
 ## Examples
 

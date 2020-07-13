@@ -1,12 +1,9 @@
 ---
 id: List
-title: List
 section: components
 cssPrefix: pf-c-list
 propComponents: ['List', 'ListItem']
 ---
-
-import { List, ListItem, ListVariant, ListComponent, OrderType } from '@patternfly/react-core';
 
 ## Examples
 ### Basic

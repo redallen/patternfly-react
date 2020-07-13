@@ -1,21 +1,10 @@
 ---
 id: Options menu
-title: Options menu
 section: components
 cssPrefix: pf-c-options-menu
 propComponents: ['OptionsMenu', 'OptionsMenuItem', 'OptionsMenuSeparator', 'OptionsMenuToggle', 'OptionsMenuToggleWithText']
 ouia: true
 ---
-import {
-  OptionsMenu,
-  OptionsMenuItem,
-  OptionsMenuToggle,
-  OptionsMenuItemGroup,
-  OptionsMenuDirection,
-  OptionsMenuPosition,
-  OptionsMenuSeparator,
-  OptionsMenuToggleWithText
-} from '@patternfly/react-core';
 import { CaretDownIcon, SortAmountDownIcon } from '@patternfly/react-icons';
 
 ## Examples

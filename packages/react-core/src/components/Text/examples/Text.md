@@ -1,20 +1,10 @@
 ---
-id: Text
+id: Text content
 title: Text
 section: components
 cssPrefix: pf-c-content
 propComponents: ['TextContent', 'Text', 'TextList', 'TextListItem']
 ---
-
-import {
-  TextContent,
-  Text,
-  TextVariants,
-  TextList,
-  TextListVariants,
-  TextListItem,
-  TextListItemVariants
-} from '@patternfly/react-core';
 
 ## Examples
 ### Headings

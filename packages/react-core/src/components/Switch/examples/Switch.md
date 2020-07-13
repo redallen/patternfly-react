@@ -1,13 +1,10 @@
 ---
 id: Switch
-title: Switch
 section: components
 cssPrefix: pf-c-switch
 propComponents: ['Switch']
 ouia: true
 ---
-
-import { Switch } from '@patternfly/react-core';
 
 ## Examples
 ### Basic

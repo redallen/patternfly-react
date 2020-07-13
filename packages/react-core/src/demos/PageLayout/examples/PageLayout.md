@@ -1,39 +1,8 @@
 ---
-title: 'Page layout'
-section: 'demos'
+id: Page layout
+section: demos
 ---
 
-import {
-Avatar,
-Brand,
-Button,
-ButtonVariant,
-Card,
-CardBody,
-Dropdown,
-DropdownGroup,
-DropdownToggle,
-DropdownItem,
-DropdownSeparator,
-Gallery,
-GalleryItem,
-KebabToggle,
-Nav,
-NavItem,
-NavList,
-Page,
-PageHeader,
-PageSection,
-PageSectionVariants,
-PageSidebar,
-SkipToContent,
-TextContent,
-Text,
-PageHeaderTools,
-PageHeaderToolsGroup,
-PageHeaderToolsItem
-} from '@patternfly/react-core';
-import { css } from '@patternfly/react-styles';
 import { BellIcon, CogIcon, HelpIcon } from '@patternfly/react-icons';
 import imgBrand from './imgBrand.svg';
 import imgAvatar from './imgAvatar.svg';

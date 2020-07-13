@@ -1,12 +1,9 @@
 ---
 id: Title
-title: Title
 section: components
 cssPrefix: pf-c-title
 propComponents: ['Title']
 ---
-
-import { Title, TitleSizes } from '@patternfly/react-core';
 
 ## Examples
 ### Sizes

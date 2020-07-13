@@ -1,12 +1,10 @@
 ---
 id: Pagination
-title: Pagination
 section: components
 cssPrefix: null
 propComponents: ["Pagination"]
 ouia: true
 ---
-import { Pagination, PaginationVariant } from '@patternfly/react-core';
 
 ## Examples
 ### Top

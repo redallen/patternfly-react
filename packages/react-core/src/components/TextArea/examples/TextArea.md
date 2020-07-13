@@ -1,12 +1,9 @@
 ---
 id: Text area
-title: Text area
 section: components
 cssPrefix: pf-c-form-control
 propComponents: ['TextArea']
 ---
-
-import { TextArea } from '@patternfly/react-core';
 
 ## Examples
 ### Basic

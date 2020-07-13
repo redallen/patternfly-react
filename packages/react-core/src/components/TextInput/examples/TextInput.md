@@ -1,12 +1,9 @@
 ---
 id: Text input
-title: Text input
 section: components
 cssPrefix: pf-c-form-control
 propComponents: ['TextInput']
 ---
-
-import { TextInput, Button, ValidatedOptions } from '@patternfly/react-core';
 
 ## Examples
 ### Basic

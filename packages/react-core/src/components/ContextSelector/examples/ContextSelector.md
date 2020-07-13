@@ -1,12 +1,9 @@
 ---
 id: Context selector
-title: Context selector
 section: components
 propComponents: ['ContextSelector', 'ContextSelectorItem']
 ouia: true
 ---
-
-import { ContextSelector, ContextSelectorItem } from '@patternfly/react-core';
 
 ## Examples
 ### Basic

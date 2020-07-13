@@ -1,13 +1,11 @@
 ---
 id: Alert
-title: Alert
 section: components
 cssPrefix: pf-c-alert
 propComponents: ['Alert', 'AlertActionCloseButton', 'AlertActionLink']
 ouia: true
 ---
 
-import { Alert, AlertActionLink, AlertActionCloseButton } from '@patternfly/react-core';
 import './alert.css';
 
 ## Examples
@@ -285,7 +283,7 @@ class AsyncLiveRegionAlert extends React.Component {
     const startAsyncAlerts = () => {
       let timerValue = setInterval(() => {
         addAlert({
-          title: `This is a async alert number ${this.state.alerts.length + 1}`,
+          title: '`This is a async alert number ${this.state.alerts.length + 1}`',
           variant: 'info',
           isLiveRegion: true,
           key: getUniqueId()

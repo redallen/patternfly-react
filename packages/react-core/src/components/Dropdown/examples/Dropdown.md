@@ -1,6 +1,5 @@
 ---
 id: Dropdown
-title: Dropdown
 section: components
 cssPrefix: pf-c-dropdown
 propComponents:
@@ -8,7 +7,6 @@ propComponents:
 ouia: true
 ---
 
-import { Dropdown, DropdownToggle, DropdownToggleCheckbox, DropdownItem, DropdownSeparator, DropdownPosition, DropdownDirection, KebabToggle, DropdownGroup, DropdownToggleAction } from '@patternfly/react-core';
 import { ThIcon, CaretDownIcon, CogIcon, BellIcon, CubesIcon, UserIcon } from '@patternfly/react-icons';
 import { Link } from '@reach/router';
 

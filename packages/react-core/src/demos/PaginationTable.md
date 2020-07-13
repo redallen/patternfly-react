@@ -1,26 +1,11 @@
 ---
-title: 'Pagination table'
-section: 'demos'
+id: Pagination table
+section: demos
 ---
 
 ## Examples
-import {
-  Pagination,
-  PaginationVariant,
-  Title,
-  Toolbar,
-  ToolbarContent,
-  ToolbarItem,
-  EmptyState,
-  EmptyStateIcon,
-  EmptyStateBody,
-  EmptyStateSecondaryActions,
-  Bullseye 
-} from '@patternfly/react-core';
 import { ExclamationCircleIcon } from '@patternfly/react-icons';
 import { global_danger_color_200 as globalDangerColor200 } from '@patternfly/react-tokens';
-import { Table, TableHeader, TableBody} from '@patternfly/react-table';
-import { Spinner } from '@patternfly/react-core';
 
 ### Basic
 ```js
@@ -196,70 +181,70 @@ class ComplexPaginationTableDemo extends React.Component {
   constructor(props) {
     super(props);
     this.columns = [
-      { title: "First column" },
-      { title: "Second column" },
-      { title: "Third column" }
+      { title: 'First column }',
+      { title: 'Second column }',
+      { title: Third column }
     ];
     this.defaultRows = [
       { cells: [
-        { title: "Row 1 column 1" },
-        { title: "Row 1 column 2" },
-        { title: "Row 1 column 3" }
+        { title: 'Row 1 column 1 }',
+        { title: 'Row 1 column 2 }',
+        { title: Row 1 column 3 }
       ]},
       { cells: [
-        { title: "Row 2 column 1" },
-        { title: "Row 2 column 2" },
-        { title: "Row 2 column 3" }
+        { title: 'Row 2 column 1 }',
+        { title: 'Row 2 column 2 }',
+        { title: Row 2 column 3 }
       ]},
       { cells: [
-        { title: "Row 3 column 1" },
-        { title: "Row 3 column 2" },
-        { title: "Row 3 column 3" }
+        { title: 'Row 3 column 1 }',
+        { title: 'Row 3 column 2 }',
+        { title: Row 3 column 3 }
       ]},
       { cells: [
-        { title: "Row 4 column 1" },
-        { title: "Row 4 column 2" },
-        { title: "Row 4 column 3" }
+        { title: 'Row 4 column 1 }',
+        { title: 'Row 4 column 2 }',
+        { title: Row 4 column 3 }
       ]},
       { cells: [
-        { title: "Row 5 column 1" },
-        { title: "Row 5 column 2" },
-        { title: "Row 5 column 3" }
+        { title: 'Row 5 column 1 }',
+        { title: 'Row 5 column 2 }',
+        { title: Row 5 column 3 }
       ]},
       { cells: [
-        { title: "Row 6 column 1" },
-        { title: "Row 6 column 2" },
-        { title: "Row 6 column 3" }
+        { title: 'Row 6 column 1 }',
+        { title: 'Row 6 column 2 }',
+        { title: Row 6 column 3 }
       ]},
       { cells: [
-        { title: "Row 7 column 1" },
-        { title: "Row 7 column 2" },
-        { title: "Row 7 column 3" }
+        { title: 'Row 7 column 1 }',
+        { title: 'Row 7 column 2 }',
+        { title: Row 7 column 3 }
       ]},
       { cells: [
-        { title: "Row 8 column 1" },
-        { title: "Row 8 column 2" },
-        { title: "Row 8 column 3" }
+        { title: 'Row 8 column 1 }',
+        { title: 'Row 8 column 2 }',
+        { title: Row 8 column 3 }
       ]},
       { cells: [
-        { title: "Row 9 column 1" },
-        { title: "Row 9 column 2" },
-        { title: "Row 9 column 3" }
+        { title: 'Row 9 column 1 }',
+        { title: 'Row 9 column 2 }',
+        { title: Row 9 column 3 }
       ]},
       { cells: [
-        { title: "Row 10 column 1" },
-        { title: "Row 10 column 2" },
-        { title: "Row 10 column 3" }
+        { title: 'Row 10 column 1 }',
+        { title: 'Row 10 column 2 }',
+        { title: Row 10 column 3 }
       ]},
       { cells: [
-        { title: "Row 11 column 1" },
-        { title: "Row 11 column 2" },
-        { title: "Row 11 column 3" }
+        { title: 'Row 11 column 1 }',
+        { title: 'Row 11 column 2 }',
+        { title: Row 11 column 3 }
       ]},
       { cells: [
-        { title: "Row 12 column 1" },
-        { title: "Row 12 column 2" },
-        { title: "Row 12 column 3" }
+        { title: 'Row 12 column 1 }',
+        { title: 'Row 12 column 2 }',
+        { title: Row 12 column 3 }
       ]}
     ];
     this.defaultPerPage = 10;
@@ -299,9 +284,9 @@ class ComplexPaginationTableDemo extends React.Component {
         onSetPage={this.handleSetPage}
         onPerPageSelect={this.handlePerPageSelect}
         perPageOptions={[
-          { title: "3", value: 3 },
-          { title: "5", value: 5 },
-          { title: "12", value: 12},
+          { title: '3', value: 3 },
+          { title: '5', value: 5 },
+          { title: '12', value: 12},
           { title: '20', value: 20 }
         ]}
       />

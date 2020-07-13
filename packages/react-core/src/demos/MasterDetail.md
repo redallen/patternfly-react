@@ -1,78 +1,12 @@
 ---
-title: 'Master detail'
-section: 'demos'
+id: Master detail
+section: demos
 ---
 
 ## Examples
 
-import {
-  Avatar,
-  Brand,
-  Breadcrumb,
-  BreadcrumbItem,
-  Button,
-  ButtonVariant,
-  Dropdown,
-  Card,
-  CardActions,
-  CardBody,
-  CardHeader,
-  DataList,
-  DataListAction,
-  DataListItem,
-  DataListItemCells,
-  DataListItemRow,
-  Toolbar,
-  ToolbarItem,
-  ToolbarContent,
-  ToolbarFilter,
-  ToolbarToggleGroup,
-  ToolbarGroup,
-  Divider,
-  Drawer,
-  DrawerActions,
-  DrawerCloseButton,
-  DrawerContent,
-  DrawerContentBody,
-  DrawerHead,
-  DrawerPanelContent,
-  DropdownToggle,
-  DropdownItem,
-  DropdownSeparator,
-  Flex,
-  FlexItem,
-  Gallery,
-  GalleryItem,
-  InputGroup,
-  KebabToggle,
-  Nav,
-  NavItem,
-  NavList,
-  OverflowMenu,
-  OverflowMenuControl,
-  OverflowMenuGroup,
-  OverflowMenuItem,
-  Page,
-  PageHeader,
-  PageSection,
-  PageSectionVariants,
-  PageSidebar,
-  Select,
-  SelectOption,
-  SimpleList,
-  SimpleListItem,
-  SkipToContent,
-  Stack,
-  StackItem,
-  Text,
-  TextContent,
-  TextInput,
-  Title
-} from '@patternfly/react-core';
-
 import accessibleStyles from '@patternfly/react-styles/css/utilities/Accessibility/accessibility';
 import spacingStyles from '@patternfly/react-styles/css/utilities/Spacing/spacing';
-import { css } from '@patternfly/react-styles';
 import {
 BellIcon,
 CodeBranchIcon,
@@ -151,7 +85,6 @@ import {
 
 import accessibleStyles from '@patternfly/react-styles/css/utilities/Accessibility/accessibility';
 import spacingStyles from '@patternfly/react-styles/css/utilities/Spacing/spacing';
-import { css } from '@patternfly/react-styles';
 import {
   BellIcon,
   CodeBranchIcon,
@@ -739,7 +672,6 @@ import {
 
 import accessibleStyles from '@patternfly/react-styles/css/utilities/Accessibility/accessibility';
 import spacingStyles from '@patternfly/react-styles/css/utilities/Spacing/spacing';
-import { css } from '@patternfly/react-styles';
 import {
   BellIcon,
   CodeBranchIcon,
@@ -1329,7 +1261,6 @@ import {
 
 import accessibleStyles from '@patternfly/react-styles/css/utilities/Accessibility/accessibility';
 import spacingStyles from '@patternfly/react-styles/css/utilities/Spacing/spacing';
-import { css } from '@patternfly/react-styles';
 import { BellIcon, CogIcon, FilterIcon, TrashIcon } from '@patternfly/react-icons';
 import imgBrand from '@patternfly/react-core/src/demos/PageLayout/examples/imgBrand.svg';
 import imgAvatar from '@patternfly/react-core/src/demos/PageLayout/examples/imgAvatar.svg';
@@ -1811,7 +1742,6 @@ import {
 
 import accessibleStyles from '@patternfly/react-styles/css/utilities/Accessibility/accessibility';
 import spacingStyles from '@patternfly/react-styles/css/utilities/Spacing/spacing';
-import { css } from '@patternfly/react-styles';
 import { BellIcon, CogIcon, FilterIcon, SearchIcon } from '@patternfly/react-icons';
 
 class MasterDetailSimpleListInCard extends React.Component {
@@ -2041,7 +1971,6 @@ import {
 
 import accessibleStyles from '@patternfly/react-styles/css/utilities/Accessibility/accessibility';
 import spacingStyles from '@patternfly/react-styles/css/utilities/Spacing/spacing';
-import { css } from '@patternfly/react-styles';
 import { BellIcon, CogIcon, FilterIcon, SearchIcon } from '@patternfly/react-icons';
 
 class MasterDetailDataListInCard extends React.Component {
@@ -2357,7 +2286,6 @@ import {
 
 import accessibleStyles from '@patternfly/react-styles/css/utilities/Accessibility/accessibility';
 import spacingStyles from '@patternfly/react-styles/css/utilities/Spacing/spacing';
-import { css } from '@patternfly/react-styles';
 import {
   BellIcon,
   CodeBranchIcon,

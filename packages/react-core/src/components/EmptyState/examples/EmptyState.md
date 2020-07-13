@@ -1,20 +1,9 @@
 ---
 id: Empty state
-title: Empty state
 section: components
 cssPrefix: pf-c-empty-state
 propComponents: ['EmptyState', 'EmptyStateBody', 'EmptyStateIcon', 'EmptyStateSecondaryActions']
 ---
-import {
-  Title,
-  Button,
-  EmptyState,
-  EmptyStateVariant,
-  EmptyStateIcon,
-  EmptyStateBody,
-  EmptyStateSecondaryActions,
-  EmptyStatePrimary
-} from '@patternfly/react-core';
 import { CubesIcon } from '@patternfly/react-icons';
 
 ## Examples

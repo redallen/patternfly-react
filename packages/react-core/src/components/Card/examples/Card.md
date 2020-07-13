@@ -1,13 +1,11 @@
 ---
 id: Card
-title: Card
 section: components
 cssPrefix: pf-c-card
 propComponents: ['Card', 'CardHeaderMain', 'CardTitle', 'CardBody', 'CardFooter']
 ouia: true
 ---
 
-import { Brand, Card, CardActions, CardHeader, CardHeaderMain, CardTitle, CardBody, CardFooter, Checkbox } from '@patternfly/react-core';
 import pfLogo from './pfLogo.svg'; 
 
 ## Examples

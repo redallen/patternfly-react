@@ -1,11 +1,9 @@
 ---
 id: Brand
-title: Brand
 section: components
 cssPrefix: null
 propComponents: ['Brand']
 ---
-import { Brand } from '@patternfly/react-core';
 import pfLogo from './pfLogo.svg';
 
 ## Examples

@@ -1,24 +1,10 @@
 ---
 id: Input group
-title: Input group
 section: components
 cssPrefix: null
 propComponents: ['InputGroup', 'InputGroupText']
 ---
 import { DollarSignIcon, AtIcon, CalendarAltIcon, SearchIcon, QuestionCircleIcon } from '@patternfly/react-icons';
-import {
-  Button,
-  ButtonVariant,
-  TextArea,
-  InputGroup,
-  InputGroupText,
-  TextInput,
-  Dropdown,
-  DropdownToggle,
-  DropdownItem,
-  Popover,
-  PopoverPosition
-} from '@patternfly/react-core';
 
 ## Examples
 ### Basic

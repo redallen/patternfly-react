@@ -1,13 +1,11 @@
 ---
 id: Notification drawer
-title: Notification drawer
 section: components
 cssPrefix: pf-c-notification-drawer
 propComponents: ['NotificationDrawer', 'NotificationDrawerBody', 'NotificationDrawerHeader', 'NotificationDrawerGroup', 'NotificationDrawerGroupList', 'NotificationDrawerList', 'NotificationDrawerListItem', 'NotificationDrawerListItemBody', 'NotificationDrawerListItemHeader']
 beta: true
 ---
 
-import { Button, Dropdown, DropdownItem, DropdownPosition, DropdownDirection, DropdownSeparator, EmptyState, EmptyStateBody, EmptyStateIcon, EmptyStatePrimary, KebabToggle, NotificationDrawer, NotificationDrawerBody, NotificationDrawerHeader, NotificationDrawerGroup, NotificationDrawerGroupList, NotificationDrawerList, NotificationDrawerListItem, NotificationDrawerListItemBody, NotificationDrawerListItemHeader, Title } from '@patternfly/react-core';
 import SearchIcon from '@patternfly/react-icons/dist/js/icons/search-icon';
 
 ## Examples

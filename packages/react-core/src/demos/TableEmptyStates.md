@@ -1,19 +1,10 @@
 ---
-title: Table empty states
-section: 'demos'
+id: Table empty states
+section: demos
 ---
+import { SearchIcon } from '@patternfly/react-icons';
 
 ## Examples
-
-import {
-  EmptyState,
-  EmptyStateIcon,
-  EmptyStateBody,
-  EmptyStateSecondaryActions,
-  Bullseye
-} from '@patternfly/react-core';
-import { SearchIcon } from '@patternfly/react-icons';
-import { Table, TableHeader, TableBody } from '@patternfly/react-table';
 
 ### Empty
 ```js
@@ -34,12 +25,12 @@ class EmptyStateDemo extends React.Component {
   render() {
   
     const columns = [
-      { title: 'Servers' },
-      { title: 'Threads' },
-      { title: 'Applications' },
-      { title: 'Workspaces' },
-      { title: 'Status' },
-      { title: 'Location' }
+      { title: 'Servers }',
+      { title: 'Threads }',
+      { title: 'Applications }',
+      { title: 'Workspaces }',
+      { title: 'Status }',
+      { title: Location }
     ]
     
     const rows = [];
@@ -81,12 +72,12 @@ class LoadingStateDemo extends React.Component {
   render() {
   
     const columns = [
-      { title: 'Servers' },
-      { title: 'Threads' },
-      { title: 'Applications' },
-      { title: 'Workspaces' },
-      { title: 'Status' },
-      { title: 'Location' }
+      { title: 'Servers }',
+      { title: 'Threads }',
+      { title: 'Applications }',
+      { title: 'Workspaces }',
+      { title: 'Status }',
+      { title: Location }
     ]
     const rows = [{
       heightAuto: true,
@@ -130,12 +121,12 @@ class LoadingStateDemo extends React.Component {
   render() {
   
     const columns = [
-      { title: 'Servers' },
-      { title: 'Threads' },
-      { title: 'Applications' },
-      { title: 'Workspaces' },
-      { title: 'Status' },
-      { title: 'Location' }
+      { title: 'Servers }',
+      { title: 'Threads }',
+      { title: 'Applications }',
+      { title: 'Workspaces }',
+      { title: 'Status }',
+      { title: Location }
     ]
     const rows = [{
       heightAuto: true,

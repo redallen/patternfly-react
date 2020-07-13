@@ -1,16 +1,12 @@
 ---
 id: Page
-title: Page
 section: components
 cssPrefix: pf-c-page
 propComponents:
   ['Page', 'PageHeader', 'PageHeaderTools', 'PageHeaderToolsGroup', 'PageHeaderToolsItem', 'PageSidebar', 'PageSection']
 ---
 
-import { Page, PageHeader, PageHeaderTools, PageSidebar, PageSection, PageSectionVariants } from '@patternfly/react-core';
-
 ## Examples
-
 ### Vertical nav
 ```js
 import {

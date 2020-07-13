@@ -1,22 +1,11 @@
 ---
 id: Navigation
-title: Navigation
 section: components
 cssPrefix: pf-c-nav
 propComponents: ['Nav', 'NavList', 'NavGroup', 'NavItem', 'NavItemSeparator', 'NavExpandable']
 ouia: true
 ---
 
-import {
-Nav,
-NavExpandable,
-NavItem,
-NavItemSeparator,
-NavList,
-NavGroup,
-PageHeader,
-PageSection
-} from '@patternfly/react-core';
 import './nav.css';
 
 ## Examples

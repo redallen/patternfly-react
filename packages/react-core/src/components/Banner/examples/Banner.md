@@ -1,13 +1,10 @@
 ---
 id: Banner
-title: Banner
 section: components
 cssPrefix: pf-c-banner
 propComponents: ['Banner']
 beta: true
 ---
-
-import { Banner } from '@patternfly/react-core';
 
 ## Examples
 

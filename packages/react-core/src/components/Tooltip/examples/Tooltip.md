@@ -1,12 +1,10 @@
 ---
 id: Tooltip
-title: Tooltip
 section: components
 cssPrefix: pf-c-tooltip
 propComponents: ['Tooltip']
 ---
 
-import { Button, Tooltip, Checkbox, Select, SelectOption, TextInput } from '@patternfly/react-core';
 import { OutlinedQuestionCircleIcon } from '@patternfly/react-icons';
 import './TooltipExamples.css';
 

@@ -1,13 +1,10 @@
 ---
 id: Chip group
-title: Chip group
 section: components
 cssPrefix: pf-c-chip
 propComponents: ['Chip', 'ChipGroup']
 ouia: true
 ---
-
-import { Badge, Chip, ChipGroup } from '@patternfly/react-core';
 
 ## Examples
 ### Single

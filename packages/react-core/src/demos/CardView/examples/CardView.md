@@ -1,56 +1,9 @@
 ---
-title: 'Card view'
-section: 'demos'
+id: Card view
+section: demos
 experimentalStage: 'early'
 ---
 
-import {
-Avatar,
-Brand,
-Button,
-ButtonVariant,
-Card,
-CardHeader,
-CardActions,
-CardTitle,
-CardBody,
-Checkbox,
-Dropdown,
-DropdownGroup,
-DropdownToggle,
-DropdownItem,
-DropdownSeparator,
-DropdownPosition,
-DropdownDirection,
-Gallery,
-GalleryItem,
-KebabToggle,
-Nav,
-NavItem,
-NavList,
-OverflowMenu,
-OverflowMenuControl,
-OverflowMenuDropdownItem,
-OverflowMenuItem,
-Page,
-PageHeader,
-PageHeaderTools,
-PageHeaderToolsGroup,
-PageHeaderToolsItem,
-PageSection,
-PageSectionVariants,
-PageSidebar,
-SkipToContent,
-TextContent,
-Text,
-Toolbar,
-ToolbarGroup,
-ToolbarItem,
-ToolbarFilter,
-ToolbarContent,
-ToolbarToggleGroup
-} from '@patternfly/react-core';
-import { css } from '@patternfly/react-styles';
 import { BellIcon, CogIcon, FilterIcon, TrashIcon, HelpIcon } from '@patternfly/react-icons';
 import imgBrand from '@patternfly/react-core/src/demos/PageLayout/examples/imgBrand.svg';
 import imgAvatar from '@patternfly/react-core/src/demos/PageLayout/examples/imgAvatar.svg';

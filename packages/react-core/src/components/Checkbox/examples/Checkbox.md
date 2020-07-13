@@ -1,12 +1,10 @@
 ---
 id: Checkbox
-title: Checkbox
 section: components
 cssPrefix: pf-c-check
 propComponents: ['Checkbox']
 ---
 
-import { Checkbox } from '@patternfly/react-core';
 import './checkbox.css';
 
 ## Examples

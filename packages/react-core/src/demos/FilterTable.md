@@ -1,31 +1,12 @@
 ---
-title: 'Filterable table'
-section: 'demos'
+id: Filterable table
+section: demos
 ---
+import { SearchIcon } from '@patternfly/react-icons';
 
 ## Examples
 
 Uses the Toolbar component to filter results in the table based on user input.
-
-import {
-  Title,
-  Bullseye,
-  Toolbar,
-  ToolbarItem,
-  ToolbarContent,
-  ToolbarFilter,
-  ToolbarGroup,
-  ToolbarToggleGroup,
-  EmptyState,
-  EmptyStateIcon,
-  EmptyStateBody,
-  EmptyStateSecondaryActions,
-  Select,
-  SelectOption,
-  SelectVariant
-} from '@patternfly/react-core';
-import { SearchIcon } from '@patternfly/react-icons';
-import { Table, TableHeader, TableBody} from '@patternfly/react-table';
 
 ### Basic
 ```js
@@ -70,12 +51,12 @@ class FilterTableDemo extends React.Component {
       isCategoryDropdownOpen: false,
       nameInput: '',
       columns: [
-        { title: 'Servers' },
-        { title: 'Threads' },
-        { title: 'Applications' },
-        { title: 'Workspaces' },
-        { title: 'Status' },
-        { title: 'Location' }
+        { title: 'Servers }',
+        { title: 'Threads }',
+        { title: 'Applications }',
+        { title: 'Workspaces }',
+        { title: 'Status }',
+        { title: Location }
       ],
       rows: [
         { cells: ['US-Node 1', '5', '25', '5', 'Stopped', 'Raleigh'] },

@@ -1,40 +1,12 @@
 ---
-title: Table
-cssPrefix: 'pf-c-table'
-section: 'components'
+id: Table
+cssPrefix: pf-c-table
+section: components
 propComponents: ['Table', 'TableHeader', 'TableBody', 'EditableSelectInputCell', 'EditableTextCell', 'RowErrors', 'IHeaderRow', 'IRowData', 'IColumn', 'IExtraRowData', 'IExtraColumnData', 'ISortBy', 'IAction', 'ISeparator', 'ICell', 'IRowCell', 'IValidatorDef', 'IRow']
 ouia: true
 ---
 
 Note: Table lives in its own package at [@patternfly/react-table](https://www.npmjs.com/package/@patternfly/react-table)!
-
-import {
-  Table,
-  TableHeader,
-  TableBody,
-  TableText,
-  sortable,
-  SortByDirection,
-  headerCol,
-  TableVariant,
-  expandable,
-  compoundExpand,
-  cellWidth,
-  textCenter,
-  wrappable,
-  truncate,
-  nowrap,
-  breakWord,
-  fitContent,
-  classNames,
-  Visibility,
-  getErrorTextByValidator,
-  cancelCellEdits,
-  validateCellEdits,
-  applyCellEdits,
-  EditableTextCell,
-  EditableSelectInputCell
-} from '@patternfly/react-table';
 
 import {
   SearchIcon,
@@ -43,15 +15,13 @@ import {
   CubeIcon
 } from '@patternfly/react-icons';
 import { css } from '@patternfly/react-styles';
-import styles from '@patternfly/react-styles/css/components/Table/table';
-
 import DemoSortableTable from './DemoSortableTable';
+import styles from '@patternfly/react-styles/css/components/Table/table';
 
 ## Examples
 
 ### Basic
 ```js
-
 import {
   Table,
   TableHeader,
@@ -66,12 +36,12 @@ class SimpleTable extends React.Component {
     super(props);
     this.state = {
       columns: [
-        { title: Repositories },
+        { title: 'Repositories' },
         'Branches',
-        { title: Pull requests },
+        { title: 'Pull requests' },
         'Workspaces',
         {
-          title: Last Commit,
+          title: 'Last Commit',
           transforms: [textCenter],
           cellTransforms: [textCenter]
         }
@@ -84,7 +54,7 @@ class SimpleTable extends React.Component {
           cells: [
             {
               title: <div>one - 2</div>,
-              props: { title: hover title, colSpan: 3 }
+              props: { title: 'hover title', colSpan: 3 }
             },
             'four - 2',
             'five - 2'
@@ -97,7 +67,7 @@ class SimpleTable extends React.Component {
             'three - 3',
             'four - 3',
             {
-              title: five - 3 (not centered),
+              title: 'five - 3 (not centered)',
               props: { textCenter: false }
             }
           ]
@@ -133,9 +103,9 @@ class RowClickTable extends React.Component {
     super(props);
     this.state = {
       columns: [
-        { title: Repositories },
+        { title: 'Repositories' },
         'Branches',
-        { title: Pull requests },
+        { title: 'Pull requests' },
         'Workspaces'
       ],
       rows: [
@@ -183,9 +153,9 @@ class RowWrapperTable extends React.Component {
     super(props);
     this.state = {
       columns: [
-        { title: Repositories },
+        { title: 'Repositories' },
         'Branches',
-        { title: Pull requests },
+        { title: 'Pull requests' },
         'Workspaces'
       ],
       rows: [
@@ -258,9 +228,9 @@ class SortableTable extends React.Component {
     super(props);
     this.state = {
       columns: [
-        { title: Repositories, transforms: [sortable] },
+        { title: 'Repositories', transforms: [sortable] },
         'Branches',
-        { title: Pull requests, transforms: [sortable] },
+        { title: 'Pull requests', transforms: [sortable] },
         'Workspaces',
         'Last Commit'
       ],
@@ -311,23 +281,23 @@ class SortableWrappingHeaders extends React.Component {
     this.state = {
       columns: [
         {
-          title: This is a really long table header that goes on for a long time 1.,
+          title: 'This is a really long table header that goes on for a long time 1.',
           transforms: [sortable, wrappable]
         },
         {
-          title: This is a really long table header that goes on for a long time 2.,
+          title: 'This is a really long table header that goes on for a long time 2.',
           transforms: [sortable, wrappable]
         },
         {
-          title: This is a really long table header that goes on for a long time 3.,
+          title: 'This is a really long table header that goes on for a long time 3.',
           transforms: [sortable,wrappable]
         },
         {
-          title: This is a really long table header that goes on for a long time 4.,
+          title: 'This is a really long table header that goes on for a long time 4.',
           transforms: [sortable, wrappable]
         },
         {
-          title: This is a really long table header that goes on for a long time 5.,
+          title: 'This is a really long table header that goes on for a long time 5.',
           transforms: [sortable, wrappable]
         },
       ],
@@ -383,9 +353,9 @@ class SelectableTable extends React.Component {
     super(props);
     this.state = {
       columns: [
-        { title: Repositories, cellTransforms: [headerCol()] },
+        { title: 'Repositories', cellTransforms: [headerCol()] },
         'Branches',
-        { title: Pull requests },
+        { title: 'Pull requests' },
         'Workspaces',
         'Last Commit'
       ],
@@ -472,9 +442,9 @@ class SimpleActionsTable extends React.Component {
     super(props);
     this.state = {
       columns: [
-        { title: Repositories, cellTransforms: [headerCol()] },
+        { title: 'Repositories', cellTransforms: [headerCol()] },
         'Branches',
-        { title: Pull requests },
+        { title: 'Pull requests' },
         'Workspaces',
         'Last Commit'
       ],
@@ -492,7 +462,7 @@ class SimpleActionsTable extends React.Component {
       ],
       actions: [
         {
-          title: Some action,
+          title: 'Some action',
           onClick: (event, rowId, rowData, extra) => console.log('clicked on Some action, on row: ', rowId)
         },
         {
@@ -502,7 +472,7 @@ class SimpleActionsTable extends React.Component {
           isSeparator: true
         },
         {
-          title: Third action,
+          title: 'Third action',
           onClick: (event, rowId, rowData, extra) => console.log('clicked on Third action, on row: ', rowId)
         }
       ]
@@ -535,9 +505,9 @@ class ActionsTable extends React.Component {
     super(props);
     this.state = {
       columns: [
-        { title: Repositories, cellTransforms: [headerCol()] },
+        { title: 'Repositories', cellTransforms: [headerCol()] },
         'Branches',
-        { title: Pull requests },
+        { title: 'Pull requests' },
         'Workspaces',
         'Last Commit'
       ],
@@ -572,7 +542,7 @@ class ActionsTable extends React.Component {
               isSeparator: true
             },
             {
-              title: Third action,
+              title: 'Third action',
               onClick: (event, rowId, rowData, extra) =>
                 console.log(`clicked on Third action, on row ${rowId} of type ${rowData.type}`)
             }
@@ -581,7 +551,7 @@ class ActionsTable extends React.Component {
 
     return [
       {
-        title: Some action,
+        title: 'Some action',
         onClick: (event, rowId, rowData, extra) =>
           console.log(`clicked on Some action, on row ${rowId} of type ${rowData.type}`)
       },
@@ -630,9 +600,9 @@ class CellHeader extends React.Component {
     super(props);
     this.state = {
       columns: [
-        { title: Header cell', cellTransforms: [headerCol('selectable)] },
+        { title: 'Header cell', cellTransforms: [headerCol('selectable')] },
         'Branches',
-        { title: Pull requests },
+        { title: 'Pull requests' },
         'Workspaces',
         'Last Commit'
       ],
@@ -667,9 +637,9 @@ class CompactTable extends React.Component {
     super(props);
     this.state = {
       columns: [
-        { title: Header cell },
+        { title: 'Header cell' },
         'Branches',
-        { title: Pull requests', props: { className: 'pf-u-text-align-center } },
+        { title: 'Pull requests', props: { className: 'pf-u-text-align-center' } },
         '' // deliberately empty
       ],
       rows: [['one', 'two', 'three', 'four'], ['one', 'two', 'three', 'four'], ['one', 'two', 'three', 'four']]
@@ -703,9 +673,9 @@ class CompactTableBorderlessRows extends React.Component {
     super(props);
     this.state = {
       columns: [
-        { title: Header cell },
+        { title: 'Header cell' },
         'Branches',
-        { title: Pull requests', props: { className: 'pf-u-text-align-center } },
+        { title: 'Pull requests', props: { className: 'pf-u-text-align-center' } },
         '' // deliberately empty
       ],
       rows: [['one', 'two', 'three', 'four'], ['one', 'two', 'three', 'four'], ['one', 'two', 'three', 'four']]
@@ -747,11 +717,11 @@ class CompactExpandableTable extends React.Component {
     this.state = {
       columns: [
         {
-          title: Header cell,
+          title: 'Header cell',
           cellFormatters: [expandable]
         },
         'Branches',
-        { title: Pull requests },
+        { title: 'Pull requests' },
         '' // deliberately empty
       ],
       rows: [
@@ -835,12 +805,12 @@ class WidthTable extends React.Component {
     super(props);
     this.state = {
       columns: [
-        { title: Header cell, transforms: [cellWidth(10)] },
+        { title: 'Header cell', transforms: [cellWidth(10)] },
         'Branches',
-        { title: Pull requests, transforms: [cellWidth(30)] },
+        { title: 'Pull requests', transforms: [cellWidth(30)] },
         'Workspaces',
         {
-          title: Last Commit,
+          title: 'Last Commit',
           transforms: [cellWidth('max')]
         }
       ],
@@ -878,17 +848,17 @@ class HiddenVisibleBreakpointTable extends React.Component {
     this.state = {
       columns: [
         {
-          title: Repositories,
+          title: 'Repositories',
           columnTransforms: [classNames(Visibility.hidden, Visibility.visibleOnMd, Visibility.hiddenOnLg, Visibility.visibleOn_2xl)]
         },
         'Branches',
         {
-          title: Pull requests,
+          title: 'Pull requests',
           columnTransforms: [classNames(Visibility.hiddenOnMd, Visibility.visibleOnLg, Visibility.hiddenOn_2xl)]
         },
         'Workspaces',
         {
-          title: Last Commit,
+          title: 'Last Commit',
           columnTransforms: [classNames(Visibility.hidden, Visibility.visibleOnSm)]
         }
       ],
@@ -929,14 +899,14 @@ class CollapsibleTable extends React.Component {
     this.state = {
       columns: [
         {
-          title: Header cell,
+          title: 'Header cell',
           cellFormatters: [expandable]
         },
         'Branches',
-        { title: Pull requests },
+        { title: 'Pull requests' },
         'Workspaces',
         {
-          title: Last Commit
+          title: 'Last Commit'
         }
       ],
       rows: [
@@ -1025,15 +995,15 @@ class CompoundExpandableTable extends React.Component {
       columns: [
         'Repositories',
         {
-          title: Branches,
+          title: 'Branches',
           cellTransforms: [compoundExpand]
         },
         {
-          title: Pull requests,
+          title: 'Pull requests',
           cellTransforms: [compoundExpand]
         },
         {
-          title: Workspaces,
+          title: 'Workspaces',
           cellTransforms: [compoundExpand]
         },
         'Last Commit',
@@ -1219,11 +1189,11 @@ class ControllingText extends React.Component {
     super(props);
     this.state = {
       columns: [
-        {title: Truncate (width 20%), transforms: [cellWidth(20)], cellTransforms: [truncate]},
-        {title: Break word, cellTransforms: [breakWord]},
-        {title: Wrapping table header text. This th text will wrap instead of truncate., transforms: [wrappable]},
-        {title: Fit content, transforms: [fitContent]},
-        {title: , cellTransforms: [nowrap]},
+        {title: 'Truncate (width 20%)', transforms: [cellWidth(20)], cellTransforms: [truncate]},
+        {title: 'Break word', cellTransforms: [breakWord]},
+        {title: 'Wrapping table header text. This th text will wrap instead of truncate.', transforms: [wrappable]},
+        {title: 'Fit content', transforms: [fitContent]},
+        {title: 'No wrap', cellTransforms: [nowrap]},
       ],
       rows: [
         [
@@ -1275,8 +1245,8 @@ class ModifiersWithTableText extends React.Component {
     super(props);
     this.state = {
       columns: [
-        {title: Truncating text, transforms: [cellWidth(30)]},
-        {title: Wrapping table header text. This th text will wrap instead of truncate.},
+        {title: 'Truncating text', transforms: [cellWidth(30)]},
+        {title: 'Wrapping table header text. This th text will wrap instead of truncate.' },
       ],
       rows: [
         [
@@ -1358,7 +1328,7 @@ class EditableRowsTable extends React.Component {
         'Text input col 4'
       ],
       actions: [{
-        title: Some action,
+        title: 'Some action',
         onClick: (event, rowId, rowData, extra) => console.log('clicked on Some action, on row: ', rowId)
       }],
       rows: [
@@ -1550,7 +1520,8 @@ class EditableRowsTable extends React.Component {
                 editableSelectProps: {
                   variant: 'typeaheadmulti',
                   'aria-label': "Row 2 cell 4 content",
-                  toggle                }
+                  toggleId: 'editable-toggle'
+                }
               }
             },
           ]

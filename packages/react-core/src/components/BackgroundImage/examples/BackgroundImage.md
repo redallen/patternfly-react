@@ -1,12 +1,9 @@
 ---
 id: Background image
-title: Background image
 section: components
 cssPrefix: pf-c-background-image
 propComponents: ['BackgroundImage']
 ---
-
-import { BackgroundImage } from '@patternfly/react-core';
 
 ## Examples
 ### Basic

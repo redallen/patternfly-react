@@ -1,12 +1,9 @@
 ---
 id: Progress
-title: Progress
 section: components
 cssPrefix: pf-c-progress
 propComponents: ['Progress']
 ---
-
-import { Progress, ProgressSize, ProgressMeasureLocation, ProgressVariant } from '@patternfly/react-core';
 
 ## Examples
 ### Simple

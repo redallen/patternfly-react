@@ -1,12 +1,10 @@
 ---
 id: Wizard
-title: Wizard
 section: components
 cssPrefix: pf-c-wizard
 propComponents: ['Wizard', 'WizardNav', 'WizardNavItem', 'WizardHeader', 'WizardBody', 'WizardFooter', 'WizardToggle']
 ---
 
-import { Button, Wizard, WizardFooter, WizardContextConsumer, ModalVariant, Alert } from '@patternfly/react-core';
 import FinishedStep from './FinishedStep';
 import SampleForm from './SampleForm';
 

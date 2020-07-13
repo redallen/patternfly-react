@@ -1,11 +1,9 @@
 ---
 id: Notification badge
-title: Notification badge
 section: components
 cssPrefix: pf-c-notification-badge
 propComponents: ['NotificationBadge']
 ---
-import { NotificationBadge } from '@patternfly/react-core';
 import { BellIcon } from '@patternfly/react-icons';
 
 ## Examples

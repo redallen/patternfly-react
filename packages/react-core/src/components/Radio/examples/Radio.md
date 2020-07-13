@@ -1,12 +1,10 @@
 ---
 id: Radio
-title: Radio
 section: components
 cssPrefix: pf-c-radio
 propComponents: ['Radio']
 ouia: true
 ---
-import { Radio } from '@patternfly/react-core';
 
 ## Examples
 ### Controlled

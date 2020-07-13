@@ -1,12 +1,9 @@
 ---
 id: Accordion
-title: Accordion
 section: components
 cssPrefix: pf-c-accordion
 propComponents: ['Accordion', 'AccordionItem', 'AccordionContent', 'AccordionToggle']
 ---
-
-import { Accordion, AccordionItem, AccordionContent, AccordionToggle } from '@patternfly/react-core';
 
 ## Examples
 ### Definition list

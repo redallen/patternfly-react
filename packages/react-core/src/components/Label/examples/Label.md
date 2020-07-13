@@ -1,12 +1,10 @@
 ---
 id: Label
-title: Label
 section: components
 cssPrefix: pf-c-label
 propComponents: ['Label']
 ---
 
-import { Label } from '@patternfly/react-core';
 import { InfoCircleIcon } from '@patternfly/react-icons';
 
 ## Examples

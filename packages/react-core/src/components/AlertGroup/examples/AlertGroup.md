@@ -1,13 +1,9 @@
 ---
 id: Alert group
-title: Alert group
 section: components
 cssPrefix: pf-c-alert-group
 propComponents: ['Alert', 'AlertGroup', 'AlertActionCloseButton', 'AlertActionLink']
 ---
-
-import * as React from 'react';
-import { Alert, AlertGroup, AlertVariant, AlertActionCloseButton, InputGroup } from '@patternfly/react-core';
 
 ## Examples
 ### Static alert group
@@ -39,7 +35,7 @@ class ToastAlertGroup extends React.Component {
     this.state = { alerts: [] };
     this.addAlert = (title, variant, key) => {
       this.setState({
-        alerts: [ ...this.state.alerts, { title: title, variant: variant, key }]
+        alerts: [ ...this.state.alerts, { title: 'title', variant: variant, key }]
       });
     };
     this.removeAlert = key => {
@@ -94,7 +90,7 @@ class SingularAdditiveAlertGroup extends React.Component {
   }
   render() {
     const addAlert = (title, variant, key) => {
-      this.setState({ alerts: [...this.state.alerts, { title: title, variant: variant, key }] });
+      this.setState({ alerts: [...this.state.alerts, { title: 'title', variant: variant, key }] });
     };
     const btnClasses = ['pf-c-button', 'pf-m-secondary'].join(' ');
     const getUniqueId = () => (new Date().getTime());
@@ -155,9 +151,9 @@ class MultipleAdditiveAlertGroup extends React.Component {
     const btnClasses = ['pf-c-button', 'pf-m-secondary'].join(' ');
     const addAlertCollection = () => {
       addAlerts([
-        { title: 'First Alert Notification.', variant: 'success', key: getUniqueId() },
-        { title: 'Second Alert Notification.', variant: 'warning', key: getUniqueId() },
-        { title: 'Third Alert Notification.', variant: 'danger', key: getUniqueId() }
+        { title: First Alert Notification.', variant: 'success, key: getUniqueId() },
+        { title: Second Alert Notification.', variant: 'warning, key: getUniqueId() },
+        { title: Third Alert Notification.', variant: 'danger, key: getUniqueId() }
       ])
     };
     this.removeAlert = key => {

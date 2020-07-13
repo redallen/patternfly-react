@@ -1,13 +1,11 @@
 ---
 id: File upload
-title: File upload
 cssPrefix: pf-c-file-upload
 propComponents: ['FileUpload', 'FileUploadField']
 section: components
 beta: true
 ---
 
-import { FileUpload, Form, FormGroup, FileUploadField, Checkbox } from '@patternfly/react-core';
 import FileUploadIcon from '@patternfly/react-icons/dist/js/icons/file-upload-icon';
 
 ## Examples

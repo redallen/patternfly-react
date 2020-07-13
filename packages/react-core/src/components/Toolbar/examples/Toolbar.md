@@ -1,13 +1,10 @@
 ---
 id: Toolbar
-title: Toolbar
 cssPrefix: pf-c-toolbar
 propComponents: ['Toolbar', 'ToolbarContent', 'ToolbarItem', 'ToolbarToggleGroup', 'ToolbarFilter']
 section: components
 ---
 
-import { OverflowMenu, OverflowMenuContent, OverflowMenuItem, Toolbar, ToolbarItem, ToolbarGroup, ToolbarContent, ToolbarToggleGroup, ToolbarFilter } from '@patternfly/react-core';
-import { Alert, Button, ButtonVariant, Divider, InputGroup, TextInput, Select, SelectOption } from '@patternfly/react-core';
 import { EditIcon, CloneIcon, SyncIcon, SearchIcon, FilterIcon } from '@patternfly/react-icons'
 
 ## Examples

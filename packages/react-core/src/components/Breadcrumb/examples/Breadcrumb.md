@@ -1,12 +1,10 @@
 ---
 id: Breadcrumb
-title: Breadcrumb
 section: components
 cssPrefix: pf-c-breadcrumb
 propComponents: ['Breadcrumb', 'BreadcrumbItem', 'BreadcrumbHeading']
 ouia: true
 ---
-import { Breadcrumb, BreadcrumbItem, BreadcrumbHeading } from '@patternfly/react-core';
 
 ## Examples
 ### Basic

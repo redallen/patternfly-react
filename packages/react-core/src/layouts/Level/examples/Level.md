@@ -1,12 +1,10 @@
 ---
-title: 'Level'
-cssPrefix: 'pf-l-level'
-section: 'layouts'
+id: Level
+cssPrefix: pf-l-level
+section: layouts
 propComponents: ['Level', 'LevelItem']
-typescript: true
 ---
 
-import { Level, LevelItem } from '@patternfly/react-core';
 import './level.css';
 
 ## Examples

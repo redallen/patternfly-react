@@ -1,24 +1,11 @@
 ---
 id: Modal
-title: Modal
 section: components
 cssPrefix: pf-c-modal-box
 propComponents: ['Modal', 'ModalBox', 'ModalBoxBody', 'ModalBoxCloseButton', 'ModalBoxFooter', 'ModalContent']
 ouia: true
 ---
 
-import { 
-  Modal, 
-  ModalVariant, 
-  TitleSizes, 
-  Button, 
-  Title, 
-  Wizard,
-  Dropdown,
-  DropdownToggle,
-  DropdownItem,
-  KebabToggle
-} from '@patternfly/react-core';
 import { WarningTriangleIcon, ThIcon, CaretDownIcon } from '@patternfly/react-icons';
 
 ## Examples

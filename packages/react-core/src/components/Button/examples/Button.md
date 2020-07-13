@@ -1,13 +1,11 @@
 ---
 id: Button
-title: Button
 section: components
 cssPrefix: pf-c-button
 propComponents: ['Button']
 ouia: true
 ---
 
-import { Button, Tooltip } from '@patternfly/react-core';
 import { TimesIcon, PlusCircleIcon, ExternalLinkSquareAltIcon, CopyIcon } from '@patternfly/react-icons';
 
 ## Examples

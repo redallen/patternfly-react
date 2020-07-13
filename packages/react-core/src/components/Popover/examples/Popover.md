@@ -1,12 +1,9 @@
 ---
 id: Popover
-title: Popover
 section: components
 cssPrefix: pf-c-popover
 propComponents: ['Popover']
 ---
-
-import { Popover, PopoverPosition, Checkbox, Button } from '@patternfly/react-core';
 
 ## Examples
 ### Basic

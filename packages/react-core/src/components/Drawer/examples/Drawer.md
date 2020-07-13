@@ -1,6 +1,5 @@
 ---
 id: Drawer
-title: Drawer
 cssPrefix: pf-c-drawer
 propComponents:
   [
@@ -17,8 +16,6 @@ propComponents:
 section: components
 beta: true
 ---
-
-import { Drawer, DrawerPanelContent, DrawerContent, DrawerContentBody, DrawerPanelBody, DrawerSection, DrawerHead, DrawerActions, DrawerCloseButton } from '@patternfly/react-core';
 
 ## Examples
 

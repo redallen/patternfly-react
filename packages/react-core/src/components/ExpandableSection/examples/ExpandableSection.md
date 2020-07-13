@@ -1,12 +1,9 @@
 ---
 id: Expandable section
-title: Expandable section
 section: components
 cssPrefix: pf-c-expandable-section
 propComponents: ['ExpandableSection']
 ---
-
-import { ExpandableSection } from '@patternfly/react-core';
 
 ## Examples
 ### Basic

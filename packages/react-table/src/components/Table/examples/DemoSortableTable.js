@@ -7,9 +7,9 @@ export default class DemoSortableTable extends React.Component {
     super(props);
     this.state = {
       columns: [
-        { title: Repositories, transforms: [sortable] },
+        { title: 'Repositories', transforms: [sortable] },
         'Branches',
-        { title: Pull requests, transforms: [sortable] },
+        { title: 'Pull requests', transforms: [sortable] },
         'Workspaces',
         'Last Commit'
       ],

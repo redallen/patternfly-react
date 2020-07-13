@@ -1,12 +1,10 @@
 ---
-title: 'Flex'
-cssPrefix: 'pf-l-flex'
-section: 'layouts'
+id: Flex
+cssPrefix: pf-l-flex
+section: layouts
 propComponents: ['Flex', 'FlexItem']
-typescript: true
 ---
 
-import { Flex, FlexItem } from '@patternfly/react-core';
 import './flex.css';
 
 ## Examples

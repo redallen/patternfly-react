@@ -1,13 +1,11 @@
 ---
 id: Application launcher
-title: Application launcher
 section: components
 cssPrefix: pf-c-app-launcher
 propComponents: ['ApplicationLauncher', 'ApplicationLauncherItem']
 ouia: true
 ---
 
-import { ApplicationLauncher, ApplicationLauncherContent, ApplicationLauncherIcon, ApplicationLauncherText, ApplicationLauncherItem, ApplicationLauncherGroup, ApplicationLauncherSeparator, Text } from '@patternfly/react-core';
 import { HelpIcon, StarIcon } from '@patternfly/react-icons';
 import { Link } from '@reach/router';
 import pfIcon from './pf-logo-small.svg';

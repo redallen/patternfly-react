@@ -1,6 +1,5 @@
 ---
 id: Data list
-title: Data list
 section: components
 cssPrefix: pf-c-data-list
 propComponents:
@@ -17,24 +16,7 @@ propComponents:
   ]
 ---
 
-import {
-Button,
-DataList,
-DataListItem,
-DataListItemCells,
-DataListItemRow,
-DataListCell,
-DataListCheck,
-DataListAction,
-DataListToggle,
-DataListContent,
-Dropdown,
-DropdownPosition,
-KebabToggle,
-DropdownItem
-} from '@patternfly/react-core';
 import { CodeBranchIcon } from '@patternfly/react-icons';
-import { css } from '@patternfly/react-styles';
 
 ## Examples
 

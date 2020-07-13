@@ -1,24 +1,10 @@
 ---
 id: Form
-title: Form
 section: components
 cssPrefix: pf-c-form
 propComponents: ['ActionGroup', 'Form', 'FormGroup', 'FormHelperText', 'Button', 'Popover']
 ---
 
-import {
-Button,
-Form,
-FormGroup,
-Popover,
-TextInput,
-TextArea,
-FormSelect,
-FormHelperText,
-Checkbox,
-ActionGroup,
-Radio
-} from '@patternfly/react-core';
 import { ExclamationCircleIcon, HelpIcon } from '@patternfly/react-icons';
 
 ## Examples

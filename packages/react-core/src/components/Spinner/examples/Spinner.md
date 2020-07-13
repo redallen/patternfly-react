@@ -1,14 +1,9 @@
 ---
 id: Spinner
-title: Spinner
 section: components
 cssPrefix: pf-c-spinner
 propComponents: ['Spinner']
 ---
-
-import { Spinner } from '@patternfly/react-core';
-import { Alert } from '@patternfly/react-core';
-
 ## Spinner
 
 ## Examples
