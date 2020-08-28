@@ -21,7 +21,7 @@
     "screenshots": "theme-patternfly-org screenshots --urlPrefix http://localhost:5000"
   },
   "dependencies": {
-    "@patternfly/patternfly": "4.42.2",
+    "@patternfly/patternfly": "4.44.1",
     "@patternfly/react-catalog-view-extension": "^4.8.40",
     "@patternfly/react-charts": "^6.10.1",
     "@patternfly/react-core": "^4.55.1",
@@ -31,7 +31,8 @@
     "@patternfly/react-table": "^4.17.5",
     "@patternfly/react-tokens": "^4.9.9",
     "@patternfly/react-topology": "^4.6.5",
-    "@patternfly/react-virtualized-extension": "^4.5.85"
+    "@patternfly/react-virtualized-extension": "^4.5.85",
+    "@patternfly/react-date-time": "^0.0.0"
   },
   "devDependencies": {
     "@types/react": "^16.8.0",
