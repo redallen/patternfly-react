@@ -3150,6 +3150,11 @@
   resolved "https://registry.yarnpkg.com/@patternfly/patternfly/-/patternfly-4.42.2.tgz#236d87bd85f00cb7a16d0c2956638ecedc3fa6ef"
   integrity sha512-VLDhNko4D09sKcnzWEzMr8T8z9btqAYpuK0ntWMsAwi+/C9XsKyaxPioxuEsm7PeuW6OU0neEzSDYMSUnwrMBQ==
 
+"@patternfly/patternfly@4.44.1":
+  version "4.44.1"
+  resolved "https://registry.yarnpkg.com/@patternfly/patternfly/-/patternfly-4.44.1.tgz#51ecc6ee4289da8e0210f84bba80425fc28ba66b"
+  integrity sha512-X9vvw7Q/rozn8Or7eLZArw7p4Tcq/mt7CDJENl0CtnLP4ZgqHGSz7mDFFbHjL6hr1vg11Hwl6x9dRj4vuHEfNg==
+
 "@philpl/buble@^0.19.7":
   version "0.19.7"
   resolved "https://registry.yarnpkg.com/@philpl/buble/-/buble-0.19.7.tgz#27231e6391393793b64bc1c982fc7b593198b893"
@@ -9981,6 +9986,11 @@ flat-cache@^1.2.1:
     graceful-fs "^4.1.2"
     rimraf "~2.6.2"
     write "^0.2.1"
+
+flatpickr@^4.6.6:
+  version "4.6.6"
+  resolved "https://registry.yarnpkg.com/flatpickr/-/flatpickr-4.6.6.tgz#34d2ad80adfa34254e62583a34264d472f1038d6"
+  integrity sha512-EZ48CJMttMg3maMhJoX+GvTuuEhX/RbA1YeuI19attP3pwBdbYy6+yqAEVm0o0hSBFYBiLbVxscLW6gJXq6H3A==
 
 flush-write-stream@^1.0.0:
   version "1.1.1"
