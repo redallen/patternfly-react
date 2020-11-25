@@ -2,9 +2,6 @@ const path = require('path');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CopyPlugin = require('copy-webpack-plugin');
-
-const staticDir = path.join(process.cwd(), 'static/');
 
 module.exports = (_env, argv) => {
   const isProd = argv.mode === 'production';
@@ -88,9 +85,6 @@ module.exports = (_env, argv) => {
       new CleanWebpackPlugin(),
       new HtmlWebpackPlugin({
         template: path.resolve(__dirname, 'src/index.html')
-      }),
-      new CopyPlugin({
-        patterns: [{ from: staticDir, to: '' }]
       })
     ],
     stats: 'minimal'
