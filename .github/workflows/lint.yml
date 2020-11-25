@@ -1,5 +1,5 @@
 name: lint
-on: [push, pull-request]
+on: [push, pull_request]
 jobs:
   check-bats-version:
     runs-on: ubuntu-latest
