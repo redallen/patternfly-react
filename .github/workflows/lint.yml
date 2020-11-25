@@ -6,7 +6,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
-      - run: yarn install --frozen-lockfile
+      - run: npm install -g install-subset
+      - run: subset install lint
       - run: yarn lint:md
       - run: yarn lint:ts
       - run: yarn lint:versions
