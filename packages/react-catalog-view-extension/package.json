@@ -38,6 +38,7 @@
     "@patternfly/patternfly": "4.65.5",
     "@patternfly/react-core": "^4.79.4",
     "@patternfly/react-styles": "^4.7.16",
+    "bootstrap-sass": "^3.4.0",
     "classnames": "^2.2.5"
   },
   "devDependencies": {
