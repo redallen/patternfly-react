@@ -1,0 +1,13 @@
+name: lint
+on: [push, pull-request]
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+      - run: yarn install --frozen-lockfile
+      - run: yarn lint:md
+      - run: yarn lint:ts
+      - run: yarn lint:versions
+
