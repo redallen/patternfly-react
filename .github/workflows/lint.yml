@@ -19,5 +19,7 @@ jobs:
       - run: yarn install --frozen-lockfile
       - run: yarn lint:md
       - run: yarn lint:ts
+        if: always()
       - run: yarn lint:versions
+        if: always()
 

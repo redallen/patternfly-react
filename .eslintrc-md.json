@@ -1,7 +1,8 @@
 {
   "plugins": [
     "markdown",
-    "react"
+    "react",
+    "patternfly-react"
   ],
   "parserOptions": {
     "ecmaVersion": 9,
@@ -27,3 +28,4 @@
     "react/jsx-no-undef": 2
   }
 }
+
